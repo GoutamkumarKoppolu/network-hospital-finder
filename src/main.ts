@@ -109,6 +109,7 @@ async function runSearch() {
 select.addEventListener("change", () => {
   const ins = current();
   if (!ins) return;
+  $("intro").hidden = true;
   showNews(ins);
   if (isValidPincode(pinInput.value)) runSearch();
   else {

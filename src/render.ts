@@ -5,6 +5,11 @@ import type { Result } from "./search";
 export const strings = {
   title: "Network Hospital Finder",
   tagline: "Free, unofficial information",
+  lead: "Find cashless network hospitals near you, and see the latest news about your insurer.",
+  step1: "Choose your insurer",
+  step2: "Enter your 6-digit pincode",
+  step3: "See network hospitals and news",
+  disclaimerHeading: "Please read",
   insurerLabel: "Insurer",
   choose: "Choose an insurer",
   pincodeLabel: "Pincode",
@@ -50,7 +55,7 @@ export function hospitalCard(h: Result): HTMLLIElement {
   const name = el("strong", "", h.name);
   li.append(name);
   if (h.nearby) li.append(" ", el("span", "badge", strings.nearby));
-  if (h.address) li.append(el("p", "", h.address));
+  if (h.address) li.append(el("p", "addr", h.address));
   const meta = [h.city, h.state, h.pincode].filter(Boolean).join(", ");
   if (meta && !h.address.includes(h.pincode)) li.append(el("p", "meta", meta));
   return li;
