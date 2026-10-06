@@ -11,6 +11,9 @@ export const strings = {
   step3: "See network hospitals and news",
   disclaimerHeading: "Please read",
   privacy: "Privacy: We count visits anonymously with GoatCounter. No cookies, no personal data.",
+  contact:
+    "Contact: Insurer, hospital or publisher and want something corrected or removed? Write to us and we will act on it promptly:",
+  contactGithub: "open a GitHub issue",
   insurerLabel: "Insurer",
   choose: "Choose an insurer",
   pincodeLabel: "Pincode",

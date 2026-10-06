@@ -60,6 +60,10 @@ Hospital data must come from the insurer's **own** official list, with permissio
 
 Until an insurer's list is available, the page links to that insurer's official hospital locator (`hospitalSourceUrl`), opening in a new tab. Nothing is copied or embedded. News headlines work for all 12. Per-insurer robots/terms notes are in `public/data/insurers.json`.
 
+## Contact and removal requests
+
+Insurers, hospitals or publishers who want something corrected or removed: email **vibecodergk@gmail.com** or [open an issue](https://github.com/GoutamkumarKoppolu/network-hospital-finder/issues). Requests are handled promptly (removing an insurer = deleting its entry in `public/data/insurers.json`).
+
 ## License
 
 MIT
