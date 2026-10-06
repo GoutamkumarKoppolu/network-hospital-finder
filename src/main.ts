@@ -19,12 +19,6 @@ const newsHeading = $("news-heading");
 const newsStatus = $("news-status");
 const newsList = $("news-list");
 
-// Static text
-document.querySelectorAll<HTMLElement>("[data-s]").forEach((e) => {
-  e.textContent = strings[e.dataset.s as keyof typeof strings] as string;
-});
-$("disclaimers").append(...strings.disclaimers.map((d) => Object.assign(document.createElement("li"), { textContent: d })));
-
 let insurers: Insurer[] = [];
 type Data = { hospitals: HospitalFile | null; news: NewsFile | null }; // null = not published yet
 const cache = new Map<InsurerId, Promise<Data>>();
