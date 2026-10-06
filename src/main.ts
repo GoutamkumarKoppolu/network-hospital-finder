@@ -74,7 +74,7 @@ async function runSearch() {
   formError.textContent = !ins ? strings.chooseInsurer : !isValidPincode(pin) ? strings.invalidPincode : "";
   if (!ins || !isValidPincode(pin)) return;
 
-  history.replaceState(null, "", `?insurer=${ins.id}&pincode=${pin}`);
+  history.replaceState(null, "", `#insurer=${ins.id}&pincode=${pin}`);
   hospitalsSection.hidden = false;
   list.replaceChildren();
   showMore.hidden = true;
@@ -128,7 +128,7 @@ showMore.addEventListener("click", renderMore);
     return;
   }
   select.append(...insurers.map((i) => new Option(i.displayName, i.id)));
-  const params = new URLSearchParams(location.search);
+  const params = new URLSearchParams(location.hash.slice(1));
   const id = params.get("insurer");
   if (id && insurers.some((i) => i.id === id)) {
     select.value = id;

@@ -273,7 +273,7 @@ If any check fails: do NOT overwrite the old data. Exit non-zero.
 - Show loading and error states (file failed to load → friendly message).
 - Hospital card: name (bold), address, "Nearby" badge when applicable.
 - News link: `target="_blank" rel="noopener noreferrer nofollow"`.
-- URL state: `?insurer=care&pincode=500001` so results can be shared. Read on load, update on search.
+- URL state: `#insurer=care&pincode=500001` so results can be shared. Read on load, update on search. (Hash, not query: the hash is never sent to any server, so pincodes stay out of logs and analytics. Old `?` links are converted.)
 - Escape all text before inserting into the DOM (use `textContent`, never `innerHTML` with data).
 
 ### 8.3 Disclaimers (exact text can be edited, meaning must stay)
@@ -347,7 +347,7 @@ Manual checks before release: search 3 real pincodes per insurer; test on a phon
 - [ ] News headlines load for each insurer, open the original in a new tab.
 - [ ] "Source" and "last updated" visible with hospital results.
 - [ ] All four disclaimers visible.
-- [ ] Shareable URL works (`?insurer=...&pincode=...`).
+- [ ] Shareable URL works (`#insurer=...&pincode=...`).
 - [ ] Weekly Action runs, and a failed validation does **not** overwrite good data.
 - [ ] All tests pass; Lighthouse targets met.
 - [ ] README explains how to run, update data, and add a new insurer.
