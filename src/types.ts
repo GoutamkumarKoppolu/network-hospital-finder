@@ -1,4 +1,16 @@
-export type InsurerId = "care" | "niva" | "star";
+export type InsurerId =
+  | "adityabirla"
+  | "bajaj"
+  | "care"
+  | "galaxy"
+  | "hdfcergo"
+  | "icici"
+  | "manipalcigna"
+  | "newindia"
+  | "niva"
+  | "sbi"
+  | "star"
+  | "tataaig";
 
 export type Hospital = {
   insurer: InsurerId;

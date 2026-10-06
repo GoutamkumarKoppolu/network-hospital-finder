@@ -8,7 +8,7 @@ When a family member needs hospital admission, the first question is often: *"Is
 
 This site puts both in one place:
 
-- **Network hospitals by pincode:** pick an insurer (Care Health, Niva Bupa, Star Health), enter your 6-digit pincode, and see the cashless network hospitals there, with nearby ones if there are only a few.
+- **Network hospitals by pincode:** pick one of 12 major Indian health insurers, enter your 6-digit pincode, and see the cashless network hospitals there, with nearby ones if there are only a few.
 - **Latest news about the insurer:** recent headlines (good and bad) with links to the original articles, to help when choosing or reviewing a policy.
 
 It is a free, unofficial hobby project: no login, no ads, no tracking. Hospital data comes only from each insurer's official list and is refreshed weekly. It does not give insurance advice. Always confirm cashless eligibility with the hospital and your insurer before admission.
@@ -52,11 +52,12 @@ Hospital data must come from the insurer's **own** official list, with permissio
 
 | Insurer | Hospital list | Why |
 |---|---|---|
-| Care Health | not yet | Waiting for permission (site blocks automated access) |
-| Niva Bupa | not yet | Waiting for permission (robots.txt disallows the network page) |
-| Star Health | not yet | Waiting for permission (full list only via internal API) |
+| Care Health | not yet | Permission requested (site blocks automated access) |
+| Niva Bupa | not yet | Permission requested (robots.txt disallows the network page) |
+| Star Health | not yet | Permission requested (full list only via internal API) |
+| Aditya Birla Health, Bajaj General, Galaxy Health, HDFC ERGO, ICICI Lombard, ManipalCigna, New India Assurance, SBI General, Tata AIG | not yet | Not contacted yet (no official downloadable list found) |
 
-News headlines work for all three.
+News headlines work for all 12. Per-insurer robots/terms notes are in `public/data/insurers.json`.
 
 ## License
 
