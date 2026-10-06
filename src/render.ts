@@ -18,6 +18,7 @@ export const strings = {
   hospitalsHeading: "Hospitals",
   showMore: "Show more",
   nearby: "Nearby",
+  subscription: "Subscription",
   loading: "Loading…",
   chooseInsurer: "Please choose an insurer.",
   invalidPincode: "Please enter a valid 6-digit pincode.",
@@ -68,6 +69,8 @@ export function newsItem(n: NewsItem): HTMLLIElement {
   a.href = n.url;
   a.target = "_blank";
   a.rel = "noopener noreferrer nofollow";
-  li.append(a, el("span", "meta", [n.source, formatDate(n.publishedAt)].filter(Boolean).join(" · ")));
+  const meta = el("span", "meta", [n.source, formatDate(n.publishedAt)].filter(Boolean).join(" · "));
+  if (n.paywalled) meta.append(" ", el("span", "badge", strings.subscription));
+  li.append(a, meta);
   return li;
 }

@@ -234,7 +234,7 @@ If any check fails: do NOT overwrite the old data. Exit non-zero.
 - For each insurer, fetch Google News RSS:
   `https://news.google.com/rss/search?q=<url-encoded newsQuery>&hl=en-IN&gl=IN&ceid=IN:en`
 - Parse with `fast-xml-parser`. Map to `NewsItem`. Keep newest 15. Remove duplicate titles.
-- Free-to-read only: skip publishers that need a subscription or login (hand-kept `PAYWALLED` list in `news.ts`). Added 2026-10-06.
+- Prefer free-to-read sources, but never drop a story: headlines about the same story are grouped and a free version is chosen when one exists. Partly readable sites (metered/premium previews) count as free. A story only available behind a hard paywall or login (hand-kept `HARD_PAYWALL` list in `news.ts`) is still shown, tagged "Subscription". Added 2026-10-06.
 - Fetch on the server side (in Actions), **not in the browser** (CORS would block it).
 - If the fetch fails, keep the old `news/<id>.json`.
 - Use a clear `User-Agent`. Max one request per insurer per run.

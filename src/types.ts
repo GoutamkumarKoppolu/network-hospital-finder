@@ -34,6 +34,7 @@ export type NewsItem = {
   source: string; // publisher name
   publishedAt: string; // ISO date
   url: string; // link to original
+  paywalled?: boolean; // only a subscription/login source was found for this story
 };
 
 export type NewsFile = {

@@ -2,7 +2,7 @@
 <!-- Made-up sample in Google News RSS format (not real articles). -->
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>"Example Health Insurance" - Google News</title>
+    <title>"Example Health" - Google News</title>
     <link>https://news.google.com/search?q=Example</link>
     <item>
       <title>Example Health reports quarterly results - Sample Times</title>
@@ -12,22 +12,34 @@
       <source url="https://sampletimes.example">Sample Times</source>
     </item>
     <item>
-      <title>Older story &amp; more - Demo News</title>
+      <title>Older story about Example Health &amp; more - Demo News</title>
       <link>https://news.google.com/rss/articles/BBB?oc=5</link>
       <pubDate>Fri, 02 Oct 2026 10:30:00 GMT</pubDate>
       <source url="https://demonews.example">Demo News</source>
     </item>
     <item>
-      <title>Newest story - Demo News</title>
+      <title>Example Health profit jumps 25% to Rs 550 crore in Q1 - Bloomberg</title>
+      <link>https://news.google.com/rss/articles/PAY?oc=5</link>
+      <pubDate>Tue, 06 Oct 2026 03:00:00 GMT</pubDate>
+      <source url="https://www.bloomberg.com">Bloomberg</source>
+    </item>
+    <item>
+      <title>Example Health Q1 profit jumps 25% to Rs 550 crore - Free Daily</title>
+      <link>https://news.google.com/rss/articles/FREE?oc=5</link>
+      <pubDate>Tue, 06 Oct 2026 02:00:00 GMT</pubDate>
+      <source url="https://freedaily.example">Free Daily</source>
+    </item>
+    <item>
+      <title>Exclusive: Example Health board weighs merger talks - The Ken</title>
+      <link>https://news.google.com/rss/articles/KEN?oc=5</link>
+      <pubDate>Sun, 04 Oct 2026 09:00:00 GMT</pubDate>
+      <source url="https://the-ken.com">The Ken</source>
+    </item>
+    <item>
+      <title>Unrelated story with no phrase - Demo News</title>
       <link>https://news.google.com/rss/articles/CCC?oc=5</link>
       <pubDate>Tue, 06 Oct 2026 01:00:00 GMT</pubDate>
       <source url="https://demonews.example">Demo News</source>
-    </item>
-    <item>
-      <title>Paywalled story about Example Health - Mint</title>
-      <link>https://news.google.com/rss/articles/EEE?oc=5</link>
-      <pubDate>Tue, 06 Oct 2026 02:00:00 GMT</pubDate>
-      <source url="https://www.livemint.com">Mint</source>
     </item>
     <item>
       <title>Example Health reports quarterly results - Sample Times</title>
