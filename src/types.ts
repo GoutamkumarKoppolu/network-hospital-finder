@@ -37,4 +37,5 @@ export type Insurer = {
   hospitalSourceUrl: string; // where list comes from
   download: "auto" | "manual";
   newsQuery: string; // e.g. "Care Health Insurance"
+  note: string; // robots/terms/permission status (requirement 3.3)
 };

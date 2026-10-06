@@ -1,0 +1,29 @@
+[
+  {
+    "id": "care",
+    "displayName": "Care Health Insurance",
+    "officialSite": "https://www.careinsurance.com/",
+    "hospitalSourceUrl": "https://www.careinsurance.com/health-plan-certified-network-hospitals.html",
+    "download": "manual",
+    "newsQuery": "\"Care Health Insurance\"",
+    "note": "2026-10-06: site blocks all automated requests (403, incl. robots.txt). No downloadable list found. Permission requested by email; no data until granted."
+  },
+  {
+    "id": "niva",
+    "displayName": "Niva Bupa Health Insurance",
+    "officialSite": "https://www.nivabupa.com/",
+    "hospitalSourceUrl": "https://rules.nivabupa.com/hospital-network/",
+    "download": "manual",
+    "newsQuery": "\"Niva Bupa\"",
+    "note": "2026-10-06: robots.txt disallows the hospital network page and /content/dam/. Locator is a JS search tool, no downloadable list. Permission requested by email; no data until granted."
+  },
+  {
+    "id": "star",
+    "displayName": "Star Health Insurance",
+    "officialSite": "https://www.starhealth.in/",
+    "hospitalSourceUrl": "https://www.starhealth.in/lookup/hospital/",
+    "download": "manual",
+    "newsQuery": "\"Star Health\"",
+    "note": "2026-10-06: robots.txt allows /, but city pages show only ~10 hospitals; full list needs an undocumented internal API. Terms page not readable by bots. Permission requested by email; no data until granted."
+  }
+]

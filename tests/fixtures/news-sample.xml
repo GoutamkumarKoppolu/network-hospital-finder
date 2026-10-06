@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Made-up sample in Google News RSS format (not real articles). -->
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>"Example Health Insurance" - Google News</title>
+    <link>https://news.google.com/search?q=Example</link>
+    <item>
+      <title>Example Health reports quarterly results - Sample Times</title>
+      <link>https://news.google.com/rss/articles/AAA?oc=5</link>
+      <pubDate>Mon, 05 Oct 2026 07:00:00 GMT</pubDate>
+      <description>ignored</description>
+      <source url="https://sampletimes.example">Sample Times</source>
+    </item>
+    <item>
+      <title>Older story &amp; more - Demo News</title>
+      <link>https://news.google.com/rss/articles/BBB?oc=5</link>
+      <pubDate>Fri, 02 Oct 2026 10:30:00 GMT</pubDate>
+      <source url="https://demonews.example">Demo News</source>
+    </item>
+    <item>
+      <title>Newest story - Demo News</title>
+      <link>https://news.google.com/rss/articles/CCC?oc=5</link>
+      <pubDate>Tue, 06 Oct 2026 01:00:00 GMT</pubDate>
+      <source url="https://demonews.example">Demo News</source>
+    </item>
+    <item>
+      <title>Example Health reports quarterly results - Sample Times</title>
+      <link>https://news.google.com/rss/articles/DDD?oc=5</link>
+      <pubDate>Mon, 05 Oct 2026 06:00:00 GMT</pubDate>
+      <source url="https://sampletimes.example">Sample Times</source>
+    </item>
+  </channel>
+</rss>

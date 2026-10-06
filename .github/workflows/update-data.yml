@@ -1,0 +1,45 @@
+name: Update data
+
+on:
+  schedule:
+    - cron: "0 3 * * 1" # Monday 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency: update-data
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Update hospitals
+        id: update
+        run: |
+          set -o pipefail
+          npm run update 2>&1 | tee update-report.txt
+
+      - name: Open issue on failure
+        if: failure() && steps.update.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "Data update failed $(date -u +%F)" --body-file update-report.txt
+
+      - name: Update news
+        run: npm run news
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data public/data
+          git diff --cached --quiet || { git commit -m "Weekly data update" && git push; }
