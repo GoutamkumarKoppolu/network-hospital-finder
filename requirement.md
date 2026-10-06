@@ -52,7 +52,7 @@ Claude must follow these while building. I am not a lawyer; these are risk-reduc
 5. **News:** show only title, source name, publish date, and link to the original. Never copy article body text or images.
 6. **No advice.** No wording like "best", "recommended", "buy this". Facts and links only.
 7. Disclaimers (section 8) must be visible. They are not optional.
-8. No personal data collected. No cookies except none. No analytics in v1.
+8. No personal data collected. No cookies. The only analytics allowed is anonymous visit counting with GoatCounter (cookieless, no personal data; added 2026-10-06), mentioned in the footer.
 
 ---
 

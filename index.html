@@ -63,8 +63,12 @@
       <div class="wrap">
         <h2 class="h-shield" data-s="disclaimerHeading"></h2>
         <ul id="disclaimers"></ul>
+        <p class="privacy" data-s="privacy"></p>
       </div>
     </footer>
     <script type="module" src="/src/main.ts"></script>
+    <!-- Count the page only: never send ?insurer/&pincode (a pincode hints at location) -->
+    <script>window.goatcounter = { path: () => location.pathname };</script>
+    <script data-goatcounter="https://nhfindernews.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   </body>
 </html>

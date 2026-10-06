@@ -10,6 +10,7 @@ export const strings = {
   step2: "Enter your 6-digit pincode",
   step3: "See network hospitals and news",
   disclaimerHeading: "Please read",
+  privacy: "Privacy: We count visits anonymously with GoatCounter. No cookies, no personal data.",
   insurerLabel: "Insurer",
   choose: "Choose an insurer",
   pincodeLabel: "Pincode",

@@ -36,6 +36,7 @@ npm run news    # headlines: Google News RSS → public/data/news/<id>.json
 - `update` skips insurers with no adapter, and skips a file whose hash matches `data/state.json`.
 - A new hospital file is written only if validation passes (at least 1 row, no more than a 30% drop, at least 80% with a pincode, no empty names). Otherwise the old file stays, a report is printed, and the exit code is 1.
 - Manual corrections go in `pipeline/fixes.json`: `[{ "insurer": "star", "name": "<cleaned name>", "pincode": "500001", "patch": { "city": "Hyderabad" } }]`.
+- Visitor count (anonymous, no cookies): https://nhfindernews.goatcounter.com
 - GitHub Actions runs both every Monday 03:00 UTC (`.github/workflows/update-data.yml`), commits changes, and opens an issue if the hospital update fails. `deploy.yml` builds and publishes to GitHub Pages.
 
 ## Add an insurer (or turn one on)
