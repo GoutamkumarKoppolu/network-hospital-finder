@@ -2,7 +2,7 @@ import fs from "node:fs";
 import { expect, it } from "vitest";
 import { parseRss } from "../pipeline/news";
 
-it("parses Google News RSS into NewsItem[], newest first, without duplicate titles", () => {
+it("parses Google News RSS into NewsItem[], newest first, without duplicates or paywalled sites", () => {
   const items = parseRss(fs.readFileSync("tests/fixtures/news-sample.xml", "utf8"));
   expect(items).toEqual([
     { title: "Newest story", source: "Demo News", publishedAt: "2026-10-06T01:00:00.000Z", url: "https://news.google.com/rss/articles/CCC?oc=5" },

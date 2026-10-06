@@ -24,6 +24,12 @@
       <source url="https://demonews.example">Demo News</source>
     </item>
     <item>
+      <title>Paywalled story about Example Health - Mint</title>
+      <link>https://news.google.com/rss/articles/EEE?oc=5</link>
+      <pubDate>Tue, 06 Oct 2026 02:00:00 GMT</pubDate>
+      <source url="https://www.livemint.com">Mint</source>
+    </item>
+    <item>
       <title>Example Health reports quarterly results - Sample Times</title>
       <link>https://news.google.com/rss/articles/DDD?oc=5</link>
       <pubDate>Mon, 05 Oct 2026 06:00:00 GMT</pubDate>

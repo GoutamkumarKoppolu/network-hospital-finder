@@ -7,6 +7,23 @@ import { USER_AGENT } from "./lib";
 
 const MAX = 15;
 
+// Publishers that need a subscription or login to read (hard or metered paywall). Subdomains included.
+// ponytail: hand-kept list; sites with only some locked articles (ET Prime, Moneycontrol Pro, TOI+) are kept.
+const PAYWALLED = [
+  "business-standard.com", "livemint.com", "thehindubusinessline.com", "thehindu.com", "fortuneindia.com",
+  "the-ken.com", "themorningcontext.com", "linkedin.com",
+  "bloomberg.com", "ft.com", "wsj.com", "nytimes.com", "economist.com", "washingtonpost.com", "barrons.com",
+];
+
+const isPaywalled = (sourceUrl: string) => {
+  try {
+    const host = new URL(sourceUrl).hostname;
+    return PAYWALLED.some((d) => host === d || host.endsWith("." + d));
+  } catch {
+    return false;
+  }
+};
+
 /** `query` like "\"Star Health\"": headlines must contain the phrase (Google adds loose matches). */
 export function parseRss(xml: string, query = ""): NewsItem[] {
   const phrase = query.replace(/"/g, "").trim().toLowerCase();
@@ -14,6 +31,7 @@ export function parseRss(xml: string, query = ""): NewsItem[] {
   const items: any[] = parser.parse(xml).rss?.channel?.item ?? [];
   const seen = new Set<string>();
   return items
+    .filter((it) => !isPaywalled(String(it.source?.["@_url"] ?? "")))
     .map((it) => {
       const source = String(it.source?.["#text"] ?? it.source ?? "").trim();
       const raw = String(it.title ?? "").trim();
