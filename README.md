@@ -2,6 +2,8 @@
 
 Find an insurer's cashless network hospitals by pincode, plus recent news headlines about the insurer. Free, unofficial, static site (no backend, no login, no tracking). Full spec: [requirement.md](requirement.md).
 
+**Live site:** https://goutamkumarkoppolu.github.io/network-hospital-finder/
+
 ## Run
 
 Needs Node 22+.
