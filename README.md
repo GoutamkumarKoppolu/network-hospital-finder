@@ -58,7 +58,7 @@ Hospital data must come from the insurer's **own** official list, with permissio
 | Star Health | not yet | Permission requested (full list only via internal API) |
 | Aditya Birla Health, Bajaj General, Galaxy Health, HDFC ERGO, ICICI Lombard, ManipalCigna, New India Assurance, SBI General, Tata AIG | not yet | Not contacted yet (no official downloadable list found) |
 
-News headlines work for all 12. Per-insurer robots/terms notes are in `public/data/insurers.json`.
+Until an insurer's list is available, the page links to that insurer's official hospital locator (`hospitalSourceUrl`), opening in a new tab. Nothing is copied or embedded. News headlines work for all 12. Per-insurer robots/terms notes are in `public/data/insurers.json`.
 
 ## License
 

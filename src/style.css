@@ -200,6 +200,31 @@ button.secondary:hover { background: #d9f6fa; box-shadow: none; }
 
 a { color: var(--primary); text-underline-offset: 2px; }
 
+.locator {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 3rem;
+  margin: 0.25rem 0 0.5rem;
+  padding: 0.6rem 1.1rem;
+  border-radius: 10px;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color var(--ease), box-shadow var(--ease);
+}
+.locator:hover { background: var(--primary-dark); box-shadow: 0 6px 16px rgb(14 116 144 / 30%); }
+.locator::after {
+  content: "";
+  width: 1em;
+  height: 1em;
+  flex: none;
+  background: currentColor;
+  -webkit-mask: var(--i-ext) center / contain no-repeat;
+  mask: var(--i-ext) center / contain no-repeat;
+}
+
 /* Hospital cards */
 ul.cards, ul.news { list-style: none; padding: 0; margin: 0.5rem 0; }
 .card {

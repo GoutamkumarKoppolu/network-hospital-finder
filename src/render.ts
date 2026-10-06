@@ -35,7 +35,9 @@ export const strings = {
     "No advice: This site does not give insurance advice and does not recommend any policy or insurer.",
     "Affiliation: Not affiliated with any insurer or hospital. Names belong to their respective owners.",
   ],
-  notAvailable: (insurer: string) => `The hospital list for ${insurer} is not available yet.`,
+  notAvailable: (insurer: string) =>
+    `We don't have the hospital list for ${insurer} yet. You can search it on their official website.`,
+  locator: (insurer: string) => `Search on ${insurer}'s official hospital locator`,
   newsHeading: (insurer: string) => `Latest news about ${insurer}`,
   source: (insurer: string, date: string) => `Source: ${insurer} official list, last updated ${date}`,
   found: (exact: number, nearby: number) =>

@@ -14,6 +14,7 @@ const source = $<HTMLAnchorElement>("source");
 const status = $("hospital-status");
 const list = $("hospital-list");
 const showMore = $<HTMLButtonElement>("show-more");
+const locator = $<HTMLAnchorElement>("locator");
 const newsSection = $("news");
 const newsHeading = $("news-heading");
 const newsStatus = $("news-status");
@@ -77,14 +78,18 @@ async function runSearch() {
   history.replaceState(null, "", `#insurer=${ins.id}&pincode=${pin}`);
   hospitalsSection.hidden = false;
   list.replaceChildren();
-  showMore.hidden = true;
-  source.hidden = true;
+  showMore.hidden = source.hidden = locator.hidden = true;
   status.textContent = strings.loading;
   try {
     const { hospitals: file } = await load(ins.id);
     if (current() !== ins || pinInput.value !== pin) return;
     if (!file) {
       status.textContent = strings.notAvailable(ins.displayName);
+      if (ins.hospitalSourceUrl) {
+        locator.textContent = strings.locator(ins.displayName);
+        locator.href = ins.hospitalSourceUrl;
+        locator.hidden = false;
+      }
       return;
     }
     source.textContent = strings.source(ins.displayName, formatDate(file.fetchedAt));
@@ -109,7 +114,7 @@ select.addEventListener("change", () => {
   else {
     hospitalsSection.hidden = false;
     list.replaceChildren();
-    showMore.hidden = source.hidden = true;
+    showMore.hidden = source.hidden = locator.hidden = true;
     status.textContent = strings.enterPincode;
   }
 });
