@@ -64,7 +64,6 @@
       <div class="wrap">
         <h2 class="h-shield" data-s="disclaimerHeading"></h2>
         <ul id="disclaimers"></ul>
-        <p class="privacy" data-s="privacy"></p>
         <p class="contact">
           <span data-s="contact"></span>
           <a href="mailto:vibecodergk@gmail.com?subject=Network%20Hospital%20Finder">vibecodergk@gmail.com</a>
@@ -74,8 +73,7 @@
     </footer>
     <script type="module" src="/src/main.ts"></script>
     <!-- Search state lives in the #hash, which browsers never send to any server (a pincode hints at location).
-         Old ?insurer=…&pincode=… links are moved to the hash before the counter runs. -->
+         Old ?insurer=…&pincode=… links are moved to the hash. -->
     <script>if (location.search) history.replaceState(null, "", location.pathname + "#" + location.search.slice(1));</script>
-    <script data-goatcounter="https://nhfindernews.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   </body>
 </html>
