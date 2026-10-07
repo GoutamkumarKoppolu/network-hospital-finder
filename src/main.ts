@@ -9,6 +9,7 @@ const form = $<HTMLFormElement>("search-form");
 const select = $<HTMLSelectElement>("insurer");
 const pinInput = $<HTMLInputElement>("pincode");
 const pinField = $("pincode-field");
+const locator = $<HTMLAnchorElement>("locator");
 const formError = $("form-error");
 const hospitalsSection = $("hospitals");
 const source = $<HTMLAnchorElement>("source");
@@ -23,7 +24,6 @@ const newsList = $("news-list");
 let insurers: Insurer[] = [];
 type Data = { hospitals: HospitalFile | null; news: NewsFile | null }; // null = not published yet
 const cache = new Map<InsurerId, Promise<Data>>();
-const ready = new Map<InsurerId, Data>(); // resolved data, readable synchronously in the click handler
 
 async function getJson<T>(url: string): Promise<T | null> {
   const res = await fetch(url);
@@ -37,10 +37,7 @@ function load(id: InsurerId): Promise<Data> {
     const p = Promise.all([
       getJson<HospitalFile>(`data/hospitals/${id}.json`),
       getJson<NewsFile>(`data/news/${id}.json`),
-    ]).then(([hospitals, news]) => {
-      ready.set(id, { hospitals, news });
-      return { hospitals, news };
-    });
+    ]).then(([hospitals, news]) => ({ hospitals, news }));
     p.catch(() => cache.delete(id)); // allow retry
     cache.set(id, p);
   }
@@ -75,18 +72,33 @@ function renderMore() {
 
 async function runSearch() {
   const ins = current();
+  formError.textContent = ins ? "" : strings.chooseInsurer;
+  if (!ins) return;
   const pin = pinInput.value;
-  formError.textContent = !ins ? strings.chooseInsurer : !isValidPincode(pin) ? strings.invalidPincode : "";
-  if (!ins || !isValidPincode(pin)) return;
-
-  history.replaceState(null, "", `#insurer=${ins.id}&pincode=${pin}`);
   hospitalsSection.hidden = false;
   list.replaceChildren();
-  showMore.hidden = source.hidden = true;
+  showMore.hidden = source.hidden = locator.hidden = true;
   status.textContent = strings.loading;
   try {
     const { hospitals: file } = await load(ins.id);
-    if (current() !== ins || pinInput.value !== pin || !file) return;
+    if (current() !== ins || pinInput.value !== pin) return;
+    if (!file) {
+      // No list yet: point to the insurer's official locator
+      history.replaceState(null, "", `#insurer=${ins.id}`);
+      status.textContent = strings.notAvailable(ins.displayName);
+      if (ins.hospitalSourceUrl) {
+        locator.textContent = strings.locator(ins.displayName);
+        locator.href = ins.hospitalSourceUrl;
+        locator.hidden = false;
+      }
+      return;
+    }
+    if (!isValidPincode(pin)) {
+      formError.textContent = strings.invalidPincode;
+      status.textContent = strings.enterPincode;
+      return;
+    }
+    history.replaceState(null, "", `#insurer=${ins.id}&pincode=${pin}`);
     source.textContent = strings.source(ins.displayName, formatDate(file.fetchedAt));
     source.href = file.sourceUrl;
     source.hidden = false;
@@ -115,7 +127,7 @@ select.addEventListener("change", async () => {
   }
   if (current() !== ins) return;
 
-  // No hospital list for this insurer: no pincode box; Search opens their official locator instead.
+  // No hospital list for this insurer: no pincode box; Search shows a link to their official locator.
   const hasList = !!data.hospitals;
   pinField.hidden = hospitalsSection.hidden = !hasList;
   if (!hasList) {
@@ -125,18 +137,13 @@ select.addEventListener("change", async () => {
   if (isValidPincode(pinInput.value)) runSearch();
   else {
     list.replaceChildren();
-    showMore.hidden = source.hidden = true;
+    showMore.hidden = source.hidden = locator.hidden = true;
     status.textContent = strings.enterPincode;
   }
 });
 pinInput.addEventListener("input", () => (pinInput.value = pinInput.value.replace(/\D/g, "").slice(0, 6)));
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  const ins = current();
-  if (ins && !ready.get(ins.id)?.hospitals && ins.hospitalSourceUrl) {
-    window.open(ins.hospitalSourceUrl, "_blank", "noopener,noreferrer"); // sync, inside the click, so no popup block
-    return;
-  }
   runSearch();
 });
 showMore.addEventListener("click", renderMore);
