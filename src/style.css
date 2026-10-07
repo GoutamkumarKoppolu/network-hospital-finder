@@ -92,9 +92,14 @@ body {
   padding: 1.25rem;
 }
 @media (min-width: 640px) {
-  .search-card { grid-template-columns: 1.3fr 1fr auto; align-items: end; padding: 1.5rem; }
-  .search-card .error { grid-column: 1 / -1; }
+  /* Flex so the row adapts when the pincode field is hidden */
+  .search-card { display: flex; flex-wrap: wrap; align-items: flex-end; padding: 1.5rem; }
+  .search-card .field { flex: 1 1 18rem; }
+  .search-card .locator { flex: 0 1 24rem; }
+  .search-card .error, .search-card .hint { flex-basis: 100%; }
 }
+.search-card .locator { margin: 0; justify-content: center; }
+.hint { margin: 0; color: var(--muted); font-size: 0.9rem; }
 .field { display: flex; flex-direction: column; min-width: 0; }
 label { font-weight: 600; font-size: 0.9rem; margin-bottom: 0.35rem; }
 

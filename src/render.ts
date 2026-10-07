@@ -7,8 +7,8 @@ export const strings = {
   tagline: "Free, unofficial information",
   lead: "Find cashless network hospitals near you, and see the latest news about your insurer.",
   step1: "Choose your insurer",
-  step2: "Enter your 6-digit pincode",
-  step3: "See network hospitals and news",
+  step2: "Find its network hospitals",
+  step3: "Read the latest news about it",
   disclaimerHeading: "Please read",
   contact:
     "Contact: Insurer, hospital or publisher and want something corrected or removed? Write to us and we will act on it promptly:",
@@ -37,9 +37,9 @@ export const strings = {
     "No advice: This site does not give insurance advice and does not recommend any policy or insurer.",
     "Affiliation: Not affiliated with any insurer or hospital. Names belong to their respective owners.",
   ],
-  notAvailable: (insurer: string) =>
-    `We don't have the hospital list for ${insurer} yet. You can search it on their official website.`,
-  locator: (insurer: string) => `Search on ${insurer}'s official hospital locator`,
+  locator: (insurer: string) => `Find hospitals on ${insurer}'s official site`,
+  locatorNote: (insurer: string) =>
+    `We don't have ${insurer}'s hospital list yet, so this opens their official hospital locator in a new tab.`,
   newsHeading: (insurer: string) => `Latest news about ${insurer}`,
   source: (insurer: string, date: string) => `Source: ${insurer} official list, last updated ${date}`,
   found: (exact: number, nearby: number) =>

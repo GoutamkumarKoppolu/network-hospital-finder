@@ -8,13 +8,16 @@ const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as 
 const form = $<HTMLFormElement>("search-form");
 const select = $<HTMLSelectElement>("insurer");
 const pinInput = $<HTMLInputElement>("pincode");
+const pinField = $("pincode-field");
+const submit = $<HTMLButtonElement>("search-btn");
+const locator = $<HTMLAnchorElement>("locator");
+const locatorNote = $("locator-note");
 const formError = $("form-error");
 const hospitalsSection = $("hospitals");
 const source = $<HTMLAnchorElement>("source");
 const status = $("hospital-status");
 const list = $("hospital-list");
 const showMore = $<HTMLButtonElement>("show-more");
-const locator = $<HTMLAnchorElement>("locator");
 const newsSection = $("news");
 const newsHeading = $("news-heading");
 const newsStatus = $("news-status");
@@ -78,20 +81,11 @@ async function runSearch() {
   history.replaceState(null, "", `#insurer=${ins.id}&pincode=${pin}`);
   hospitalsSection.hidden = false;
   list.replaceChildren();
-  showMore.hidden = source.hidden = locator.hidden = true;
+  showMore.hidden = source.hidden = true;
   status.textContent = strings.loading;
   try {
     const { hospitals: file } = await load(ins.id);
-    if (current() !== ins || pinInput.value !== pin) return;
-    if (!file) {
-      status.textContent = strings.notAvailable(ins.displayName);
-      if (ins.hospitalSourceUrl) {
-        locator.textContent = strings.locator(ins.displayName);
-        locator.href = ins.hospitalSourceUrl;
-        locator.hidden = false;
-      }
-      return;
-    }
+    if (current() !== ins || pinInput.value !== pin || !file) return;
     source.textContent = strings.source(ins.displayName, formatDate(file.fetchedAt));
     source.href = file.sourceUrl;
     source.hidden = false;
@@ -105,16 +99,37 @@ async function runSearch() {
   }
 }
 
-select.addEventListener("change", () => {
+select.addEventListener("change", async () => {
   const ins = current();
+  formError.textContent = "";
   if (!ins) return;
   $("intro").hidden = true;
   showNews(ins);
+  let data: Data;
+  try {
+    data = await load(ins.id);
+  } catch {
+    if (current() === ins) formError.textContent = strings.loadError;
+    return;
+  }
+  if (current() !== ins) return;
+
+  // No hospital list for this insurer: no pincode search, link to their official locator instead.
+  const hasList = !!data.hospitals;
+  pinField.hidden = submit.hidden = !hasList;
+  locator.hidden = locatorNote.hidden = hasList || !ins.hospitalSourceUrl;
+  locator.textContent = strings.locator(ins.displayName);
+  locator.href = ins.hospitalSourceUrl;
+  locatorNote.textContent = strings.locatorNote(ins.displayName);
+  hospitalsSection.hidden = !hasList;
+  if (!hasList) {
+    history.replaceState(null, "", `#insurer=${ins.id}`);
+    return;
+  }
   if (isValidPincode(pinInput.value)) runSearch();
   else {
-    hospitalsSection.hidden = false;
     list.replaceChildren();
-    showMore.hidden = source.hidden = locator.hidden = true;
+    showMore.hidden = source.hidden = true;
     status.textContent = strings.enterPincode;
   }
 });
