@@ -34,9 +34,24 @@ export type NewsItem = {
   source: string; // publisher name
   publishedAt: string; // ISO date
   url: string; // link to original
-  topic: string; // keyword-based, e.g. "Claims & complaints" (pipeline/news.ts)
+  topic: Topic; // keyword-based (pipeline/news.ts)
   paywalled?: boolean; // only a subscription/login source was found for this story
 };
+
+// News topics. This order is both the rule priority (pipeline) and the display order (page).
+export const TOPICS = [
+  "Claims & complaints",
+  "Legal & regulatory",
+  "Leadership & people",
+  "Stock market",
+  "Results & finances",
+  "Brand & marketing",
+  "Expansion & partnerships",
+  "Products & launches",
+  "Health & awareness",
+  "Other",
+] as const;
+export type Topic = (typeof TOPICS)[number];
 
 export type NewsFile = {
   insurer: InsurerId;

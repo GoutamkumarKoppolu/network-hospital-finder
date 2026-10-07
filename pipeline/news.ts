@@ -2,7 +2,7 @@
 import fs from "node:fs";
 import { pathToFileURL } from "node:url";
 import { XMLParser } from "fast-xml-parser";
-import type { Insurer, NewsFile, NewsItem } from "../src/types";
+import { TOPICS, type Insurer, type NewsFile, type NewsItem, type Topic } from "../src/types";
 import { USER_AGENT } from "./lib";
 
 const MAX = 15;
@@ -24,20 +24,21 @@ const isPaywalled = (sourceUrl: string) => {
   }
 };
 
-// Topic = first rule whose pattern matches the headline (order matters). Keyword rules, no AI: free and predictable.
+// Topic = first rule (in TOPICS order) whose pattern matches the headline. Keyword rules, no AI: free and predictable.
 // ponytail: plain keyword matching, can mislabel; tune patterns against real headlines.
-const TOPICS: [string, RegExp][] = [
-  ["Claims & complaints", /\bclaims?\b|mediclaim|repudiat|rejected|ombudsman|consumer (court|forum|commission)|grievance|sub-limit/i],
-  ["Legal & regulatory", /\birdai\b|\bcourt\b|regulatory|penalt|\bfined?\b|data breach|\bcase\b|\bgst\b|\bsebi\b|\brules\b|livelaw|\bv\.? m\/s|fraud|scam|duped/i],
-  ["Leadership & people", /\bceo\b|\bmd\b|\bcmd\b|\bcfo\b|\bciso\b|\bchro\b|\bchief\b|chairman|president|appoint|\bnames\b|\bjoins\b|steps down|resign|succeeds|elevat|talent|managerial|veteran|\bleads\b|herstory/i],
-  ["Stock market", /share price|shares (surge|rise|fall|drop|gain|jump|slide|decline)|\bstocks?\b|\bnse\b|\bbse\b|target price|\btarget of\b|\bbuy(ing)?\b|\bsell(ing)?\b|\bhold\b|downgrad|upgrad|broker.?s call|shares may|recommend|\bsensex\b|\bnifty\b|midcap|investor (call|meet)|analyst meet|promoter|reclassif/i],
-  ["Results & finances", /\bprofit|\bpat\b|revenue|\bgdpi\b|\bgwp\b|premium (growth|income)|crore premium|quarter|\bq[1-4]|\bfy'?\d|fiscal|results|\bncds?\b|rights issue|capital|valuation|shareholding|financial|credit rating|\bam best\b|underwriting/i],
-  ["Brand & marketing", /campaign|\bfilm\b|\bbrands?\b|ambassador|marketing|advertis|visibility|\bipl\b|influencer|diwali/i],
-  ["Expansion & partnerships", /partner|tie-?up|\bties up\b|team(s)? up|join hands|expand|acqui|\bstake\b|investors?|merger|demerger|\blisting\b|\bipo\b|\bmou\b|collaborat|\benters?\b|foray|footprint|growth potential/i],
-  ["Products & launches", /launch|unveil|introduc|rolls out|\briders?\b|new (plan|policy|product|cover)|tailored|solutions/i],
-  ["Health & awareness", /awareness|advisory|urges|warns|highlights|spotlights|importance|\bstudy\b|survey|research|finds|reveals|quotient|indians|ownership|costs|screening|\bday\b|wellness|\bcsr\b|walk|disease|community|rural|students|quiz|kits/i],
-];
-export const topicOf = (title: string) => TOPICS.find(([, re]) => re.test(title))?.[0] ?? "Other";
+const RULES: Record<Exclude<Topic, "Other">, RegExp> = {
+  "Claims & complaints": /\bclaims?\b|mediclaim|repudiat|rejected|ombudsman|consumer (court|forum|commission)|grievance|sub-limit/i,
+  "Legal & regulatory": /\birdai\b|\bcourt\b|regulatory|penalt|\bfined?\b|data breach|\bcase\b|\bgst\b|\bsebi\b|\brules\b|livelaw|\bv\.? m\/s|fraud|scam|duped/i,
+  "Leadership & people": /\bceo\b|\bmd\b|\bcmd\b|\bcfo\b|\bciso\b|\bchro\b|\bchief\b|chairman|president|appoint|\bnames\b|\bjoins\b|steps down|resign|succeeds|elevat|talent|managerial|veteran|\bleads\b|herstory/i,
+  "Stock market": /share price|shares (surge|rise|fall|drop|gain|jump|slide|decline)|\bstocks?\b|\bnse\b|\bbse\b|target price|\btarget of\b|\bbuy(ing)?\b|\bsell(ing)?\b|\bhold\b|downgrad|upgrad|broker.?s call|shares may|recommend|\bsensex\b|\bnifty\b|midcap|investor (call|meet)|analyst meet|promoter|reclassif/i,
+  "Results & finances": /\bprofit|\bpat\b|revenue|\bgdpi\b|\bgwp\b|premium (growth|income)|crore premium|quarter|\bq[1-4]|\bfy'?\d|fiscal|results|\bncds?\b|rights issue|capital|valuation|shareholding|financial|credit rating|\bam best\b|underwriting/i,
+  "Brand & marketing": /campaign|\bfilm\b|\bbrands?\b|ambassador|marketing|advertis|visibility|\bipl\b|influencer|diwali/i,
+  "Expansion & partnerships": /partner|tie-?up|\bties up\b|team(s)? up|join hands|expand|acqui|\bstake\b|investors?|merger|demerger|\blisting\b|\bipo\b|\bmou\b|collaborat|\benters?\b|foray|footprint|growth potential/i,
+  "Products & launches": /launch|unveil|introduc|rolls out|\briders?\b|new (plan|policy|product|cover)|tailored|solutions/i,
+  "Health & awareness": /awareness|advisory|urges|warns|highlights|spotlights|importance|\bstudy\b|survey|research|finds|reveals|quotient|indians|ownership|costs|screening|\bday\b|wellness|\bcsr\b|walk|disease|community|rural|students|quiz|kits/i,
+};
+export const topicOf = (title: string): Topic =>
+  TOPICS.find((t): t is Exclude<Topic, "Other"> => t !== "Other" && RULES[t].test(title)) ?? "Other";
 
 const STOP = new Set("the a an and or of to in on for with at by from as is are was be its it this that after over into amid says".split(" "));
 const words = (s: string, skip: Set<string>) =>

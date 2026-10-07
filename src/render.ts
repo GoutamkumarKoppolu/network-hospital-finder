@@ -1,4 +1,4 @@
-import type { NewsItem } from "./types";
+import { TOPICS, type NewsItem } from "./types";
 import type { Result } from "./search";
 
 // All page text lives here so other languages can be added later.
@@ -75,7 +75,18 @@ export function newsItem(n: NewsItem): HTMLLIElement {
   a.rel = "noopener noreferrer nofollow";
   const meta = el("span", "meta", [n.source, formatDate(n.publishedAt)].filter(Boolean).join(" · "));
   if (n.paywalled) meta.append(" ", el("span", "badge", strings.subscription));
-  if (n.topic) li.append(el("span", "topic", n.topic));
   li.append(a, meta);
   return li;
+}
+
+/** One section per topic (TOPICS order), newest first inside each. */
+export function newsGroups(items: NewsItem[]): HTMLElement[] {
+  return TOPICS.flatMap((topic) => {
+    const group = items.filter((n) => (n.topic ?? "Other") === topic);
+    if (!group.length) return [];
+    const section = el("section", "news-group");
+    section.append(el("h3", "", `${topic} (${group.length})`), el("ul", "news"));
+    section.lastElementChild!.append(...group.map(newsItem));
+    return [section];
+  });
 }

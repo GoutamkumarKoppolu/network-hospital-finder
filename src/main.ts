@@ -1,7 +1,7 @@
 import "./style.css";
 import type { HospitalFile, Insurer, InsurerId, NewsFile } from "./types";
 import { isValidPincode, search, type Result } from "./search";
-import { formatDate, hospitalCard, newsItem, strings } from "./render";
+import { formatDate, hospitalCard, newsGroups, strings } from "./render";
 
 const PAGE = 50;
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -54,7 +54,7 @@ async function showNews(ins: Insurer) {
     const { news } = await load(ins.id);
     if (current() !== ins) return;
     newsStatus.textContent = news?.items.length ? "" : strings.noNews;
-    newsList.replaceChildren(...(news?.items ?? []).map(newsItem));
+    newsList.replaceChildren(...newsGroups(news?.items ?? []));
   } catch {
     if (current() === ins) newsStatus.textContent = strings.loadError;
   }
