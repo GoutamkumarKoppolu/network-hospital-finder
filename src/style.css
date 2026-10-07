@@ -94,12 +94,9 @@ body {
 @media (min-width: 640px) {
   /* Flex so the row adapts when the pincode field is hidden */
   .search-card { display: flex; flex-wrap: wrap; align-items: flex-end; padding: 1.5rem; }
-  .search-card .field { flex: 1 1 18rem; }
-  .search-card .locator { flex: 0 1 24rem; }
-  .search-card .error, .search-card .hint { flex-basis: 100%; }
+  .search-card .field { flex: 1 1 14rem; }
+  .search-card .error { flex-basis: 100%; }
 }
-.search-card .locator { margin: 0; justify-content: center; }
-.hint { margin: 0; color: var(--muted); font-size: 0.9rem; }
 .field { display: flex; flex-direction: column; min-width: 0; }
 label { font-weight: 600; font-size: 0.9rem; margin-bottom: 0.35rem; }
 
@@ -204,31 +201,6 @@ button.secondary:hover { background: #d9f6fa; box-shadow: none; }
 .status:empty { display: none; }
 
 a { color: var(--primary); text-underline-offset: 2px; }
-
-.locator {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  min-height: 3rem;
-  margin: 0.25rem 0 0.5rem;
-  padding: 0.6rem 1.1rem;
-  border-radius: 10px;
-  background: var(--primary);
-  color: #fff;
-  font-weight: 700;
-  text-decoration: none;
-  transition: background-color var(--ease), box-shadow var(--ease);
-}
-.locator:hover { background: var(--primary-dark); box-shadow: 0 6px 16px rgb(14 116 144 / 30%); }
-.locator::after {
-  content: "";
-  width: 1em;
-  height: 1em;
-  flex: none;
-  background: currentColor;
-  -webkit-mask: var(--i-ext) center / contain no-repeat;
-  mask: var(--i-ext) center / contain no-repeat;
-}
 
 /* Hospital cards */
 ul.cards, ul.news { list-style: none; padding: 0; margin: 0.5rem 0; }
