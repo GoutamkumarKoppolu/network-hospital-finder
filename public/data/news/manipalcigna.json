@@ -1,96 +1,111 @@
 {
   "insurer": "manipalcigna",
-  "fetchedAt": "2026-10-06T17:48:22.651Z",
+  "fetchedAt": "2026-10-07T06:24:06.038Z",
   "items": [
+    {
+      "title": "ManipalCigna Health Insurance Launches INFINIX",
+      "source": "MediaBrief",
+      "publishedAt": "2026-10-07T03:53:51.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUWstako5ZjA3UUQ5UGZkVm9kZVFpTVRpRC1NM0tnd1NHZm12c3dlbXhMUU1fSGNNX3JxdkxGaWdPOW56T3BwSVE4VmVocDZBUmx3M2hDNmhjYTlBTWd1bnJLeDlZbXZ4YmNoUXRIUTJnb3dCMS1qckxEYVhGRHlGcERSVjhlRWpQ?oc=5",
+      "topic": "Products & launches"
+    },
     {
       "title": "ManipalCigna Health draws on Cigna’s vast experience for designing, pricing products: MD & CEO Joydeep Saha",
       "source": "BusinessLine",
       "publishedAt": "2026-07-24T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOTkxRdzBBcjRCb0xBOVktVnd4Q3pqWUhSTjRwMFF4dHJmRTFNRXVOMTBGQUcxaWpIZ0swR2QwSnRaLWFxNGxYTnFvTTdtS2hfQmhsc0hrWDdIc2tXeEtqbkRVVkZuTXRjX0l4VFRxb1hzcVVUc0VCYTh5SFdLUXNmMzNob2dZWnR3ZkF1WnM4Y3YwOTc3bmxBM0IwUUJCc0hFNzZWV05WaDdBU1M5ckJsZ0E5TkNXOC1wcml6VFBiM0ktX1hWZ01LZ1hlaWNkQzd6V1N2LXpvb2NRLVNKYzc4UnZfLUVGTXc4OFJXMWYtc1lSZmhRUjk3aTI0SG1RSlpuSktPTDJuekFxWng1VzJQMnRnYUV3b085RTZFNHZNNWhybE9CdHJ0bjlDTVlHd29YcTQ4UzMyc1l0akdzUGJ2MXBFa3JxQVXSAc4CQVVfeXFMT0NDWmN5SXBSLW92WjR3a19iVUpCZEZOb29zYi05dXBmczhDeEEzc3dnSlBvU1BHaUFsQ3YyRDlvbjYzc0JzVlJlYmo3dTF4eXJXM254b0xnaG1ibHBjM3gzMlRTYzlFa3ZJTlduMjRZUW5OWVdiRFRHMWF6ejVhVm1oMTlKS1Rtd3hMZ1ZyWHBqZzAydUJsNjZWQ0pRQ3IyVld2XzMyWnY1cTBReDZaTU9EMXMzRFp5dnowSG53RXdaWUpSZ3c4WjQxT2N4RXZidzhDb0VCOVd2aVFnMzVOdGl6ZF9VS3ZrX3dIb0NlUC1QVFBNODBPOWlDSmlJZzJoZjI5bG04WWUyRVFDOWRvbHRCS2VZSS05TVpvNVFpN3g4bWtpbFFDZWVVTGU3TGhjX1pqblNac1lSZHZaUG5pQ3h0VGhOT1hKRmtzbkdiUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOTkxRdzBBcjRCb0xBOVktVnd4Q3pqWUhSTjRwMFF4dHJmRTFNRXVOMTBGQUcxaWpIZ0swR2QwSnRaLWFxNGxYTnFvTTdtS2hfQmhsc0hrWDdIc2tXeEtqbkRVVkZuTXRjX0l4VFRxb1hzcVVUc0VCYTh5SFdLUXNmMzNob2dZWnR3ZkF1WnM4Y3YwOTc3bmxBM0IwUUJCc0hFNzZWV05WaDdBU1M5ckJsZ0E5TkNXOC1wcml6VFBiM0ktX1hWZ01LZ1hlaWNkQzd6V1N2LXpvb2NRLVNKYzc4UnZfLUVGTXc4OFJXMWYtc1lSZmhRUjk3aTI0SG1RSlpuSktPTDJuekFxWng1VzJQMnRnYUV3b085RTZFNHZNNWhybE9CdHJ0bjlDTVlHd29YcTQ4UzMyc1l0akdzUGJ2MXBFa3JxQVXSAc4CQVVfeXFMT0NDWmN5SXBSLW92WjR3a19iVUpCZEZOb29zYi05dXBmczhDeEEzc3dnSlBvU1BHaUFsQ3YyRDlvbjYzc0JzVlJlYmo3dTF4eXJXM254b0xnaG1ibHBjM3gzMlRTYzlFa3ZJTlduMjRZUW5OWVdiRFRHMWF6ejVhVm1oMTlKS1Rtd3hMZ1ZyWHBqZzAydUJsNjZWQ0pRQ3IyVld2XzMyWnY1cTBReDZaTU9EMXMzRFp5dnowSG53RXdaWUpSZ3c4WjQxT2N4RXZidzhDb0VCOVd2aVFnMzVOdGl6ZF9VS3ZrX3dIb0NlUC1QVFBNODBPOWlDSmlJZzJoZjI5bG04WWUyRVFDOWRvbHRCS2VZSS05TVpvNVFpN3g4bWtpbFFDZWVVTGU3TGhjX1pqblNac1lSZHZaUG5pQ3h0VGhOT1hKRmtzbkdiUQ?oc=5",
+      "topic": "Leadership & people"
     },
     {
       "title": "ManipalCigna Study: 72% in South India Prioritise Healthy Diet, Bengaluru & Hyderabad Lead",
       "source": "eHealth Magazine",
       "publishedAt": "2026-07-24T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPak8zeU1Nb1dsSGlpUkFzWXBPSnUyVHZxM005VGFOM1ZlcldIbjd6UmZVRHJTRThsOXZFa2R1MWZmZzRtRlM2RlZaY0w5ai1Xd1JTQ1hVRDhoLTNfbE10TWVsQm54TDhBRTRDTmJtM3doWjFGN1RfRUtzQmczZ3BjMVBIS05XU3NkRkNYOUZHaDJmYVZsNGFEWUV3S25ocmE4anNKU01WLXoxUnNWQ3BpMU5Yakp4MURLNllEYjduUUprTWdX?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPak8zeU1Nb1dsSGlpUkFzWXBPSnUyVHZxM005VGFOM1ZlcldIbjd6UmZVRHJTRThsOXZFa2R1MWZmZzRtRlM2RlZaY0w5ai1Xd1JTQ1hVRDhoLTNfbE10TWVsQm54TDhBRTRDTmJtM3doWjFGN1RfRUtzQmczZ3BjMVBIS05XU3NkRkNYOUZHaDJmYVZsNGFEWUV3S25ocmE4anNKU01WLXoxUnNWQ3BpMU5Yakp4MURLNllEYjduUUprTWdX?oc=5",
+      "topic": "Health & awareness"
     },
     {
       "title": "South India Prioritises Balanced Diet, Finds ManipalCigna Study",
       "source": "Passionate In Marketing",
       "publishedAt": "2026-07-24T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQ0Fjd0VlbHFYZ1J2RnBlWGpZNW56c2RvMGpNSjFOMFBMazdyR0szNGpFZThxakQtcXFBOGJDSUZ6R0ZNYzM3UG9BbElYOGRtQW9VaUU3QmtuU0xBYWFRRF9kWWhqNGwyRjRxYndOb3BxNUY4UWdmRUwyRExsREtpdUV5UWw2bTB0bExyeEc2QndfUzMyMEpCWlc0WkdjMmhrME9XTG85SUtqUE9nVnZDVmFPbnI2NlpadXVsSDUyWkxJQnp3WGFTbEdjNmQwRjRpNmtyMnU3OVRVXzlzVS1wQ2pHSkV2Q29aQlowSA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQ0Fjd0VlbHFYZ1J2RnBlWGpZNW56c2RvMGpNSjFOMFBMazdyR0szNGpFZThxakQtcXFBOGJDSUZ6R0ZNYzM3UG9BbElYOGRtQW9VaUU3QmtuU0xBYWFRRF9kWWhqNGwyRjRxYndOb3BxNUY4UWdmRUwyRExsREtpdUV5UWw2bTB0bExyeEc2QndfUzMyMEpCWlc0WkdjMmhrME9XTG85SUtqUE9nVnZDVmFPbnI2NlpadXVsSDUyWkxJQnp3WGFTbEdjNmQwRjRpNmtyMnU3OVRVXzlzVS1wQ2pHSkV2Q29aQlowSA?oc=5",
+      "topic": "Health & awareness"
     },
     {
       "title": "ManipalCigna Health Insurance Appoints Anjan Kumar Ganguly as CFO",
       "source": "IMPACT Magazine",
       "publishedAt": "2026-06-10T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTnJTbWtnem1pYXlhX3d0OTFpbGl3cVViamI3QTN4X0lRcVZMaW52N2tFNkp2TVU3Zno3cS1JUnpVcFhYbzJfZzFvV1dqR3ctZVZxLWZYVGJDNjFtWERNNlJTbTBGZE1ncUxLa3JaV0lYM3V5dWJ5YXo5MmlBWkFyZ2JrNW5obFkxeHAyejJXSUNsM2FfamRDNFFQQ0hxdjZMYy1pWDBjMlF1OGNwVF9HOUtmcHRpUzJ4Zk5lcEtn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTnJTbWtnem1pYXlhX3d0OTFpbGl3cVViamI3QTN4X0lRcVZMaW52N2tFNkp2TVU3Zno3cS1JUnpVcFhYbzJfZzFvV1dqR3ctZVZxLWZYVGJDNjFtWERNNlJTbTBGZE1ncUxLa3JaV0lYM3V5dWJ5YXo5MmlBWkFyZ2JrNW5obFkxeHAyejJXSUNsM2FfamRDNFFQQ0hxdjZMYy1pWDBjMlF1OGNwVF9HOUtmcHRpUzJ4Zk5lcEtn?oc=5",
+      "topic": "Leadership & people"
     },
     {
       "title": "ManipalCigna Reveals India's Health Debt Trap",
       "source": "www.healthcareexecutive.in",
       "publishedAt": "2026-06-08T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9WR1A3VVBjQng2MlNsaHlLVzBjTUJNemF5V1BBWWNuR0dtRkg1Y0ZGLURoZFFWOGl4eUprSTJZOWxCcWFnSVNmNW5SQXVjVkJoTGEtdmdTOFJ6cFozdnBEV3BB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9WR1A3VVBjQng2MlNsaHlLVzBjTUJNemF5V1BBWWNuR0dtRkg1Y0ZGLURoZFFWOGl4eUprSTJZOWxCcWFnSVNmNW5SQXVjVkJoTGEtdmdTOFJ6cFozdnBEV3BB?oc=5",
+      "topic": "Health & awareness"
     },
     {
       "title": "41% of Indians say financial goals cause stress: ManipalCigna study",
       "source": "Moneycontrol.com",
       "publishedAt": "2026-06-02T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNC0zTkhEaUV3eDZWTHhjZ0xSdFl5bkZNazdVeFFXRjl4MTQyVnRVS2pOMTRXYndIS2ZLWXFNbVdFczlsSVRiZDNxemdjQmZyUGtzR016Mi1CZ1FXUUxlYlZGZG1zeml3QjVuOE10S0ZSeGtqZ1BCaEFfWDRkWkQ4SE9kWUs4MHZNUVVUQVZlOHNqYzdsNnVRN1ZFaEFZcDIzNnhvUmNjNmVqRmdhRmdXMGZqLXI4aUZrR0ZKQWZpVEFoSjhmZ1p6SF9Gbkhzdkdmdk9BRU1R0gHbAUFVX3lxTE1fcEVGa3h5c1lQLUV0ZXdWcUc0dHFqT3lESW9mUTYtZUZucUp0MXFnRjBTUk5nd0pnNWFwWUdPMW91WmlPNDdmZ2ZYNHFGNWx1c2hBcnZMeU5FbzJmaEFaSUdBTWs2TzJaZVhSeldaTjBZRTlNa19lQXEwNVBJdDJqdF9FREdmX29FOXhUX3VwbjNid2xwYTF1blpGaUQwOXV3Wm5iU1BwbHUxM1FySXRsakpsVmNIMVBZdG95UzRwZHhneUpwamdLXzBDazFrbm9FQzdSQVdOMFd5TQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNC0zTkhEaUV3eDZWTHhjZ0xSdFl5bkZNazdVeFFXRjl4MTQyVnRVS2pOMTRXYndIS2ZLWXFNbVdFczlsSVRiZDNxemdjQmZyUGtzR016Mi1CZ1FXUUxlYlZGZG1zeml3QjVuOE10S0ZSeGtqZ1BCaEFfWDRkWkQ4SE9kWUs4MHZNUVVUQVZlOHNqYzdsNnVRN1ZFaEFZcDIzNnhvUmNjNmVqRmdhRmdXMGZqLXI4aUZrR0ZKQWZpVEFoSjhmZ1p6SF9Gbkhzdkdmdk9BRU1R0gHbAUFVX3lxTE1fcEVGa3h5c1lQLUV0ZXdWcUc0dHFqT3lESW9mUTYtZUZucUp0MXFnRjBTUk5nd0pnNWFwWUdPMW91WmlPNDdmZ2ZYNHFGNWx1c2hBcnZMeU5FbzJmaEFaSUdBTWs2TzJaZVhSeldaTjBZRTlNa19lQXEwNVBJdDJqdF9FREdmX29FOXhUX3VwbjNid2xwYTF1blpGaUQwOXV3Wm5iU1BwbHUxM1FySXRsakpsVmNIMVBZdG95UzRwZHhneUpwamdLXzBDazFrbm9FQzdSQVdOMFd5TQ?oc=5",
+      "topic": "Results & finances"
     },
     {
-      "title": "8 in 10 Indians See AI Transforming Healthcare, Yet Privacy and Human Touch Remain Non-Negotiable highlights ManipalCigna India Health Quotient",
-      "source": "Metro Vaartha",
+      "title": "ManipalCigna India Health Quotient 2026: 8 in 10 Indians see AI transforming healthcare, but privacy and human touch remain non-negotiable",
+      "source": "Express Computer",
       "publishedAt": "2026-06-02T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNZk1qQUk5UzZXQjd6UE02S0l0WXdKUFlmSDJUYmh1N3c3UWRhSEZXdGhmQmhCYlEtejZPb1pjQ3NRZko5Y2J5TEFEMkEtNTlzOE9mSV9JUzlwaE5IYTRsUXVmekxJeHprVVl4bkJDa0NmZmwxMlFwTi1ZRmJQWHJjcW1vaGsyZTh5aDB2eldELWpGS29KeXpJZVVXNFROVXZHRDBiWGlRZmlpVXpwVUVWVUR0b1Q3ZlJzaFV2alM1SkVEc3NraUtXS01acXdyVHg3REk2U0c5NWFabjZHMkI4ZkE2X29IcmRZRG9GRW02MjZlc1d5dzJfTjlUQTd6ZnpPR3hDOW9BQkpaMmcycG1BQXZWbFk0TElTeFHSAacCQVVfeXFMT0V2R2R5cW80QlB0STJWRGl3bThUeTBkOHZER3UtMGpDSGZRRGlvTnRzYWRQVWs0N0M4OEQ4aWpxdnBQOFBJU0JFaEQwXzlGdHRqdFBVeTJIVThKd1ZNNFhMM2dPXzYyT0UxZlJ3cDdhUUxvZldWTG9OeVhTd1ctRS1fdkE1cDFGNlBFbUNDcVBocWtxRjB4UExhN3VhTHYwOWMwamY2OGhvVTcxaUJEelExQ0lkRXpOSnNobEJrTC1vMEF3Y3dESWRhTUJHVUNva3RkTU8tRkdkZ3UwZDlERUxudFI1d0VaWW93amZRVzUzWDlQT1BZZmlBYXpVa0YxZzNLb2FGWkx5UnhGNndOa2JERXF3T3JCY2dnQ3AxRnh4SFYwT05sYw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNNzg0TmNieUpNSE5jUWxTcW5Kc2twbTdLeUVFSnAwNmh5QVJqTE9KUWhwNVFVVmMya1JjMktzY3hybmxZZG9CVmRsVFJwcHJadTVxMmhnYmFwN0R2dFpTcEFGOWtTZjNKTFZZcnM3VG91VnBwRkFqNi1oZW9WTnN5OFFSVDNPTkFjMDB2SWtPS290U0pSOFdPUWdjWWFEenNJc1VUUFduZmdrVjB0UGNldkwxTHNlSjIwakNzNUxhWkFkRVZVeHdxaWFXQXZDMThKMjdzUkRSWEx3REYzeXYtaEhJLTdmaWpaMXhyYVJhQ2JwZi00cmpUNmJiMFBkNmJoOWpGOEx1VnhWM3k0?oc=5",
+      "topic": "Health & awareness"
     },
     {
       "title": "Urban India in ‘Good’ band, neither thriving nor struggling with 5 health dimensions: ManipalCigna survey",
       "source": "BusinessLine",
       "publishedAt": "2026-06-01T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQjAxM3BfTVBFaUM5TG5RaFR0S3h5N0k4QlJSR3ZuSDJPM0tubzhSRW5ZdmtqS05MNm8wWEROVDkyUmNGZHAxMFE4X1VyZmJxQnpMV2FZMjdlcnlrSVQtRnhqbVh1X3NHZklvMUpkRTM5cVV6RE5mUUg4WmJ2Nmt2dHB5TVlQTEs5QW5EanJoSnRZU1JvaUtOTDQxUm9BZ1A0S1JzWkhHVUNPS2R4Tmxya3NhVmUySFlMZ2ExOEZPaE5tTnh4cEYySTdGbTJlTmdvYURLRnRqYm1IUFdVelJlZE9OaWNkN2VRU3BoU0tHcVdkVkNaVFHSAfwBQVVfeXFMTjZFR3FoWkZfbmZGS2J6aWs0Tm9vbWlQazZ2d2EyVTZnZlpOVmZuMTNSWTVnT2ZUZ3hIY1pqLV9xLUlqZVZfcTdDRnc2ZHVQTFdfcHhsU091NUFiVlJEWFowcHYwNnVTQk5aejIxbDRIU1RvOVFSb1czWXNuQWN3NEE4M2E5VDJzM3F1a1h6TVVIczNqcDBJSmI2Vk9FTUtlZ3F3bkdjV2wwa25tQWptXzY3UDA5aTNzV1VDLXUxMWJpV0pTV2lQSTNvNEVLZGFqVkZJckVYWjIwYkc0VHdMblF0dkZnNGZCMFQxUzhybUxvYXZ4bU15eEdrTFVt?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQjAxM3BfTVBFaUM5TG5RaFR0S3h5N0k4QlJSR3ZuSDJPM0tubzhSRW5ZdmtqS05MNm8wWEROVDkyUmNGZHAxMFE4X1VyZmJxQnpMV2FZMjdlcnlrSVQtRnhqbVh1X3NHZklvMUpkRTM5cVV6RE5mUUg4WmJ2Nmt2dHB5TVlQTEs5QW5EanJoSnRZU1JvaUtOTDQxUm9BZ1A0S1JzWkhHVUNPS2R4Tmxya3NhVmUySFlMZ2ExOEZPaE5tTnh4cEYySTdGbTJlTmdvYURLRnRqYm1IUFdVelJlZE9OaWNkN2VRU3BoU0tHcVdkVkNaVFHSAfwBQVVfeXFMTjZFR3FoWkZfbmZGS2J6aWs0Tm9vbWlQazZ2d2EyVTZnZlpOVmZuMTNSWTVnT2ZUZ3hIY1pqLV9xLUlqZVZfcTdDRnc2ZHVQTFdfcHhsU091NUFiVlJEWFowcHYwNnVTQk5aejIxbDRIU1RvOVFSb1czWXNuQWN3NEE4M2E5VDJzM3F1a1h6TVVIczNqcDBJSmI2Vk9FTUtlZ3F3bkdjV2wwa25tQWptXzY3UDA5aTNzV1VDLXUxMWJpV0pTV2lQSTNvNEVLZGFqVkZJckVYWjIwYkc0VHdMblF0dkZnNGZCMFQxUzhybUxvYXZ4bU15eEdrTFVt?oc=5",
+      "topic": "Health & awareness"
     },
     {
       "title": "ManipalCigna Health Insurance distributes Akshaya Patra’s ‘Family Happiness Kits’ among vulnerable communities across six cities in India",
       "source": "Bold Outline",
       "publishedAt": "2026-04-22T09:27:06.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNY0puME00UFF5OHdrRUJ3WE54eXp4Q0V4dWZtb19KMldFQ1RhRWJkN2F0NFRUZkRISlZ4Qk9KUldMTUZyRncycjFhTGNoWkJnTF82Y3VUZXZZeng4N2loM3h2dVJDMHhZU1VHWE1QZ3NLajVZZkM3V194ZjFNajJic3NGaTNDSUtHa3V5cy1acFVQRG1rbThvbjk4RUlHdERUbUcwamI2anJLMGNudkwtTkh5a25mYWtYRVNSam1pRzRuSUV4QnpTR2JKWXFhcXd1YmI1VXB5QURXUFc0RkxSSWNpZUZyTVRDdndVLVV2NA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNY0puME00UFF5OHdrRUJ3WE54eXp4Q0V4dWZtb19KMldFQ1RhRWJkN2F0NFRUZkRISlZ4Qk9KUldMTUZyRncycjFhTGNoWkJnTF82Y3VUZXZZeng4N2loM3h2dVJDMHhZU1VHWE1QZ3NLajVZZkM3V194ZjFNajJic3NGaTNDSUtHa3V5cy1acFVQRG1rbThvbjk4RUlHdERUbUcwamI2anJLMGNudkwtTkh5a25mYWtYRVNSam1pRzRuSUV4QnpTR2JKWXFhcXd1YmI1VXB5QURXUFc0RkxSSWNpZUZyTVRDdndVLVV2NA?oc=5",
+      "topic": "Health & awareness"
     },
     {
       "title": "ManipalCigna Health Insurance onboards actor Manoj Bajpayee as Brand Ambassador",
       "source": "Passionate In Marketing",
       "publishedAt": "2026-02-20T07:46:09.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaHNyU1dFakJpNU95dmVzX2hRaV9YMXVoenYxMl9vNXAyOEF6QjJWSDdJYXpLNFZpT2E5T2hvU3p5S0pRenQtVzZpQ2VZVnlFNlcwakF3d0d3aVhzRDdmOTlSd3BpMjFmcHJPOVhhUHBWWXRTMVpHcXFUN2dtV0VSdFdCaGdrVmJQU05BNUYwMWJVRHhNUmpEem1ZRXpEaENEenY3SGFCTDJYSFNMVm90VVd5X2ZwSmtmTmZ0NA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaHNyU1dFakJpNU95dmVzX2hRaV9YMXVoenYxMl9vNXAyOEF6QjJWSDdJYXpLNFZpT2E5T2hvU3p5S0pRenQtVzZpQ2VZVnlFNlcwakF3d0d3aVhzRDdmOTlSd3BpMjFmcHJPOVhhUHBWWXRTMVpHcXFUN2dtV0VSdFdCaGdrVmJQU05BNUYwMWJVRHhNUmpEem1ZRXpEaENEenY3SGFCTDJYSFNMVm90VVd5X2ZwSmtmTmZ0NA?oc=5",
+      "topic": "Brand & marketing"
     },
     {
       "title": "ManipalCigna strengthens Northeast footprint, ‘Sarvah’ drives push for wider health cover",
       "source": "Syllad",
       "publishedAt": "2026-02-19T08:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ1JKSjhEQzBLOFB6SXNET1pKWW9iN0ZrLWZZd0dvYjBQN3NnTndGeEtYOVprTW9QdUtYdlFpOVlJYkpxSDdtOXZWQzVaOEItODlVNlQySlZ1WkMtbkcwdUY1dWxHUFhnMHdBV2NRU0ZkMXhfOUpHT2t1ZFZGS3NoaWhSYm1UZlFDTlRYTTEzLWZibmJ5alZmT0hnVm40SV81cmZrbWMzZ29lRDhneDRN?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ1JKSjhEQzBLOFB6SXNET1pKWW9iN0ZrLWZZd0dvYjBQN3NnTndGeEtYOVprTW9QdUtYdlFpOVlJYkpxSDdtOXZWQzVaOEItODlVNlQySlZ1WkMtbkcwdUY1dWxHUFhnMHdBV2NRU0ZkMXhfOUpHT2t1ZFZGS3NoaWhSYm1UZlFDTlRYTTEzLWZibmJ5alZmT0hnVm40SV81cmZrbWMzZ29lRDhneDRN?oc=5",
+      "topic": "Expansion & partnerships"
     },
     {
       "title": "herSTORY: Richa S Chatterjee, CHRO, ManipalCigna",
       "source": "HR Katha",
       "publishedAt": "2025-12-18T08:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRmpNUXRkTVVXQlNZN2thYmdkeTgwa1NJb2VRN3VVeWlBd0RBS1UxQkFFMmtBSDZwVW4zZ2dqVTFpREQzSG5zeS04N0xpaHlkQ3NkYjM3OTB1ZmpuWEFxOVpURkFSbHJKcUd4aWhRSl9QeUkxTXhUM25YcFdYY2xUcHdQMzBWN2JSSU1ndzFtZnB1Zw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRmpNUXRkTVVXQlNZN2thYmdkeTgwa1NJb2VRN3VVeWlBd0RBS1UxQkFFMmtBSDZwVW4zZ2dqVTFpREQzSG5zeS04N0xpaHlkQ3NkYjM3OTB1ZmpuWEFxOVpURkFSbHJKcUd4aWhRSl9QeUkxTXhUM25YcFdYY2xUcHdQMzBWN2JSSU1ndzFtZnB1Zw?oc=5",
+      "topic": "Leadership & people"
+    },
+    {
+      "title": "ManipalCigna Diwali Health Insurance's 'Jiske Paas, Lakshmi Maa Karein Waha Niwas' redefines prosperity to address India’s health insurance deficit",
+      "source": "adobo Magazine",
+      "publishedAt": "2025-10-14T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPSUtqLTlzMjR5NHcxbkZsRW9SeFNqYUpaNlVQTVJCQzNiWTlrQlJySmk4Z285V3lrNmVPOFh4b1hqa2RzQTAtTGV3Zy03QnQtMHlKeWFlcE41blpOSUtqdVd3VEloTXJIWHdOSTEzaHBoS0xaLWxtZ3AxM0I5N0FZUVJiWHdKMzhxNldESUtyUjhNMXYxNzRwYmUtN3ptYmlYeUh2RmZySFF5Q1diZmZIX2JCSHhHbTkwcHdfNC1vZUdOcnlHellxN0hPZFZHdlk3RGxfNXJsWjNscGtnZ0lNa2JCNTBUckdZbzBwdHJsSkxJRXZZRldfbVlyTGhnUGYyWlJxZzN0YjlkbnNPaU1vaFhTeUgxQQ?oc=5",
+      "topic": "Brand & marketing"
     },
     {
       "title": "ManipalCigna comes up with AI-led Diwali campaign",
       "source": "Exchange4Media",
       "publishedAt": "2025-10-13T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNm5RVnBaN0hPQm9JT204bDllOHZEZm5fYk1LcU9CQWttTW1qQ3pQVUhLRUdyTmdMNnQ0eHRwQldUYkNoTkRQbzlxNkVhU21kTTczTnNTOWJQWXNjRnR0b1RWZHd5eklrbHAzQ0FkT0FQUDZ1RDJMOWJQbTh0Mzg3YmRWZ005alQ1UmZBSVhZLWdqSGlUYWhKdmdMMnJ3c0YyY1JhZ3lpc2pGRlBOeGsyTkhBV08tUQ?oc=5"
-    },
-    {
-      "title": "ManipalCigna Sarvah Named ‘Product of the Year 2025’ in Health Insurance Category",
-      "source": "TheWire.in",
-      "publishedAt": "2025-08-06T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMldKSjE0dWZlWWZTRDR1OW9aQVdGZ0R2RGx6dzBfYXM1dkZvN2ExaVFCSVhNODl3SUFKVUhrdjlsU1pmWHRXNDRHS0hVOHpqUEZyMDRZZ18yR1U1eGFpdk9ESmVXYkl2VXdDRWg3ZXVkWldweFB1eTYyTFZQSGM0eW5RZ3FwYTZHR1ltOUVqWkVNdm81R0dXWEQ0TU9yNXRwTnB1Tk5mdDJzVkQwRTFJT0ZCbFliOC1DX1HSAb8BQVVfeXFMUGdIX1hyVG5aR08xNTBjWlRqOGc0VTBMY190M194RFU5N09Sa01OeWlPejlXSEYzX19qOEtORHhPUXE5bTNtMmNuaGhwNTUteXVXOU0zeE9RdG9rTGFMRDlrLVpLTlVlb2d0ZERsMWw5WDEtRFZxTDFBQ1hwU0VKaW1DandRX0RVZ3Z2dlBuN0dLbEZqR1JXZ2FHY09VdEdWcDlxVHdRWVBJQURFNW9DV2Z6bkdSVWdNemRTODd1bkk?oc=5"
-    },
-    {
-      "title": "Joydeep Saha Appointed Managing Director & CEO of ManipalCigna Health Insurance",
-      "source": "CXO Digitalpulse",
-      "publishedAt": "2025-08-04T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcW5xSW93RF8zMV9UVk5CZFRRajlWRmphWmYxX2tVbkE0ZUMwRnVRdHdqYnFwcnViMnlsUVBTTjdvSWlVdVo5emx2NGlWWnJ3MDRjVERwRkdoQnJuV3RPeXAxLTFwaGFINndLVVFyZi1JWndOMlZ4SHVnRWpDMnJWOVRhbUZfNWdEQTlIbUdKR3J3U3pSZ3lmYk5iWUlMdkc0bjFQd0Ryd01UaDdnejFR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNm5RVnBaN0hPQm9JT204bDllOHZEZm5fYk1LcU9CQWttTW1qQ3pQVUhLRUdyTmdMNnQ0eHRwQldUYkNoTkRQbzlxNkVhU21kTTczTnNTOWJQWXNjRnR0b1RWZHd5eklrbHAzQ0FkT0FQUDZ1RDJMOWJQbTh0Mzg3YmRWZ005alQ1UmZBSVhZLWdqSGlUYWhKdmdMMnJ3c0YyY1JhZ3lpc2pGRlBOeGsyTkhBV08tUQ?oc=5",
+      "topic": "Brand & marketing"
     }
   ]
 }

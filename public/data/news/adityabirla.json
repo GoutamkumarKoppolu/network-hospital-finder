@@ -1,96 +1,111 @@
 {
   "insurer": "adityabirla",
-  "fetchedAt": "2026-10-06T17:48:19.650Z",
+  "fetchedAt": "2026-10-07T06:24:05.366Z",
   "items": [
-    {
-      "title": "Aditya Birla Health Insurance health outcomes improve as biometric tracking expands",
-      "source": "Insurance Asia",
-      "publishedAt": "2026-09-23T22:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaVNGb2lEaWl1VFdqRXFDS2hxYTJZandBY19hRmJWRHRpb20zSVR4OW5BaVhPNTVZMlMwTUlMSVVrblFsSXlkbDllLXhTaWdDcjhSZG5WMlhINEhWWU9HTGg4SER6X0NmLVo4UzZLMXJyTnN6YVFzWGdSSzFDWExDWmtuSFFmMG9VMHpZX1Vhd2M4YWZ1NFVkeXJ1bXJGMU1IUHRRSUxJX2laOHdjTzBLOG01YnBzUkRnOTNaZFZB?oc=5"
-    },
     {
       "title": "Diabetes, BP and obesity control improved with regular monitoring: Aditya Birla Health Insurance study",
       "source": "Moneycontrol.com",
       "publishedAt": "2026-09-23T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOZ1d3aV9zWmZ1Wkw0ZVdySHVnTnRCZXZQNjRHQ2pQY3V3R3k3MDVVR2UxUTlmLUdhQVRPRUNWNDJ2M2dGRk5kOUV2Y1pSa1p3bnNKZmt3d2JGZUpHWEo5OHVGR0ZEeHZXZkE3MzAyM2x1WHJvMVdQZldHc1BsNnhpZjEteUN0RkNyQWhidkJ2aFhLUVRZRW9McEZBNGV0dXVnbVdQU0JMMzZlclZYZDNFOXFybjJpYUozY3lXMENRR2lvM3E4UzVwNHZyWHd2YjlLd1F5Y3kybjZ0bHNFcGFCOFQyenZmWWVqdXdGcVN1Y1dWX013S2RpVG1SUdIBgAJBVV95cUxNYWVMTlhpYV9lMTZDVDlJcUxuTUlxNUZXalRMYllNaGR6ZVJJdGZSRkw3VDhOSTMwY21CcmE0YXBpbHNxelRLU0hVQ1Q3TlpjUEM0cFcycV9KZzR1a2EzVFlRUTYybXJTMG9LT1hVSF9lZHJtZDE4YTF1RG15MFBLLU0tOVlsS0ZQSF9oX1lScndCeWJiQ0h3eWhZZWhxelp1M0diQzBCcWkxVnhFRmF5bU5hR0VBWGthc3llLXNWWHpLNE9TeEg2QmxTWEttdUhtTndJNWE5RDJuTlFvZGxfUGtfV1NaQmFBX0FoSTFzTy1yUG1FMzVUZTAwVi1FN0FI?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOZ1d3aV9zWmZ1Wkw0ZVdySHVnTnRCZXZQNjRHQ2pQY3V3R3k3MDVVR2UxUTlmLUdhQVRPRUNWNDJ2M2dGRk5kOUV2Y1pSa1p3bnNKZmt3d2JGZUpHWEo5OHVGR0ZEeHZXZkE3MzAyM2x1WHJvMVdQZldHc1BsNnhpZjEteUN0RkNyQWhidkJ2aFhLUVRZRW9McEZBNGV0dXVnbVdQU0JMMzZlclZYZDNFOXFybjJpYUozY3lXMENRR2lvM3E4UzVwNHZyWHd2YjlLd1F5Y3kybjZ0bHNFcGFCOFQyenZmWWVqdXdGcVN1Y1dWX013S2RpVG1SUdIBgAJBVV95cUxNYWVMTlhpYV9lMTZDVDlJcUxuTUlxNUZXalRMYllNaGR6ZVJJdGZSRkw3VDhOSTMwY21CcmE0YXBpbHNxelRLU0hVQ1Q3TlpjUEM0cFcycV9KZzR1a2EzVFlRUTYybXJTMG9LT1hVSF9lZHJtZDE4YTF1RG15MFBLLU0tOVlsS0ZQSF9oX1lScndCeWJiQ0h3eWhZZWhxelp1M0diQzBCcWkxVnhFRmF5bU5hR0VBWGthc3llLXNWWHpLNE9TeEg2QmxTWEttdUhtTndJNWE5RDJuTlFvZGxfUGtfV1NaQmFBX0FoSTFzTy1yUG1FMzVUZTAwVi1FN0FI?oc=5",
+      "topic": "Health & awareness"
     },
     {
-      "title": "Aditya Birla Health Insurance Research Highlights Role of Preventive Health Monitoring",
-      "source": "SMEStreet",
-      "publishedAt": "2026-09-19T04:41:37.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZF8tWGNobUVibTltWDFnbTgxT3NObV80NUhjTHd5c04zdHhYWVBSejlDVWZSVS1GV0hvUklmRlc2dXB3M1NUQzJva2JPMnNyc2dpNWIzMnFuQVVEQkFBaV9CUUNZcGUwcHBmMXgtRVFHWjF4aWZZRkFkaFJteG1ZOVhhQThsbDhtNFBPMGd6ZjJUdldUS2NaVDd2bDUxcmlKdk15ajNsOHI5dGlNaWZwQVlseUhYTkwzVkg3VHpvX1B6QdIBwgFBVV95cUxNZF8tWGNobUVibTltWDFnbTgxT3NObV80NUhjTHd5c04zdHhYWVBSejlDVWZSVS1GV0hvUklmRlc2dXB3M1NUQzJva2JPMnNyc2dpNWIzMnFuQVVEQkFBaV9CUUNZcGUwcHBmMXgtRVFHWjF4aWZZRkFkaFJteG1ZOVhhQThsbDhtNFBPMGd6ZjJUdldUS2NaVDd2bDUxcmlKdk15ajNsOHI5dGlNaWZwQVlseUhYTkwzVkg3VHpvX1B6QQ?oc=5"
+      "title": "Aditya Birla Health Insurance Reveals Biometric Health Trends",
+      "source": "Passionate In Marketing",
+      "publishedAt": "2026-09-19T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQTEdETW5MNFktOGNkWmt6Q0FpYllZbnY5M0NpRkFqUmI3RVF6SXZEZFFKY0lBR3FTUkxCakR1bjVncFNzRk9yMW5xWlg0TE9SOVZSWVNUU1hNbzZHMklEU2hkWFh1aDZDUVBNY3RIM0ZycE9NNjZvZHdHQlFHS2JqV19QVU0wVzZxTnp5ZnJZVnc0R211bGxzTTJyTFd6MUtsZlMyeGdONkZISWRnTERhVm42b294LVl3Yzh0WFhfWXJpWXdaTFM4SnJSVW9lbDQyR254aUNicEZ1LUQybkxxOXY1ZUJab09MczNhdUNR?oc=5",
+      "topic": "Health & awareness"
     },
     {
       "title": "Aditya Birla Health Insurance Announces Tailored Health Insurance Solutions for ICAI Members and Students",
       "source": "India Education Diary",
       "publishedAt": "2026-08-27T08:03:33.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUGExN042UHl1WE5yS1kyOWNDZTFvcXZISV9EdklJMFhoZnRTUy15SjRHN3pxWlF4RDQyaFNxSGFRc056UlpHZTRMQ3A4dng5LS04YVNBdGF4WGVpSEs4djFsdXlScmI2WUhDX3BSb3E0c0RYZlMtNEtPbmRQbTQySDRyanhoNmZwQlJKNEpIT1FvUEhyRWZQTUt3UFBhNEYzMGJwNDBEYl9UTU1mbDJ6TkZ1QnZOaUxyQnZPVjliYWhub3F6WE1qZnVaVVJvNWd0MTRr?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUGExN042UHl1WE5yS1kyOWNDZTFvcXZISV9EdklJMFhoZnRTUy15SjRHN3pxWlF4RDQyaFNxSGFRc056UlpHZTRMQ3A4dng5LS04YVNBdGF4WGVpSEs4djFsdXlScmI2WUhDX3BSb3E0c0RYZlMtNEtPbmRQbTQySDRyanhoNmZwQlJKNEpIT1FvUEhyRWZQTUt3UFBhNEYzMGJwNDBEYl9UTU1mbDJ6TkZ1QnZOaUxyQnZPVjliYWhub3F6WE1qZnVaVVJvNWd0MTRr?oc=5",
+      "topic": "Products & launches"
     },
     {
       "title": "Aditya Birla Health Insurance expands institutional distribution through ICAI partnership",
       "source": "MediaBrief",
       "publishedAt": "2026-08-26T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBncGRpTzlubjF4RTdkdzZMQmRRNFZxeFpqWjBhTXc1VVZLczNzbGEtMUxPUVU3V2U1dTZtdm1tYXhOX2FkY1RCTFdjRUJqRkhLb3Nqa0RvX1ZLVnJuYnJoWGI2VmNITUwwMWFiVE9nbXBfTHJOLW5sNGpHeG1nSXc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBncGRpTzlubjF4RTdkdzZMQmRRNFZxeFpqWjBhTXc1VVZLczNzbGEtMUxPUVU3V2U1dTZtdm1tYXhOX2FkY1RCTFdjRUJqRkhLb3Nqa0RvX1ZLVnJuYnJoWGI2VmNITUwwMWFiVE9nbXBfTHJOLW5sNGpHeG1nSXc?oc=5",
+      "topic": "Expansion & partnerships"
     },
     {
       "title": "Aditya Birla Health Insurance Partners With ICAI To Expand Institutional Reach",
       "source": "BW Healthcare World",
       "publishedAt": "2026-08-25T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQREl4cDl6Ul9jTlI1ODFyWm5qRExQOXZSZmtwQ29OQlFKVndLQ3g5Q0pkWmswSVFzbXR0UU9aVlppNnRHV3UyOTVmRU9YdmYtTlFiNDJFTVd4MlJIQjNjMUJQQjBvWmdrbFJUcVRrTHBaSE12X1JPQ2xCQUs1ZFhUWk5BOFdrM0VpYTFvOEEyNzh3eUpYRFdiSDJBaDdwa3REN2U2OGx0aGhWaUVjM3BRU0R0dVMxcFJ2d2JYQnhFYTc1WWIzWWc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQREl4cDl6Ul9jTlI1ODFyWm5qRExQOXZSZmtwQ29OQlFKVndLQ3g5Q0pkWmswSVFzbXR0UU9aVlppNnRHV3UyOTVmRU9YdmYtTlFiNDJFTVd4MlJIQjNjMUJQQjBvWmdrbFJUcVRrTHBaSE12X1JPQ2xCQUs1ZFhUWk5BOFdrM0VpYTFvOEEyNzh3eUpYRFdiSDJBaDdwa3REN2U2OGx0aGhWaUVjM3BRU0R0dVMxcFJ2d2JYQnhFYTc1WWIzWWc?oc=5",
+      "topic": "Expansion & partnerships"
     },
     {
       "title": "Aditya Birla Health Insurance ties up with ICAI to offer coverage to 17 lakh students and CA members",
       "source": "BusinessLine",
       "publishedAt": "2026-08-25T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOempUdXJaWC1KM1d2R2t4YlUxOU5uTmYxY1BRQlUxRi1zYm1YVDZvS1JBNlBnQ0Y5dGw5XzBGZVZVdXJtTmN5S1U1ZGwtTmthVjdfSDJaeW5TUElibF9GUHNIVWxnRXpPZjlQa1JEbng5ZTdoTGplU2l0Skl2amwxdU9VUE8wcnl5c2FMVTdVWG10d1FDd05GMXlyaXA5bjBuNUhPUFpVMjlTcS00X1NIUndOeVdFNHFWcFQzRmVyS1dTT1Nxb1d2MHRfdXN0NzhMV05iaGh6TmdORXl4WS1ZNy1QZjVaVWVKNzBfbnNDazJVNm1wdmxCTk9tMXhaT1htYVo5T1ZB0gGMAkFVX3lxTFAwMk5IYndBenhzM0dKQ1RZRXdmUkxiYmM5bDFiMktGNjRSRnQzdnhudDRINXNEcTljSTNKaGJPLWVCcFQ5Sk9PMU1TZ0xkMHNrdVVZSkd6VDlsYWRlNU1jV3RQZHJKRHFxQ3JXSU1CeEpRZ0VwZzU5REJ4anZ1QjBJYmxlR0p2djB6bWFyS3VlMDRyQ2FPbHFYMjRqRW1YaktCS19lR0l3WFBkbGFWeGdNUy16dVZ1NnpoZUtIV0hUamlrbGNzZG5ZYTVyaDd2MHJCMzNSdFZfbUJ3eVJqX1IzSXZ6RmJLTXA1Y25na3FkZ1ZQSm9WSjl5T1RVWG5ZOVkyV3dTOERkZkVZRzM?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOempUdXJaWC1KM1d2R2t4YlUxOU5uTmYxY1BRQlUxRi1zYm1YVDZvS1JBNlBnQ0Y5dGw5XzBGZVZVdXJtTmN5S1U1ZGwtTmthVjdfSDJaeW5TUElibF9GUHNIVWxnRXpPZjlQa1JEbng5ZTdoTGplU2l0Skl2amwxdU9VUE8wcnl5c2FMVTdVWG10d1FDd05GMXlyaXA5bjBuNUhPUFpVMjlTcS00X1NIUndOeVdFNHFWcFQzRmVyS1dTT1Nxb1d2MHRfdXN0NzhMV05iaGh6TmdORXl4WS1ZNy1QZjVaVWVKNzBfbnNDazJVNm1wdmxCTk9tMXhaT1htYVo5T1ZB0gGMAkFVX3lxTFAwMk5IYndBenhzM0dKQ1RZRXdmUkxiYmM5bDFiMktGNjRSRnQzdnhudDRINXNEcTljSTNKaGJPLWVCcFQ5Sk9PMU1TZ0xkMHNrdVVZSkd6VDlsYWRlNU1jV3RQZHJKRHFxQ3JXSU1CeEpRZ0VwZzU5REJ4anZ1QjBJYmxlR0p2djB6bWFyS3VlMDRyQ2FPbHFYMjRqRW1YaktCS19lR0l3WFBkbGFWeGdNUy16dVZ1NnpoZUtIV0hUamlrbGNzZG5ZYTVyaDd2MHJCMzNSdFZfbUJ3eVJqX1IzSXZ6RmJLTXA1Y25na3FkZ1ZQSm9WSjl5T1RVWG5ZOVkyV3dTOERkZkVZRzM?oc=5",
+      "topic": "Expansion & partnerships"
     },
     {
       "title": "Consumer Forum Orders Aditya Birla Health Insurance to Reimburse Senior Citizen and Restore Cancelled Policy",
       "source": "Law Trend",
       "publishedAt": "2026-08-11T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeFBrcjR6aVRraE9HdDBFWUh2LVhqUlNGZmNsQWwwZ3hKOVFBWFhQTFNUX0YxUFUyMFJrTE9kTE5TajIxWDBVUE81WFAtQkxZWnJBM1ZfeGgxMlJSY2l4ZlBtSzVRMktCNmZ2WHRwV0d2dXlFVVpMNjVjRlpySW1Yc0drcHJoTGlFZ3JlQlBPRnZjWk94R01SMm9QeFp6YlFrcDhpSzlNSzhudTVSNW9HUnVpd1RDSWFjYjQ5czlnai1kejBIN1NTOA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeFBrcjR6aVRraE9HdDBFWUh2LVhqUlNGZmNsQWwwZ3hKOVFBWFhQTFNUX0YxUFUyMFJrTE9kTE5TajIxWDBVUE81WFAtQkxZWnJBM1ZfeGgxMlJSY2l4ZlBtSzVRMktCNmZ2WHRwV0d2dXlFVVpMNjVjRlpySW1Yc0drcHJoTGlFZ3JlQlBPRnZjWk94R01SMm9QeFp6YlFrcDhpSzlNSzhudTVSNW9HUnVpd1RDSWFjYjQ5czlnai1kejBIN1NTOA?oc=5",
+      "topic": "Claims & complaints"
     },
     {
       "title": "Aditya Birla Health Insurance hopeful of increasing market shares in both retail and group segments",
       "source": "BusinessLine",
       "publishedAt": "2026-08-08T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPTjVGUzZ4aFMxWDNjWXNmejB3aUlSSEJZWUU5X0FfdlhpMlcydVlwTUZkMEx5ZDZwcXFGd1pMVFYxaHFtOEwwZWRxemVTOXdQVWIzOHoydGNfRlRFTXlkRVIwLWRIN2wwSDdkZUk0Wk45Q2VQTVgzNnVYTFN2NktXSXZhMjN4U2tKT08wUzdyVl8waVd1MTFzejZLaXE1X1ZnVFlvV0dFb0ZkVTRfS1lBOV9WRExsSklJSzNURnNETk1UUjFHX1dSamM0ZnV6dEtiQ2dCNXlNLVVvbmp1VncxYXN6dzRqaDFuWHlMS2t3OWFYQVBfM2xvR3RNNnkzd3J2bWtia9IBiwJBVV95cUxOakFLNE9raVdwVEJBM1dZNm5QZlNFNFJXX1JScmp0R05CMjZnYmhYZWI0M3Z2N2hIWnRKdjZGUTZ3a1kxUW9feFdDdE55NUg4dVhyY3p3VkxnUlFPXzFDc0pYVjcxQkd1ZEpvX3d1SEZYMTdZNDl4Ql9pcGUySDdiRURmM05HLVE3a090U0NaZEJTbHlvaFpfTWVocjdTMXVrV0g1NnRoYm0waGo5blZVbzhfcFRYV1dJMTlVbEF1cF9adndWaVMxVlA0MGRNbVl2LUYzLVl0WVhLVHpHNUVWZXl0MGIyZERUZlEzekFST3p2SFgzQ3VNdWVjd1lpZWFWX2NLenRvZHJObTA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPTjVGUzZ4aFMxWDNjWXNmejB3aUlSSEJZWUU5X0FfdlhpMlcydVlwTUZkMEx5ZDZwcXFGd1pMVFYxaHFtOEwwZWRxemVTOXdQVWIzOHoydGNfRlRFTXlkRVIwLWRIN2wwSDdkZUk0Wk45Q2VQTVgzNnVYTFN2NktXSXZhMjN4U2tKT08wUzdyVl8waVd1MTFzejZLaXE1X1ZnVFlvV0dFb0ZkVTRfS1lBOV9WRExsSklJSzNURnNETk1UUjFHX1dSamM0ZnV6dEtiQ2dCNXlNLVVvbmp1VncxYXN6dzRqaDFuWHlMS2t3OWFYQVBfM2xvR3RNNnkzd3J2bWtia9IBiwJBVV95cUxOakFLNE9raVdwVEJBM1dZNm5QZlNFNFJXX1JScmp0R05CMjZnYmhYZWI0M3Z2N2hIWnRKdjZGUTZ3a1kxUW9feFdDdE55NUg4dVhyY3p3VkxnUlFPXzFDc0pYVjcxQkd1ZEpvX3d1SEZYMTdZNDl4Ql9pcGUySDdiRURmM05HLVE3a090U0NaZEJTbHlvaFpfTWVocjdTMXVrV0g1NnRoYm0waGo5blZVbzhfcFRYV1dJMTlVbEF1cF9adndWaVMxVlA0MGRNbVl2LUYzLVl0WVhLVHpHNUVWZXl0MGIyZERUZlEzekFST3p2SFgzQ3VNdWVjd1lpZWFWX2NLenRvZHJObTA?oc=5",
+      "topic": "Other"
     },
     {
       "title": "Aditya Birla Health Insurance Launches 'Activ Yuva' Health Plan for Young Adults",
       "source": "Voice of Healthcare",
       "publishedAt": "2026-08-06T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeVNWdmxRMnJtZXpfdkFhYnJrczgtcjdHd1dwMW9rNEJGM3pzTjA2azV1cENCUjIwa3pOMEM0VGU2cUxBRkJ3d00xVHZjOFRUcWVFcGxZSER4WGd6TmRPSVpSVm56UEhVMm1MQzlib2xvVnFwSE5qd1ZJdXRIMm01WmpfOW5VSDJVV3ZleTBoU2RjWHB5OUhlYXRoS1FGeklRY1pCU29kSTk1V1U1d21acVJ3cw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeVNWdmxRMnJtZXpfdkFhYnJrczgtcjdHd1dwMW9rNEJGM3pzTjA2azV1cENCUjIwa3pOMEM0VGU2cUxBRkJ3d00xVHZjOFRUcWVFcGxZSER4WGd6TmRPSVpSVm56UEhVMm1MQzlib2xvVnFwSE5qd1ZJdXRIMm01WmpfOW5VSDJVV3ZleTBoU2RjWHB5OUhlYXRoS1FGeklRY1pCU29kSTk1V1U1d21acVJ3cw?oc=5",
+      "topic": "Products & launches"
     },
     {
       "title": "Need to encourage young adults to buy health cover, says Aditya Birla Health Insurance CEO",
       "source": "The Economic Times",
       "publishedAt": "2026-08-04T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOSGFRbDZSRWVwTXNuN3lWaFBBSlpJaDRkd2hYQXN2U0xVTjdDcUY3SU5TdXQyLXFqSTFMdHNlcUlxdFR1Y1VLZlluZEI0ZnhNZmxUdzI4MnVUZVJIc1NaV3c0bG1iQWVwbkNZNVdPTzB4ajNuMzNOaW9PRF9TLWFJeXRDTVhMeTkyNmtaQUVOWE13MGVwMDBnenNDWW1ZTldGMXZic01PR3oxazdZSDNPeWdIVS1XWGE5RnBBNDlnbm1oaGRVLVFfNzN0b01tM3BNV1d5YmdhU2MzSlU3TGZkc25JV0tUU1hURk1vcjM0a2UwZFktWHVGcGlnSHdmTWoxQTZPbFBR0gGLAkFVX3lxTE9CQWJ2Wm5rdV9kRGhwUVREU0lkeVJzanJacllrVHppdDY5WmtfNTB1LTFOWFJRVk4zMTJqMTZTQmNSSXBVM1YwT2RZY0JZMFlTUDNYVVlBejA4bjZpTnZFdWlya1VPTk5sT0RITDdPWTdpV2x5eHlEaURfLVdmUDR0cUhBbnJxOUZfdXhXMVpHX01OVFAtSkc2OFo2NXBabHlteUd0WDYxT2s2NGE2X1Rjb2pzVVdGVi1VY2U3NmxtV0lsZDQ0RE9rLUlkcFNlOHNEYjFPQS1sWXdTcWlmeHV5c1U3Sk55ZXRvalpxNlZnWnlOS1k1RWxCclp0V1ZIMXdXMzl4dGJXRWRLUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOSGFRbDZSRWVwTXNuN3lWaFBBSlpJaDRkd2hYQXN2U0xVTjdDcUY3SU5TdXQyLXFqSTFMdHNlcUlxdFR1Y1VLZlluZEI0ZnhNZmxUdzI4MnVUZVJIc1NaV3c0bG1iQWVwbkNZNVdPTzB4ajNuMzNOaW9PRF9TLWFJeXRDTVhMeTkyNmtaQUVOWE13MGVwMDBnenNDWW1ZTldGMXZic01PR3oxazdZSDNPeWdIVS1XWGE5RnBBNDlnbm1oaGRVLVFfNzN0b01tM3BNV1d5YmdhU2MzSlU3TGZkc25JV0tUU1hURk1vcjM0a2UwZFktWHVGcGlnSHdmTWoxQTZPbFBR0gGLAkFVX3lxTE9CQWJ2Wm5rdV9kRGhwUVREU0lkeVJzanJacllrVHppdDY5WmtfNTB1LTFOWFJRVk4zMTJqMTZTQmNSSXBVM1YwT2RZY0JZMFlTUDNYVVlBejA4bjZpTnZFdWlya1VPTk5sT0RITDdPWTdpV2x5eHlEaURfLVdmUDR0cUhBbnJxOUZfdXhXMVpHX01OVFAtSkc2OFo2NXBabHlteUd0WDYxT2s2NGE2X1Rjb2pzVVdGVi1VY2U3NmxtV0lsZDQ0RE9rLUlkcFNlOHNEYjFPQS1sWXdTcWlmeHV5c1U3Sk55ZXRvalpxNlZnWnlOS1k1RWxCclp0V1ZIMXdXMzl4dGJXRWRLUQ?oc=5",
+      "topic": "Leadership & people"
     },
     {
       "title": "Aditya Birla Health Insurance: Why Fresh Capital Is Drawing Market Attention",
       "source": "Kalkine India",
       "publishedAt": "2026-07-22T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQXhkbWtkeXdLR3FHVl9mbHFoSDJqRVB0MFl5UTRYZ21NR3Bqd2tERTFiUy1teTJLSmxGaEtzUXJYSm13U1BKZ3FnMXJhemV4UFdxdmhfeWs2UDZlVDBkOFgzNVJTVjZmeWJMdEtvQUNPdFloYUFNT0hsdm9fSzFMemJ5MGM3cG5pR0RHMDhJUUZQMVZDcWxIaTJaMzNXUjN1LU0zcGNDR3MyNkJ5WGZ1b2FfVUxGV0xSdkRWSGJITnZWc3RrWU1JOG1vZHhKY2xLUTJSbkxqQ2N6TUFyR29BQnJIQU5LZEFaWTEwNUxtQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQXhkbWtkeXdLR3FHVl9mbHFoSDJqRVB0MFl5UTRYZ21NR3Bqd2tERTFiUy1teTJLSmxGaEtzUXJYSm13U1BKZ3FnMXJhemV4UFdxdmhfeWs2UDZlVDBkOFgzNVJTVjZmeWJMdEtvQUNPdFloYUFNT0hsdm9fSzFMemJ5MGM3cG5pR0RHMDhJUUZQMVZDcWxIaTJaMzNXUjN1LU0zcGNDR3MyNkJ5WGZ1b2FfVUxGV0xSdkRWSGJITnZWc3RrWU1JOG1vZHhKY2xLUTJSbkxqQ2N6TUFyR29BQnJIQU5LZEFaWTEwNUxtQQ?oc=5",
+      "topic": "Results & finances"
     },
     {
       "title": "Aditya Birla Health Insurance CEO Mayank Bathwal to share key insights at e4m TechManch",
       "source": "Exchange4Media",
       "publishedAt": "2026-07-15T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxON2lMbGtEUjNqaGFxVEFNQ3ZPaUhuYUkxY1BYUEJyREd5Y2hWRUdGZGRpbFozSDJSREtmanZrLS1FZjlOY2h2M19wczR6ai1nQ0RQREY1d2R0QnNyWVQydDVFdjcyMWdrR1JVeTFEbFBEbk1TRGR2UkZ0N3RoLXY1VE1QUGZuMEFPcEhyUHpJd1QyQVhrSllpQW9TT2c0MzFvTy1UN00zQ3gyWWlXZUpVc2hTMXI2Q29FWHVBNjBtRDZkclVoakRRd0YzRG0zZEFKODNVVkM2aGZfR0RDN3c?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxON2lMbGtEUjNqaGFxVEFNQ3ZPaUhuYUkxY1BYUEJyREd5Y2hWRUdGZGRpbFozSDJSREtmanZrLS1FZjlOY2h2M19wczR6ai1nQ0RQREY1d2R0QnNyWVQydDVFdjcyMWdrR1JVeTFEbFBEbk1TRGR2UkZ0N3RoLXY1VE1QUGZuMEFPcEhyUHpJd1QyQVhrSllpQW9TT2c0MzFvTy1UN00zQ3gyWWlXZUpVc2hTMXI2Q29FWHVBNjBtRDZkclVoakRRd0YzRG0zZEFKODNVVkM2aGZfR0RDN3c?oc=5",
+      "topic": "Leadership & people"
     },
     {
       "title": "Aditya Birla Health Insurance targets youth with Activ Yuva launch",
       "source": "MediaBrief",
       "publishedAt": "2026-05-16T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMzltZXBYQ09SNkZjaGZ4Zk01V1ppSWNCNVJvRXNKQWhJbUJCdTVkUUZ1SU1nQ21VVzJ5THhwZ3cyb2ZReXEyU09IYWFoXzlqSHV5UGhjRzV2cmljTjhpaUZrcDc0WkVPdG9SLU9NWUdzYjRGdjJURUZGSENxZ1ExT3ZMcE1sblZNU1FWSVNyZko3MXVD?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMzltZXBYQ09SNkZjaGZ4Zk01V1ppSWNCNVJvRXNKQWhJbUJCdTVkUUZ1SU1nQ21VVzJ5THhwZ3cyb2ZReXEyU09IYWFoXzlqSHV5UGhjRzV2cmljTjhpaUZrcDc0WkVPdG9SLU9NWUdzYjRGdjJURUZGSENxZ1ExT3ZMcE1sblZNU1FWSVNyZko3MXVD?oc=5",
+      "topic": "Products & launches"
     },
     {
       "title": "Aditya Birla Health Insurance study cuts preventable claims by 31%",
       "source": "Insurance Asia",
       "publishedAt": "2026-03-30T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZHVUUnZycFQtZGZkSW5ZUVp4a1QzRUpqdERJeEo1djNUeVB4U1lhMEVhQktHbm1Nb3Z0bUtjRDg3VWZJQm1ieFVXZ1pKTGF1WUlQTEhNTVkwcU9QY1k4UVVXUTBuR19hNXFQSFJ6Sms0aDluOVFjc0RnUUxpRDZWY1pnRGdOVk5ya2o5WWJoR1B6ZlhpMlBXTHA4N3Z2dnpDRXQ0ZWZB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZHVUUnZycFQtZGZkSW5ZUVp4a1QzRUpqdERJeEo1djNUeVB4U1lhMEVhQktHbm1Nb3Z0bUtjRDg3VWZJQm1ieFVXZ1pKTGF1WUlQTEhNTVkwcU9QY1k4UVVXUTBuR19hNXFQSFJ6Sms0aDluOVFjc0RnUUxpRDZWY1pnRGdOVk5ya2o5WWJoR1B6ZlhpMlBXTHA4N3Z2dnpDRXQ0ZWZB?oc=5",
+      "topic": "Claims & complaints"
+    },
+    {
+      "title": "Perspective on the evolving insurance landscape in India from Mayank Bathwal, MD & CEO, Aditya Birla Health Insurance",
+      "source": "Investment Guru India",
+      "publishedAt": "2025-12-25T08:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOYWtieFNYemJmMDB4dl9CMU5xU1ozT1lXbVlDamhNbmpZYy04Z2h2TGg3UFVqNGx2OFpfNWI5UGVqS1V3OGM5c0xWWWZkWmRJejlILWJrcUhkRHFKS2tKTWNkeHBfbWE1UFA3LVJqYU5hWVR4WWhOTm5oX3NQRUowQzVNeldjZ2pIUzNlc3VoRUQwNHplbW0wUHFOOGNNa242UUk0Uk5nazlKVXU1cnp4V2E3QVNuOUw0X0VjWXR4QnBzbU52NVg2YXJDSE9kbmN6UmJPUHE1MjRvcHUybXpBV3Nsek8tanpGakhWazdsNnRHRFNZ?oc=5",
+      "topic": "Leadership & people"
     }
   ]
 }

@@ -1,96 +1,111 @@
 {
   "insurer": "bajaj",
-  "fetchedAt": "2026-10-06T17:48:20.238Z",
+  "fetchedAt": "2026-10-07T06:24:05.498Z",
   "items": [
     {
       "title": "Swiss Re establishes exclusive partnerships with Bajaj General Insurance in India",
       "source": "Asia Insurance Post",
       "publishedAt": "2026-09-29T23:07:05.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9tVGJQSk82bDgweXVlVnZ4RDJ5cmNRVm5UODNub0xKUndHWG9jbm5jNVBoYWhmTVppb25teXFOdmJLTG1aRFk3NE1FWUluY0xmX04zN3g1RQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9tVGJQSk82bDgweXVlVnZ4RDJ5cmNRVm5UODNub0xKUndHWG9jbm5jNVBoYWhmTVppb25teXFOdmJLTG1aRFk3NE1FWUluY0xmX04zN3g1RQ?oc=5",
+      "topic": "Expansion & partnerships"
     },
     {
       "title": "Bajaj General Insurance unveils health cover for families with pets",
       "source": "The Hindu",
       "publishedAt": "2026-08-26T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWDZGVERBTEw0cHdpVjVqZ3NZVlZienM0ZWxnRHVEMGdLZ0ZrOWkwUy1hVVd6d25QcDk3WnZtWndBWnZnTFE2UFN5VmZzaFVNRjBlblhld1dBV2Y4QkZSb0VUT0tmZjB0QjFRX3RzN1UzSlhSNG1Gb295dTE2R2N5UkVOelVzdnFaR3RPQzNyVWttbDdJd1RkeVNQOGRkaUk1WF96YlZfUmRreDJndUlrVUhIM3V5aVltdjFpLVNSSGhZZkZ6SVhDb3FB0gHQAUFVX3lxTE5HQ1hULUdfRDFZR2Z4eWJsWE0wRzVtQklWbXhDbU5fVE9NOThZMHRQNmVCNzRJZ3R3QkRtWHk0djdGS3ZCM3dRamlHT2hTN2VzcjlYcWJ5bUtXazUtYlJ1Zks3ODZ3Z2p4andUNjNEa1MyUXppUnNFcFZ3MVlTUHE1TFF1VGVSWWZ2Q3YwaXYxbWt5Rjh6SEdSLW4tbmNBOGF6ZklIbHQ2dUFTUXN2eklPWkc5NWlWeTRvTF8zN213NHdnSHdwNTEwMktlU25ueTE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWDZGVERBTEw0cHdpVjVqZ3NZVlZienM0ZWxnRHVEMGdLZ0ZrOWkwUy1hVVd6d25QcDk3WnZtWndBWnZnTFE2UFN5VmZzaFVNRjBlblhld1dBV2Y4QkZSb0VUT0tmZjB0QjFRX3RzN1UzSlhSNG1Gb295dTE2R2N5UkVOelVzdnFaR3RPQzNyVWttbDdJd1RkeVNQOGRkaUk1WF96YlZfUmRreDJndUlrVUhIM3V5aVltdjFpLVNSSGhZZkZ6SVhDb3FB0gHQAUFVX3lxTE5HQ1hULUdfRDFZR2Z4eWJsWE0wRzVtQklWbXhDbU5fVE9NOThZMHRQNmVCNzRJZ3R3QkRtWHk0djdGS3ZCM3dRamlHT2hTN2VzcjlYcWJ5bUtXazUtYlJ1Zks3ODZ3Z2p4andUNjNEa1MyUXppUnNFcFZ3MVlTUHE1TFF1VGVSWWZ2Q3YwaXYxbWt5Rjh6SEdSLW4tbmNBOGF6ZklIbHQ2dUFTUXN2eklPWkc5NWlWeTRvTF8zN213NHdnSHdwNTEwMktlU25ueTE?oc=5",
+      "topic": "Products & launches"
     },
     {
       "title": "Bajaj General Insurance introduces 'My Family Complete', India's first health insurance policy covering pets..",
       "source": "bfsi.economictimes.indiatimes.com",
       "publishedAt": "2026-08-26T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQQXZsOG9IM3J4Rk8xZHhVTExwemxhYzdybTZ1S05vZHlLZXYtMGNFLWRlVXFwdEJzbElSVjh6OXE3Z0J3aVdLZHpzbkU3LTFLN01kVy0yZnFIN0lJSm82RnBGQ241bWVRMEExOUY4RHZoTzItYnZxQ0dUamtYY1JRazFrRFRuVF9KdXJJdnJMSFNESURQeDI3cHdPcWNYalJkZjU0VmRUSE0xOXROTVZENHFqNDQtcEhhTU56bEJ6MllGemoteEVmWG5CR3YyR05teVdRMGZWampDUjRoblZaVDNXV3ZOQlFsLWpYdGhqMUNXR0Q0N1pfUE9TcmJsWUF6Z3RHZ18zMk9aQk5ZM1NfSzR3S281QlE50gGeAkFVX3lxTFBVeG1tcnRFRFdEWTduMnZmSWRHRzhVanZhanY2Mkp3aHJPaXNPN3NNQzhEdEdxYm45aUNROEJzamloQkdIcXJybHVISHlJLWxIZ1N3TG1VR1FOb0ZuYW5jWm1XM1FJTWRZNkpBLUNHNm5rbllRX3doRlZVd0h1bGxUNXUtdEdVX19XT0g5TGpoQXZNQ0JSa1FmRFkyMm1VOWo5S1dMLXFidnpGa1I2N0lnTUpuS2JRdVc3VW43S3lON256T3NHMUw3WlpSeDRxTDJLaGJDaVVHMHQ1Y3I4dmY3R3c4c0szZjJ3dU1Lc3BDamZpcEszMHZFYnlGbTU3bllaLXJjZV8tT2ZUNzRBUDlxNnhCTHhBYmkwc01OUUE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQQXZsOG9IM3J4Rk8xZHhVTExwemxhYzdybTZ1S05vZHlLZXYtMGNFLWRlVXFwdEJzbElSVjh6OXE3Z0J3aVdLZHpzbkU3LTFLN01kVy0yZnFIN0lJSm82RnBGQ241bWVRMEExOUY4RHZoTzItYnZxQ0dUamtYY1JRazFrRFRuVF9KdXJJdnJMSFNESURQeDI3cHdPcWNYalJkZjU0VmRUSE0xOXROTVZENHFqNDQtcEhhTU56bEJ6MllGemoteEVmWG5CR3YyR05teVdRMGZWampDUjRoblZaVDNXV3ZOQlFsLWpYdGhqMUNXR0Q0N1pfUE9TcmJsWUF6Z3RHZ18zMk9aQk5ZM1NfSzR3S281QlE50gGeAkFVX3lxTFBVeG1tcnRFRFdEWTduMnZmSWRHRzhVanZhanY2Mkp3aHJPaXNPN3NNQzhEdEdxYm45aUNROEJzamloQkdIcXJybHVISHlJLWxIZ1N3TG1VR1FOb0ZuYW5jWm1XM1FJTWRZNkpBLUNHNm5rbllRX3doRlZVd0h1bGxUNXUtdEdVX19XT0g5TGpoQXZNQ0JSa1FmRFkyMm1VOWo5S1dMLXFidnpGa1I2N0lnTUpuS2JRdVc3VW43S3lON256T3NHMUw3WlpSeDRxTDJLaGJDaVVHMHQ1Y3I4dmY3R3c4c0szZjJ3dU1Lc3BDamZpcEszMHZFYnlGbTU3bllaLXJjZV8tT2ZUNzRBUDlxNnhCTHhBYmkwc01OUUE?oc=5",
+      "topic": "Products & launches"
     },
     {
       "title": "Bajaj General Insurance strengthens its Motor Insurance Portfolio with the Launch of ProShield for Defence Personnel and the Enhanced VPAY 2.0",
-      "source": "Press Trust of India",
-      "publishedAt": "2026-08-13T11:06:25.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxObDk1WkRFaHVjTkpLN3pFcHhTTlRjTzBjbjB0TFF4WGloanNLZjIwNHhGcEE3ZE8zRWQ1QlZRU0RXbWViM0k2OHdqQjZIV09uLUNTUWU4S3RiV0F3ZU5UbGFkSzRST29aWS1ScjBKMWlpSUdoRzZYWkZnUE9fYV80Zzk1R1JRbWdHd0JQVF9iNmVWbzlIMnd2U3ZvY0ZKNmZ1Z2JxVnROMVl3YVQtZzhsZmppZzBCSjZwOGhCWVcyQk9RMUhJbFFxMzhwSTNYekNwcUMxcEhxTFUycE83Ukx2TDVZUXhldEFZR0tqT0cweXhOMGFabGZ0ZjJDT285a2ZVOWJQLW1icjhweUd6RlU2WVhTN3o2d3By?oc=5"
+      "source": "TheWire.in",
+      "publishedAt": "2026-08-13T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPZmFSOXlQYnBBbzJMOXdEQ1Vkd3IzdWRwZ2NIOTRXOXRYaG5oSS1vR3BuVEhROU9JWlUwWXV3V191cFpieHIxZXdGbzZpVFZyQ19LQVY2dmtPdWV6NkoxdWFmV2Fsc2NlRm1vb0xXd2dYcm4yYVFGeFh3TGNPZ3QxMXJUSDJKUGIxTHhpM2hIWHEtUXN6a3dxR19sVW43b0FRNjA1QWtxOWJ1WVMwQ1FFeDRMZ0hLeGlRZ0FiTEdWVUZtR0ZmSWJjdjE4RUh5UGpTOW9YSjlGdno2MXVTTk1JR1dkSlNGYzdMZE9sNHgzM2NwUGl4bVJwY3NvV3lFaGo2R283ai1uSFN6akwzZGfSAZMCQVVfeXFMTThsMEJZN2tYRjdOYVJIVjVkQWV6cE45dDE2X09RSDJmR3g5c195UGJaeUFCOF9Nc1B6RzFzSjFOUXRQVkFyT1dJZjEwSTdNZjZUOGNVVDVwWTNZRFZaUW5lVzh0bjM1eXdkX3lhcFp6b0hFOXJnRjhyUTB0aS1jVHdlc3BPUFhTZHItTGlKVThRVDVOX2lXekRUeUo4NWh2Y2NfRFhWOFpSVWtIX0NNdFNIY0FiOHFFWWhRakVFZDAwWWRXeUNLZlNFYi01aWxyNWJ4c0Z0Skl4Ny14cWR4X2FMYVl4N3A0X3R3RktiYXh2VFE2Znd3Mk1INVU0Vk1qazc0VzBWVVY4UHFiVFEyd05MUk0?oc=5",
+      "topic": "Products & launches"
     },
     {
       "title": "India: Bajaj General Insurance partners with Swiss Re Corporate Solutions",
       "source": "Asia Insurance Review",
       "publishedAt": "2026-08-10T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUTNDMVhNRW1RUjVLMkc2dlVxVEROWWpERklrQ0lHN0FSRXdZSk5CTnUzblpxVUo5QlVEeGNCeVlvMWgweDhNX0U0RHJyY0N4azVTSXU1OXlzU0k3YksycTczWmVhSkV5aFR0OTNiY2V1VlE4cG1PcEhNNTk5MTBYUlVhcDJPWnowWWNfQjBTa1lkUEhBeWc1Vm5TUGwzWlhjUzVSNWlWTVVXdGVJNWZvWW5PdF9YX2RPUFhtRTBhM1lVMFdMdjBncmlmNXhGV1AtUU1Cdlh1QUJyV1Q2bWZHT3FUeFVxYl9icEZRMnVXUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUTNDMVhNRW1RUjVLMkc2dlVxVEROWWpERklrQ0lHN0FSRXdZSk5CTnUzblpxVUo5QlVEeGNCeVlvMWgweDhNX0U0RHJyY0N4azVTSXU1OXlzU0k3YksycTczWmVhSkV5aFR0OTNiY2V1VlE4cG1PcEhNNTk5MTBYUlVhcDJPWnowWWNfQjBTa1lkUEhBeWc1Vm5TUGwzWlhjUzVSNWlWTVVXdGVJNWZvWW5PdF9YX2RPUFhtRTBhM1lVMFdMdjBncmlmNXhGV1AtUU1Cdlh1QUJyV1Q2bWZHT3FUeFVxYl9icEZRMnVXUQ?oc=5",
+      "topic": "Expansion & partnerships"
     },
     {
       "title": "Bajaj General Insurance, Swiss Re team up for commercial insurance in India",
       "source": "BusinessLine",
       "publishedAt": "2026-08-08T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONEJlSzVjOFVEWnczSzdMLXQzQWFta3IxZHprSTZqbUVya21JbUQwUFppSW5EQ2IxREpfM1Nab2doY0cyMEtqM1A1cnlkSTljeW1YbV8zbnByRmExX1RmWTVFTHhBQXlGaGFyQTc0MlJhZGtoVktGNWlVLURrY2VnMEJjamMtQzRIQ1BlQmtidkdJMG5wc2k3ZGs3Y3dqZXJGMU5Ua2xfZVdxejZyMV93dkZ3NUhyd19WYmQ0cUxHTG9ZbndvWWUzaTNySEJSNXhPSkNkcWRUYlNZQnh5R3VMcVgyVdIB6gFBVV95cUxPelpoaHpqZ1ozdHd4eEZEazlJLUZ2MDBFVHBtamE0NUl6cWNNRVdwV3c2d2tEVnBTUjVWamZScUE3OXB5MjVUbl81czA0aC1qWnItUTNlM2VzNFJkR3kwamttbFFZb2lOeEtQaTFVbm5aSWVOUnpPWElfYlhhYURBWTJyZmFITHZlMldMOTVMcU9ZNl9WaDZIMTF6MzZ6dElRRXB5MzVYMUN1Z2dOanZxTHo2bUJVdmtzMjFUVzN1LVdIejhCcmtFOXFZTTBzMjR2em04cFVuM3MyUWZ3d0Q3LUZEaGRueEQxX1E?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONEJlSzVjOFVEWnczSzdMLXQzQWFta3IxZHprSTZqbUVya21JbUQwUFppSW5EQ2IxREpfM1Nab2doY0cyMEtqM1A1cnlkSTljeW1YbV8zbnByRmExX1RmWTVFTHhBQXlGaGFyQTc0MlJhZGtoVktGNWlVLURrY2VnMEJjamMtQzRIQ1BlQmtidkdJMG5wc2k3ZGs3Y3dqZXJGMU5Ua2xfZVdxejZyMV93dkZ3NUhyd19WYmQ0cUxHTG9ZbndvWWUzaTNySEJSNXhPSkNkcWRUYlNZQnh5R3VMcVgyVdIB6gFBVV95cUxPelpoaHpqZ1ozdHd4eEZEazlJLUZ2MDBFVHBtamE0NUl6cWNNRVdwV3c2d2tEVnBTUjVWamZScUE3OXB5MjVUbl81czA0aC1qWnItUTNlM2VzNFJkR3kwamttbFFZb2lOeEtQaTFVbm5aSWVOUnpPWElfYlhhYURBWTJyZmFITHZlMldMOTVMcU9ZNl9WaDZIMTF6MzZ6dElRRXB5MzVYMUN1Z2dOanZxTHo2bUJVdmtzMjFUVzN1LVdIejhCcmtFOXFZTTBzMjR2em04cFVuM3MyUWZ3d0Q3LUZEaGRueEQxX1E?oc=5",
+      "topic": "Expansion & partnerships"
     },
     {
       "title": "Bajaj General Insurance, Swiss Re Group arm ink MoU for commercial insurance partnership",
       "source": "The Hindu",
       "publishedAt": "2026-08-06T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdWg2WGc2WGZneGlkYXlDZDFhd0I2alF0QmxtOG8wckZEdHFGY1NIeXJoeklCQUFia1o4YlBCdXNoay1qMzVPTmpuVUs4Wi1sWElucmN1M3AzMU92T1U4UlRGXzNJbUlwRUZ3dUJMSTZGMTJtdFpGQmNPZWF6N1h5cmlMNU1GY0lHZGdhSUNLMTNZMTB1T0tIUU12VVl0TFotUVQ3Y1F0U0lwRHlWeE9rUklLd2o1V1E0dTlySmJJUWktdWVYbVZ3VFhXQXZDbTFES2lGTXRleG5yam9oakNLemkxOW7SAesBQVVfeXFMT2hhX1dCNGkwcmtBN05VS2VNQllOMFVQRU8tdG5Nd3FGQlNHNFhsNXBNa2EtTTNYMTBnQVI1UmlwZ3lDR2lPSnhPSm5aQkctanVMazFmWi1McnJBaUNrMDJXR3JNbGNxUlFpQkFnRTdIZ1dPNElyNHNSQjRZSVB2VFVONmZ5THl1WTVOaThpQ29ZNl95VU1tY2xYNHBaT2UzY0FiN01PLWZvdU9JOF93X1FaVUE2RGh4MEJlRXdUQ2NYZzVEXzcwQ0xsdDdzTDdjbjVzSjVadmhoZi1yRkRDU2pDR3VkbGlSUnJlbw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdWg2WGc2WGZneGlkYXlDZDFhd0I2alF0QmxtOG8wckZEdHFGY1NIeXJoeklCQUFia1o4YlBCdXNoay1qMzVPTmpuVUs4Wi1sWElucmN1M3AzMU92T1U4UlRGXzNJbUlwRUZ3dUJMSTZGMTJtdFpGQmNPZWF6N1h5cmlMNU1GY0lHZGdhSUNLMTNZMTB1T0tIUU12VVl0TFotUVQ3Y1F0U0lwRHlWeE9rUklLd2o1V1E0dTlySmJJUWktdWVYbVZ3VFhXQXZDbTFES2lGTXRleG5yam9oakNLemkxOW7SAesBQVVfeXFMT2hhX1dCNGkwcmtBN05VS2VNQllOMFVQRU8tdG5Nd3FGQlNHNFhsNXBNa2EtTTNYMTBnQVI1UmlwZ3lDR2lPSnhPSm5aQkctanVMazFmWi1McnJBaUNrMDJXR3JNbGNxUlFpQkFnRTdIZ1dPNElyNHNSQjRZSVB2VFVONmZ5THl1WTVOaThpQ29ZNl95VU1tY2xYNHBaT2UzY0FiN01PLWZvdU9JOF93X1FaVUE2RGh4MEJlRXdUQ2NYZzVEXzcwQ0xsdDdzTDdjbjVzSjVadmhoZi1yRkRDU2pDR3VkbGlSUnJlbw?oc=5",
+      "topic": "Expansion & partnerships"
     },
     {
       "title": "Bajaj General Insurance partners with Swiss Re arm to expand commercial insurance offerings",
       "source": "CNBC TV18",
       "publishedAt": "2026-08-06T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaTI1c3lRMkhRNEpiVjExVDBrSnZpY200OVE4NEVyQUdJRnBmWnhpaHE5VkNSUjMxUnNOeW91ekVZMVpzMXEzSjBtbzlYbnpSdVZBbC1qNVFDQ2ZfV3UyNmpvdWVRNzNDajVBdExJODVZNzByYjFoVm5KYUtFLWo1VkJmVEFWdUtXRlpkRWpWM2xWbWEwelUzOC1jem9hUDc1S3BqeUV1NEVDNlBtX0pFZ1Qxbmx2Njl3Zk1KTkJYak1KcnpPSEhJ0gHMAUFVX3lxTE9ZOHRwcjdBSVc1d1hkNUx4c0VUSzlqaDhCTlNPZGFIVHpVMlBnVFVqdzFrTk9zY285elhGYVkxU0JDVjVndThuUVBkekJOSTJMN2NHQVBKZG5YazFINHNEdy1wWkk5Rk9QWHA0T2ZfWGdWN3RFai1rZUZTS3dFNzRrNUN1RE9HaXNvdjZXRmo3azNzY0ZEU0VoNHRneDhmcko4c3dEQXJ2ZVVPMWI3QVBlTGs5b1VyQTZDTkp0dWRzSlE1dTNmSGhmZWVEWg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaTI1c3lRMkhRNEpiVjExVDBrSnZpY200OVE4NEVyQUdJRnBmWnhpaHE5VkNSUjMxUnNOeW91ekVZMVpzMXEzSjBtbzlYbnpSdVZBbC1qNVFDQ2ZfV3UyNmpvdWVRNzNDajVBdExJODVZNzByYjFoVm5KYUtFLWo1VkJmVEFWdUtXRlpkRWpWM2xWbWEwelUzOC1jem9hUDc1S3BqeUV1NEVDNlBtX0pFZ1Qxbmx2Njl3Zk1KTkJYak1KcnpPSEhJ0gHMAUFVX3lxTE9ZOHRwcjdBSVc1d1hkNUx4c0VUSzlqaDhCTlNPZGFIVHpVMlBnVFVqdzFrTk9zY285elhGYVkxU0JDVjVndThuUVBkekJOSTJMN2NHQVBKZG5YazFINHNEdy1wWkk5Rk9QWHA0T2ZfWGdWN3RFai1rZUZTS3dFNzRrNUN1RE9HaXNvdjZXRmo3azNzY0ZEU0VoNHRneDhmcko4c3dEQXJ2ZVVPMWI3QVBlTGs5b1VyQTZDTkp0dWRzSlE1dTNmSGhmZWVEWg?oc=5",
+      "topic": "Expansion & partnerships"
     },
     {
       "title": "'Beginning of a new era' as Swiss Re CorSo pens Indian partnership with Bajaj General Insurance",
       "source": "InsuranceAsia News",
       "publishedAt": "2026-08-06T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRXBVbGtMSkw5Yi1YaVgya2t6WnlxNGpCc1NlNk40NmFwRUpxUXFvVGtuU3Q3V2cxODV2ZkJ3b25FRVRiWC1RVlM3cjdVZEVJSkRWT0xvdWU1MUNCOENKVlprcnJicm05dGE3SkNRTWpfaHNPZFhNX2F3WkZGZmZwSWtBWTJjRHBnNjktQVhIZlZZdUNkUV95RGNzX0ZFdm1DazhFaEItaVo4eFc1dXFyYWVXenoxQTZ4bzZnSE5CNnlmQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRXBVbGtMSkw5Yi1YaVgya2t6WnlxNGpCc1NlNk40NmFwRUpxUXFvVGtuU3Q3V2cxODV2ZkJ3b25FRVRiWC1RVlM3cjdVZEVJSkRWT0xvdWU1MUNCOENKVlprcnJicm05dGE3SkNRTWpfaHNPZFhNX2F3WkZGZmZwSWtBWTJjRHBnNjktQVhIZlZZdUNkUV95RGNzX0ZFdm1DazhFaEItaVo4eFc1dXFyYWVXenoxQTZ4bzZnSE5CNnlmQQ?oc=5",
+      "topic": "Expansion & partnerships"
     },
     {
       "title": "Dipu KV, Senior President, Bajaj General Insurance",
       "source": "Express Computer",
       "publishedAt": "2026-08-01T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUHJ5VG5kV2FXbGVaV0doa3BSdVY3X2stb3UtcHBWY1dzdzh1YUJjUVdNWDhLVGpjVkFuUnhXaTl2ZWZmZVhVS0pmUklTTWIxMURadEVaMVNyc2d1eHpZeGc3VFRtUVNYSU5HZDBlNlR5YUdpeTR5b2c2VHhjcU9NWmJITEFuR2hLSkhNNnNjLV8xZER1NF9qWG9ReW5HbTRsQVd0dkt1ZkhQVDRlZkZDdHB4bVBEQk5VS2Jfb2ljVmFaaUZNcTFZ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUHJ5VG5kV2FXbGVaV0doa3BSdVY3X2stb3UtcHBWY1dzdzh1YUJjUVdNWDhLVGpjVkFuUnhXaTl2ZWZmZVhVS0pmUklTTWIxMURadEVaMVNyc2d1eHpZeGc3VFRtUVNYSU5HZDBlNlR5YUdpeTR5b2c2VHhjcU9NWmJITEFuR2hLSkhNNnNjLV8xZER1NF9qWG9ReW5HbTRsQVd0dkt1ZkhQVDRlZkZDdHB4bVBEQk5VS2Jfb2ljVmFaaUZNcTFZ?oc=5",
+      "topic": "Leadership & people"
     },
     {
       "title": "Bajaj General Insurance Names Sammeer Kulkarni As CISO",
       "source": "APAC Media",
       "publishedAt": "2026-07-20T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaU1sVkE2WHdxZjl0ODUyY3NHa3BrT2g3TlZLajRuUkh0dk9Hel9MVzk3YUVBMlRrZWl3a1JhNUVsYWVoT3dkcWd6ZEMwSGg3NEExZThWNVVrUHQzeF9iRDJ6ZDlsdnprTm9DLTVNdHRCVU5FSF96eVlVODc5T3RrVWpkRXJHSjFfcnRoa05fbVRFX1h0NHc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaU1sVkE2WHdxZjl0ODUyY3NHa3BrT2g3TlZLajRuUkh0dk9Hel9MVzk3YUVBMlRrZWl3a1JhNUVsYWVoT3dkcWd6ZEMwSGg3NEExZThWNVVrUHQzeF9iRDJ6ZDlsdnprTm9DLTVNdHRCVU5FSF96eVlVODc5T3RrVWpkRXJHSjFfcnRoa05fbVRFX1h0NHc?oc=5",
+      "topic": "Leadership & people"
     },
     {
       "title": "Bajaj General Insurance Elevates Ankit Goenka to Senior Vice President – Strategy & Transformation",
       "source": "CXO Digitalpulse",
       "publishedAt": "2026-06-19T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZWRRS1piMTNUdXFrU1UzblBoSEd0N05oWDdTUkVKQWhfeXU1bEZuRVIyVW5jczE0VmZYNVFERHRpVGxEMlRyS29fcXpIZkJoSzEtcDZickQtOVR0c0dQbE5HMnRLTkNTLWZINEdwMklCTkxVVGQ5YURzNkt6Z1I2YktuTkFLWElDRXpjNHYydDhIMW1Zel9SZGhrb0RiajFocXhJQWJYazNlbkNxQ0hZd2RDQXZDaG14Zmk4bWxGdE0tOXg5SkE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZWRRS1piMTNUdXFrU1UzblBoSEd0N05oWDdTUkVKQWhfeXU1bEZuRVIyVW5jczE0VmZYNVFERHRpVGxEMlRyS29fcXpIZkJoSzEtcDZickQtOVR0c0dQbE5HMnRLTkNTLWZINEdwMklCTkxVVGQ5YURzNkt6Z1I2YktuTkFLWElDRXpjNHYydDhIMW1Zel9SZGhrb0RiajFocXhJQWJYazNlbkNxQ0hZd2RDQXZDaG14Zmk4bWxGdE0tOXg5SkE?oc=5",
+      "topic": "Leadership & people"
     },
     {
       "title": "Bajaj General Insurance launches MHCP EDGE Plus",
       "source": "Greater Kashmir",
       "publishedAt": "2026-05-21T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObFdWSjBfa0VaQVJtdC1ESXFSTVJVQ1BZaWZJazFPZzVZOEtUQ0JPYzRBQ3pOd0NoZnI3NzFJa3ZsYkttVXBrOHBpa1lvVld2TzROWjEzb1BNWFUwNXI5ODVmRjZFUWdvSDVHVFhlZ01JaUY4azNZelRPOGhoeVVjQnRnRUNHeGoxYVJ4VGd6c04yRTRXTHRrRlYyWGvSAaIBQVVfeXFMTmwzQy11VGZSbEJGSXhBZjg5cklObDEzOUJEWkNPbFJIaVA4T1dfcWNJMnVLTHQ0eWItVTgxYUN0LUdRT0lTYWlZa1oxY0xJVDB1QmVPODRIdkdKdnNncFlpQUNBc2VpODJMUExKWm9NQTJNbEwtZTZfMGNUMjhiMXVNSzNYbXBXWDcxbTZkVk4xSHVra2E4VkVZeXphLWxOaDRB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObFdWSjBfa0VaQVJtdC1ESXFSTVJVQ1BZaWZJazFPZzVZOEtUQ0JPYzRBQ3pOd0NoZnI3NzFJa3ZsYkttVXBrOHBpa1lvVld2TzROWjEzb1BNWFUwNXI5ODVmRjZFUWdvSDVHVFhlZ01JaUY4azNZelRPOGhoeVVjQnRnRUNHeGoxYVJ4VGd6c04yRTRXTHRrRlYyWGvSAaIBQVVfeXFMTmwzQy11VGZSbEJGSXhBZjg5cklObDEzOUJEWkNPbFJIaVA4T1dfcWNJMnVLTHQ0eWItVTgxYUN0LUdRT0lTYWlZa1oxY0xJVDB1QmVPODRIdkdKdnNncFlpQUNBc2VpODJMUExKWm9NQTJNbEwtZTZfMGNUMjhiMXVNSzNYbXBXWDcxbTZkVk4xSHVra2E4VkVZeXphLWxOaDRB?oc=5",
+      "topic": "Products & launches"
     },
     {
       "title": "Bajaj General Insurance rolls out riders to lock premiums, expand health cover scope",
       "source": "The Times of India",
       "publishedAt": "2026-05-20T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPSWFzZmRrTVBvUnNRMkpnZXdSX0o2YmdhTkc4bHE4cXBHNlFITGtuaG16UlExR3FYa3lHTTMwTElKbm11UDJubFVXRzdOTHJjLUtNdTVVYzR0U1ZUbUZ5RWVibF9pdUdXVXNSeDBJRzUtcEtNQ3JDazNJbEIzOVMyRmdpVHpRSEMyN2o1dGhpUFAtbWN2MktoMXVCallQY3gxWU9udDQyRW5kWS1kaWtsNWtMMlJOOWZOdlEtenNCbmRQb29obXJaVnpUUUMtVDUxNDUtU3NkcUx6Zjc3YmUtYVByZkJVU2w3ZUczbVJhVU52dlZON3J4RC1qalpXQdIBgwJBVV95cUxONWFxUzluaWdqQ2dIMHlwdld0MXc3MjFacklKREZ3d3VLWU1MYk9pQmo0ZmVMNHVqakN1Q245cnNZNFAxd0ZnNngzMUdiQ0lNSl9raVlTMFlvbmNIeDBLTDFMSEpBRVEydVh1RWlmSjNTSzF1OFJzSmRQcmNwTHVlTXI3Smh0Q3ItNlFVVndlTGJIa2RSY1hOSWlkZ2lJWXJlMVJWMHJoV3FKa0JHOHo5M3NmR3M4cE5nMnhxWktiS3A4OUtuWTlmbk4tclVYWUF2cG1qZkxCUEtYaVJpa2MyaTVQUG9hWnZQYUN1NFZWWEdPRzg4Um1jOXN1QjExRDdfdGk0?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPSWFzZmRrTVBvUnNRMkpnZXdSX0o2YmdhTkc4bHE4cXBHNlFITGtuaG16UlExR3FYa3lHTTMwTElKbm11UDJubFVXRzdOTHJjLUtNdTVVYzR0U1ZUbUZ5RWVibF9pdUdXVXNSeDBJRzUtcEtNQ3JDazNJbEIzOVMyRmdpVHpRSEMyN2o1dGhpUFAtbWN2MktoMXVCallQY3gxWU9udDQyRW5kWS1kaWtsNWtMMlJOOWZOdlEtenNCbmRQb29obXJaVnpUUUMtVDUxNDUtU3NkcUx6Zjc3YmUtYVByZkJVU2w3ZUczbVJhVU52dlZON3J4RC1qalpXQdIBgwJBVV95cUxONWFxUzluaWdqQ2dIMHlwdld0MXc3MjFacklKREZ3d3VLWU1MYk9pQmo0ZmVMNHVqakN1Q245cnNZNFAxd0ZnNngzMUdiQ0lNSl9raVlTMFlvbmNIeDBLTDFMSEpBRVEydVh1RWlmSjNTSzF1OFJzSmRQcmNwTHVlTXI3Smh0Q3ItNlFVVndlTGJIa2RSY1hOSWlkZ2lJWXJlMVJWMHJoV3FKa0JHOHo5M3NmR3M4cE5nMnhxWktiS3A4OUtuWTlmbk4tclVYWUF2cG1qZkxCUEtYaVJpa2MyaTVQUG9hWnZQYUN1NFZWWEdPRzg4Um1jOXN1QjExRDdfdGk0?oc=5",
+      "topic": "Expansion & partnerships"
     },
     {
       "title": "Aafreen Singh Appointed Vice President & Head – Direct to Customer at Bajaj General Insurance",
       "source": "https://hrtoday.in/",
       "publishedAt": "2026-05-20T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVU1ab2V5MU4zNVVpR1ZGSEhFVUY5UWYzdFlCSXR6VFpfSkdteDY5WjBBeGY3a1otcGdZTWhMWFgyRDREUHFKWEhmQjQyVktvb0sydVFXWm42a2Jodmp4eXBjcmV1MVRaVWRObWFXLWVTQVhMd2dLMGpDdElnbEc0cFFqNms1bzBsczJLQ1pYOHBneHYyMVRENVdSVVZEQXVDVGItNFlic3ZfZnRZMnc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVU1ab2V5MU4zNVVpR1ZGSEhFVUY5UWYzdFlCSXR6VFpfSkdteDY5WjBBeGY3a1otcGdZTWhMWFgyRDREUHFKWEhmQjQyVktvb0sydVFXWm42a2Jodmp4eXBjcmV1MVRaVWRObWFXLWVTQVhMd2dLMGpDdElnbEc0cFFqNms1bzBsczJLQ1pYOHBneHYyMVRENVdSVVZEQXVDVGItNFlic3ZfZnRZMnc?oc=5",
+      "topic": "Leadership & people"
     }
   ]
 }

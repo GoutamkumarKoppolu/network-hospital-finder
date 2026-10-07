@@ -1,96 +1,111 @@
 {
   "insurer": "sbi",
-  "fetchedAt": "2026-10-06T17:48:24.222Z",
+  "fetchedAt": "2026-10-07T06:24:06.455Z",
   "items": [
     {
       "title": "SBI General Insurance launches Health Alpha with maternity and sports injury cover",
       "source": "MediaBrief",
       "publishedAt": "2026-10-05T13:54:20.000Z",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00ZFFnN1dDUlltZ1ExZUdqRFlWRFN2aFR0bEV0REx5WmNSZnZyWDJuVnBldGprekZ0YlJyQi1hVDBGSE1mZlQwV3VnZnoydUpwMDFlbC15TE5KTXNHNXp2WnBfNXVyNGFhb0VoOS1zcEU1LXFYdVE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00ZFFnN1dDUlltZ1ExZUdqRFlWRFN2aFR0bEV0REx5WmNSZnZyWDJuVnBldGprekZ0YlJyQi1hVDBGSE1mZlQwV3VnZnoydUpwMDFlbC15TE5KTXNHNXp2WnBfNXVyNGFhb0VoOS1zcEU1LXFYdVE?oc=5",
+      "topic": "Products & launches"
     },
     {
       "title": "SBI General Insurance Q1 GDPI rises 10.9% to Rs 3,506 crore",
       "source": "The News Mill",
       "publishedAt": "2026-09-09T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYlp1ZzdzUGVRVWFjZTZrWWhfYTRMSkgxMWVWeFZOOWxvTjZzeDNQRHFxengxcDhUNlh4dHlnM3RadW9NQzJ6WExQLVFYMVozZGlSZjlOWC1haVBqTnpxQnZqNFl1OFFsUlgtMmpoY0hTOWtIZ2ZRVjhKX3FCaDI5VEVSb0F0NHo1bzFZcVNST1dwTTFq?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYlp1ZzdzUGVRVWFjZTZrWWhfYTRMSkgxMWVWeFZOOWxvTjZzeDNQRHFxengxcDhUNlh4dHlnM3RadW9NQzJ6WExQLVFYMVozZGlSZjlOWC1haVBqTnpxQnZqNFl1OFFsUlgtMmpoY0hTOWtIZ2ZRVjhKX3FCaDI5VEVSb0F0NHo1bzFZcVNST1dwTTFq?oc=5",
+      "topic": "Results & finances"
     },
     {
       "title": "SBI General Insurance Carries Strong Growth Momentum into Q1 FY27, with GDPI up by 10.9%",
       "source": "TheWire.in",
       "publishedAt": "2026-09-01T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcVJlMHQ4cmt6RlRuemNLbFJuWlN3bk9zNVpxZHc1dVBEcTJLb1NEbGI0eHVGNDJGODBBU2xTNDdRbDhSODFqUEd2MjBraUdYUkctNUlxQWdpamhGWVk5VFJoVHVQYXVYejlHempHNEZ6OXJVQks5U1JsNFhVcnlEMWtDMlFWLVJHUXhWM3RCOW1EYXVleUdQLUpDMTFPNjFBQk1GNWpmSnpvS20ybHE1VjNTWWdPUXJlWlhLSGlfUHR5bkHSAcgBQVVfeXFMTV9YVXBETW1PM2tIU3NLeFdXeEZyajJDYmF5N2JoY0pMbkk4S0EwZjk4WXkxTG9DSzFyNmNackNKemxEaUZsOG5FRk5IN2ZCdG5YZEJ5TnRQbUxMSWlNN0J3LUZUUW56Vm5UeDhtck1nMjB2dmhJTUtrWkJERTBmWXZvMkFBZEJ0UE1VS3pLYVpudjlNQlczWU45VGZFeFBwSjJJY3A2T2syZzcwcUdfek9qQjZmOGN3cWJaNkNkazlTUzNMRElZSTc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcVJlMHQ4cmt6RlRuemNLbFJuWlN3bk9zNVpxZHc1dVBEcTJLb1NEbGI0eHVGNDJGODBBU2xTNDdRbDhSODFqUEd2MjBraUdYUkctNUlxQWdpamhGWVk5VFJoVHVQYXVYejlHempHNEZ6OXJVQks5U1JsNFhVcnlEMWtDMlFWLVJHUXhWM3RCOW1EYXVleUdQLUpDMTFPNjFBQk1GNWpmSnpvS20ybHE1VjNTWWdPUXJlWlhLSGlfUHR5bkHSAcgBQVVfeXFMTV9YVXBETW1PM2tIU3NLeFdXeEZyajJDYmF5N2JoY0pMbkk4S0EwZjk4WXkxTG9DSzFyNmNackNKemxEaUZsOG5FRk5IN2ZCdG5YZEJ5TnRQbUxMSWlNN0J3LUZUUW56Vm5UeDhtck1nMjB2dmhJTUtrWkJERTBmWXZvMkFBZEJ0UE1VS3pLYVpudjlNQlczWU45VGZFeFBwSjJJY3A2T2syZzcwcUdfek9qQjZmOGN3cWJaNkNkazlTUzNMRElZSTc?oc=5",
+      "topic": "Results & finances"
     },
     {
       "title": "Emotional connect helps brands stand the test of time: Rathin Lahiri-SBI General Insurance",
       "source": "Exchange4Media",
       "publishedAt": "2026-08-20T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPa1FFZmpWYzZ0VFRTWUdYMi05TWdISS1TNDdSb0M3VWp0c2F5VV90VDFqUk15SEFULTB6WDA5UTEwUk96bWR6anhnVEZqN05oZ0pyc2tsYVFlTTBBVkxuR0hxZTY0b1BEQlNtZklJazVUZHJ4cFctYTllZThvbkxnRWJBZjBzd1dpYTN1SVNPV0FwaUdOWS1MNEdWbnlONHI5TktHbHZuTzFlX3R0UEtfUmFFNHRkVWNmQzYzWU93WFFfdzFDa0ZUOGltX3R0OHJadnoweFI5aGRvcldPNXRVQg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPa1FFZmpWYzZ0VFRTWUdYMi05TWdISS1TNDdSb0M3VWp0c2F5VV90VDFqUk15SEFULTB6WDA5UTEwUk96bWR6anhnVEZqN05oZ0pyc2tsYVFlTTBBVkxuR0hxZTY0b1BEQlNtZklJazVUZHJ4cFctYTllZThvbkxnRWJBZjBzd1dpYTN1SVNPV0FwaUdOWS1MNEdWbnlONHI5TktHbHZuTzFlX3R0UEtfUmFFNHRkVWNmQzYzWU93WFFfdzFDa0ZUOGltX3R0OHJadnoweFI5aGRvcldPNXRVQg?oc=5",
+      "topic": "Brand & marketing"
+    },
+    {
+      "title": "Platinum Outdoor drives visibility for SBI General Insurance across Mumbai",
+      "source": "MediaBrief",
+      "publishedAt": "2026-08-12T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMlZmc2RLZzNWRkM2VjZ2end0eXdEMUlSdVU2M2pSeU91ekxDSDJPeGVfcEx3LUJrS0xoV1AxMGFWUGZjaGxqVkJQaGlCNVdKZWlpMVNtYnhkUEt3c3lrU3hTamFSRlNNMFNoWl9lbS14cU4xbmIyb1RvbUppUEdCa2Q0eUhuX3RoVEpyeg?oc=5",
+      "topic": "Brand & marketing"
     },
     {
       "title": "SBI General Insurance Launches New Motor Insurance Film Featuring Pankaj Tripathi",
       "source": "TheWire.in",
       "publishedAt": "2026-08-03T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMGtaa2hob3VtQWFyZ1loVWpqMHhiWFltZGFMQ0NkSzlnLU1jWnBhZlhDX1hfc3JJM1hTSHFEb3plcUxlTDNzVFI2R2FFUmNwZnZEVXNSTnEtVWpZOGhkdGpUdUpZUXZTMFR3UW9sYi0wSWZDbnhRNEM4Qm90N215eS0zU0NaSEFYV3Qxel9pSzFIZVY0WkxkNTN5bHE4V29fWmw1RDhyVHlNWmpTOU41QXJhZ01nY1dZTERxc9IBwgFBVV95cUxOSmt1QlcxLXRzTm9VbjdPSnl0em85c2lBakd1TWZDSm80LVdpXzF2MGhsYUR3czhPNTNiWnJNVG9IZ3hTQ0VDdlRMMm1tQVpnTFpJdlcxX3hZUTRGVTdCTDRrU25sRmdXNEYyVjl5dHVKSGxEeEJDbUZwWmQyZHpLY1I5MTduc3djSXpKT20wczBoUDN5UXFnaDdJUnJoejFiV19PaTJrdVBpeTNhQXdWRnUwNzI1c21YdHlWUjQtWmtzQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMGtaa2hob3VtQWFyZ1loVWpqMHhiWFltZGFMQ0NkSzlnLU1jWnBhZlhDX1hfc3JJM1hTSHFEb3plcUxlTDNzVFI2R2FFUmNwZnZEVXNSTnEtVWpZOGhkdGpUdUpZUXZTMFR3UW9sYi0wSWZDbnhRNEM4Qm90N215eS0zU0NaSEFYV3Qxel9pSzFIZVY0WkxkNTN5bHE4V29fWmw1RDhyVHlNWmpTOU41QXJhZ01nY1dZTERxc9IBwgFBVV95cUxOSmt1QlcxLXRzTm9VbjdPSnl0em85c2lBakd1TWZDSm80LVdpXzF2MGhsYUR3czhPNTNiWnJNVG9IZ3hTQ0VDdlRMMm1tQVpnTFpJdlcxX3hZUTRGVTdCTDRrU25sRmdXNEYyVjl5dHVKSGxEeEJDbUZwWmQyZHpLY1I5MTduc3djSXpKT20wczBoUDN5UXFnaDdJUnJoejFiV19PaTJrdVBpeTNhQXdWRnUwNzI1c21YdHlWUjQtWmtzQQ?oc=5",
+      "topic": "Brand & marketing"
     },
     {
       "title": "SBI General Insurance extends ‘Chuniye Bharosa, Apno Sa’ campaign to motor insurance with Pankaj Tripath..",
       "source": "ET BrandEquity",
       "publishedAt": "2026-07-29T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQYXZpanRPem52bUZ4UnZKdXA0WnZUc2FXZjlhMkxQS3pFWHNFZ1dsVEdEZVJQaVNKUlVQeEdHVDhaMFZWS2hrOUJVb05heDJZMTBoeTY4Wnl3Z3JZdFhTc1FhZ0tEV2Z6XzU0VWdsRm9Ma2dDbzE4TkJXelRDMHpmWDNxRlJWMjRsbThmRWhNbkVYWjNZS2ZuOTZIRVdJcDZSX3Y5VEo2SmdodjRTWWpucklpSnM4ajRqSjExRzZQRlhKVnZrTFU3bk1rdFk0Y2FjTHhZV0p0WXdnUERrdzBtUmh6Yk1FOXhkb1QtR2phMTVsWHBFMEpNRHYzNUJ0OTdXYW5RSnhLVG9hVjJBMDV2Q1c0S3pHN0dNMmQzR9IBogJBVV95cUxONTFHRXhBV1hhNlBMaEZlV1NncjNrWkh3OG9WeXZpSjBhSlgyb3lCZFNmd1Bib0E4bjl2VVJkOW9wZzh6QXFZcjFHeF9OeFlUSEhwdW9WM05zXzByQzZSclhOSXhVNUFCYXg1eF9rTWtrUG1uQ2tsZ1A2Qzlsa3pDSEI3U0pvLVFtSTB6cUpfRlR5VG9fWTNmV1dWX2RCX2ZuMWhpc3BhdXFIbEFoYXd5ZTZtWWFmRzlVX2xRbVYteVB3RklqYV9OeUc5QnpBaHB1M3FESldqX2lVVFRQNThLMm53TzUyRHhRN3lUdk93ZEdaRmNMM05HZE42Q3ktV0ZSTDNKN0RrTDRneWMwaGpsUjNTanpJMkhVTWQwM2ZkbTBMZw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQYXZpanRPem52bUZ4UnZKdXA0WnZUc2FXZjlhMkxQS3pFWHNFZ1dsVEdEZVJQaVNKUlVQeEdHVDhaMFZWS2hrOUJVb05heDJZMTBoeTY4Wnl3Z3JZdFhTc1FhZ0tEV2Z6XzU0VWdsRm9Ma2dDbzE4TkJXelRDMHpmWDNxRlJWMjRsbThmRWhNbkVYWjNZS2ZuOTZIRVdJcDZSX3Y5VEo2SmdodjRTWWpucklpSnM4ajRqSjExRzZQRlhKVnZrTFU3bk1rdFk0Y2FjTHhZV0p0WXdnUERrdzBtUmh6Yk1FOXhkb1QtR2phMTVsWHBFMEpNRHYzNUJ0OTdXYW5RSnhLVG9hVjJBMDV2Q1c0S3pHN0dNMmQzR9IBogJBVV95cUxONTFHRXhBV1hhNlBMaEZlV1NncjNrWkh3OG9WeXZpSjBhSlgyb3lCZFNmd1Bib0E4bjl2VVJkOW9wZzh6QXFZcjFHeF9OeFlUSEhwdW9WM05zXzByQzZSclhOSXhVNUFCYXg1eF9rTWtrUG1uQ2tsZ1A2Qzlsa3pDSEI3U0pvLVFtSTB6cUpfRlR5VG9fWTNmV1dWX2RCX2ZuMWhpc3BhdXFIbEFoYXd5ZTZtWWFmRzlVX2xRbVYteVB3RklqYV9OeUc5QnpBaHB1M3FESldqX2lVVFRQNThLMm53TzUyRHhRN3lUdk93ZEdaRmNMM05HZE42Q3ktV0ZSTDNKN0RrTDRneWMwaGpsUjNTanpJMkhVTWQwM2ZkbTBMZw?oc=5",
+      "topic": "Brand & marketing"
     },
     {
       "title": "SBI General Insurance highlights add-on covers for enhanced motor protection",
       "source": "MediaBrief",
       "publishedAt": "2026-06-26T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORFNucXI2cDl0R0FiNVVqWTlIM0w0dnJGdlIyQ3pzb01aUUFWbVg2M0tyNk91Qmh0M2p3WHR2WGdRVHhoMGpJMFN6U09zRmQ1aU9ESXIyTjNPT0ZmdEx6QVVfdnQ0QVc4c3lMTkQ4RVRNZVJhcTZMS3c1MGItQ3BBc0gyMnZlc3p3V0ZGZ2gwY0tTZ3VDSzVYZVVweEN2Tlp3OFHSAacBQVVfeXFMUDZfeDVOSGRYTFc4bEtiUXM3UEprQy1teHEyNzVLUUZ5NGo2V1NqakdiZTEydVhTNjR3dHdsb3doY3BTN1dnOHVReldBVWtDaHgzNlpiampGSFY1SjZjTWctdXVnMWstR3RxLUEzRUNXWWVqaFNGQlQxanJQc0Rfbl9VLVhoOEpscXByOFNybHRhc3I4Yy13WGo5RS1aZXZXM1NTRTVsRkU?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORFNucXI2cDl0R0FiNVVqWTlIM0w0dnJGdlIyQ3pzb01aUUFWbVg2M0tyNk91Qmh0M2p3WHR2WGdRVHhoMGpJMFN6U09zRmQ1aU9ESXIyTjNPT0ZmdEx6QVVfdnQ0QVc4c3lMTkQ4RVRNZVJhcTZMS3c1MGItQ3BBc0gyMnZlc3p3V0ZGZ2gwY0tTZ3VDSzVYZVVweEN2Tlp3OFHSAacBQVVfeXFMUDZfeDVOSGRYTFc4bEtiUXM3UEprQy1teHEyNzVLUUZ5NGo2V1NqakdiZTEydVhTNjR3dHdsb3doY3BTN1dnOHVReldBVWtDaHgzNlpiampGSFY1SjZjTWctdXVnMWstR3RxLUEzRUNXWWVqaFNGQlQxanJQc0Rfbl9VLVhoOEpscXByOFNybHRhc3I4Yy13WGo5RS1aZXZXM1NTRTVsRkU?oc=5",
+      "topic": "Health & awareness"
     },
     {
       "title": "SBI to list SBI General Insurance following ₹13,000 crore AMC IPO in 2026",
       "source": "Sahi",
       "publishedAt": "2026-06-09T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ0sxRVRyS0tTNmxudHJYUVZYbF9icUZyTzVITTBWOEpkalhqMklVd0REWlRrMjlncVRPMm41dVNJM2luRjlLSDNQVjEtZkNsbWV3b2w1eFlPUk9WSTgwSmdCQ01ZcUIwOEtOekVTMGJUVWI3dEIwdG9JT2JhajhCdTJHQWRDN1lzNWpPRHdPekVBbVFpWjB3LVYzaVZBQXBaU1NWY0JXTXl4S201UmUyWQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ0sxRVRyS0tTNmxudHJYUVZYbF9icUZyTzVITTBWOEpkalhqMklVd0REWlRrMjlncVRPMm41dVNJM2luRjlLSDNQVjEtZkNsbWV3b2w1eFlPUk9WSTgwSmdCQ01ZcUIwOEtOekVTMGJUVWI3dEIwdG9JT2JhajhCdTJHQWRDN1lzNWpPRHdPekVBbVFpWjB3LVYzaVZBQXBaU1NWY0JXTXl4S201UmUyWQ?oc=5",
+      "topic": "Expansion & partnerships"
     },
     {
       "title": "SBI General Insurance to list after AMC’s IPO: SBI chairman CS Setty",
       "source": "Moneycontrol.com",
       "publishedAt": "2026-06-09T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNlBBVnBqUEpCMXRremw3alBkVy10NFBHUkMyNWpYQ1owMHgxSmFwZTBLZC1vRlE4cmhObDRJNEJ4OXNUMHlRSHhtcjZYMmlLclo1T3RUMXBTOTFMOHJpX2VHMTlOVEJKdi1WNHQzbE1UNk9nX0tsOHg2bWlwYlJQa3p0QWdUY1pjbUlLVl9OR2doTTk1NkEtTzhuTG1CNWdwV253eV9Ya2FfejhIS2NPTDE3VE1QcDZYb0pYNmlmRnJCSTdt0gHKAUFVX3lxTE44UDZxUjd4ZE5Nc2MwT0lvMmtPV3ExNTJmNTQyXzU2c0sxcmNHY3JaRkhzTk1iYzJEY3lzWVM1b3FkMFk1cEFIX19melBXNVlscDZQbDZtODNJSEU2S3cycVB1X3R3d25uQk9uOVR0WS1WZEplTjRqUHFYTmhpWWR3cWtiZkZlVkttNWZabjZ5aXZqOGtpNUQ0ZXg3SHhmWHZxclN2b3BTUnF3ek9nN1RheXBrYjBxMmxUS1dzNklXdW92TDczSkZmQ1E?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNlBBVnBqUEpCMXRremw3alBkVy10NFBHUkMyNWpYQ1owMHgxSmFwZTBLZC1vRlE4cmhObDRJNEJ4OXNUMHlRSHhtcjZYMmlLclo1T3RUMXBTOTFMOHJpX2VHMTlOVEJKdi1WNHQzbE1UNk9nX0tsOHg2bWlwYlJQa3p0QWdUY1pjbUlLVl9OR2doTTk1NkEtTzhuTG1CNWdwV253eV9Ya2FfejhIS2NPTDE3VE1QcDZYb0pYNmlmRnJCSTdt0gHKAUFVX3lxTE44UDZxUjd4ZE5Nc2MwT0lvMmtPV3ExNTJmNTQyXzU2c0sxcmNHY3JaRkhzTk1iYzJEY3lzWVM1b3FkMFk1cEFIX19melBXNVlscDZQbDZtODNJSEU2S3cycVB1X3R3d25uQk9uOVR0WS1WZEplTjRqUHFYTmhpWWR3cWtiZkZlVkttNWZabjZ5aXZqOGtpNUQ0ZXg3SHhmWHZxclN2b3BTUnF3ek9nN1RheXBrYjBxMmxUS1dzNklXdW92TDczSkZmQ1E?oc=5",
+      "topic": "Leadership & people"
     },
     {
       "title": "SBI General Insurance highlights health cover in new film",
       "source": "Campaign India",
       "publishedAt": "2026-05-18T09:13:59.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdlhTNzV5TnFIdVJhSmxMRjUxRjZMWFZub1VmbmM3bFF6dnVJTUtubDRHcHZHb2pldkY2RXQyVUp4MkNsRFpuXzd1YkNRdWlQcUw5YUl1dlJCMkwtLXhKSEVDc01DRi04WEpWdGZvRDVndlpaTWYtOUVQMDlMUXFyREVYN1BxdEZ5UzBxRUEzTXJsUTA2OHR0cHRZWVpwNmR1TUhSdG9HVE96R21VbUU4WFBuUktzWE4yMUZtbFRn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdlhTNzV5TnFIdVJhSmxMRjUxRjZMWFZub1VmbmM3bFF6dnVJTUtubDRHcHZHb2pldkY2RXQyVUp4MkNsRFpuXzd1YkNRdWlQcUw5YUl1dlJCMkwtLXhKSEVDc01DRi04WEpWdGZvRDVndlpaTWYtOUVQMDlMUXFyREVYN1BxdEZ5UzBxRUEzTXJsUTA2OHR0cHRZWVpwNmR1TUhSdG9HVE96R21VbUU4WFBuUktzWE4yMUZtbFRn?oc=5",
+      "topic": "Brand & marketing"
     },
     {
       "title": "SBI General Insurance rolls out new campaign film with Pankaj Tripathi",
       "source": "MediaBrief",
       "publishedAt": "2026-05-16T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBiSEZmWllMOVFXWVZVOVVkaF9DU1pKUFNNVkV6Mm1iSXQycjk0NDdpU2RfNTV6Zkc2LVNoOXZzSjlGcTJxX0ttZ0psbE0yWThZN3VGSi1xUmdCUU9BN2Zva1hjdFdwRHBTVjBKSGs1OFJWWGVfT3BJc093?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBiSEZmWllMOVFXWVZVOVVkaF9DU1pKUFNNVkV6Mm1iSXQycjk0NDdpU2RfNTV6Zkc2LVNoOXZzSjlGcTJxX0ttZ0psbE0yWThZN3VGSi1xUmdCUU9BN2Zva1hjdFdwRHBTVjBKSGs1OFJWWGVfT3BJc093?oc=5",
+      "topic": "Brand & marketing"
     },
     {
       "title": "SBI General Insurance spotlights need for comprehensive health cover",
       "source": "Adgully.com",
       "publishedAt": "2026-05-14T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd1ZIdnZYQzZ3R2doX2VuYkdDeUswQm9nYzFlTy1kUlJfSDBtXzE4aWdOYmtyY1FrS25EQTlJVU04aTJ4ejNpX2VjMmd1LVVPSmJST0NwQ3dHYVRscVA1M2FnM2syWWxGN0w5ckF2LXkybWJnRE5BNTZ1R1lSTTNHVmJxQTl4SXhSc0RtclZ1QWZQak1YNkZ1X1dMZGtTZy1neDlQQmZB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd1ZIdnZYQzZ3R2doX2VuYkdDeUswQm9nYzFlTy1kUlJfSDBtXzE4aWdOYmtyY1FrS25EQTlJVU04aTJ4ejNpX2VjMmd1LVVPSmJST0NwQ3dHYVRscVA1M2FnM2syWWxGN0w5ckF2LXkybWJnRE5BNTZ1R1lSTTNHVmJxQTl4SXhSc0RtclZ1QWZQak1YNkZ1X1dMZGtTZy1neDlQQmZB?oc=5",
+      "topic": "Health & awareness"
     },
     {
       "title": "SBI General Insurance Company standalone net profit rises 478.90% in the March 2026 quarter",
       "source": "Business Standard",
       "publishedAt": "2026-05-02T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPNDRfZE1xOTZNV1lEZ2Q4TEktZ19oRTRoMUs5OG9reFNEZExTdy1xaVJYZzVPNWtSTXozX2ZxVWZUNkFtb3lzNlEtY3JwejZNamxNN1ByRU1rSEd6cllVUjBGbkpzSmM1VlR3d1N3aFJFekVlazlsa2NOTkRfYngxM0lNQlpBU2QtWDRrS2hsSlByZ3RkMTJ0eldZamFGTnh0NkJjcWoxUER2X1hfR3NpMUZyRG5FTTBpYW5UT0RHdTIxMVhpSWR2N0JxNC1wUUJ6dzE5RFN2ZzJ1OHhpWE5DSHZXOHp1dVZBa2RGNnBuTXBIVVBMRW5zSThYcTlzbHlrLUHSAYcCQVVfeXFMT3VPa1E5ZHhrQ3NIOTNxWjZJTDVEcmtkWko0WHlJeHdSUl9nRDVEblQybmxneUlmRFk2S254XzBhR0Vud2d3Z1ZzX0R0TUs4NUJIbkhwWmhTb1JuWDA4Sm1uMlU0bFl2cEQ5bmdVVXc4SkVnQ1FENTd3aVVxOGxlUWVweDd3NmFQY2FIYk9vRWZ2RTAxd3l6ZWZuaEZOY1JEa195eDdaQ0k2Q1dJVGItTHExUWtLaFdxNy00MDdDRDJsSDBFaXRJRGhkY2xjWEZJNi1sWlNEdll4ZnIxLTZmMTR4bVAyRy0tVkpZd1VFdW9ZeVJSdmo4dTdMcW15QmZ5UklOeTQwOTQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPNDRfZE1xOTZNV1lEZ2Q4TEktZ19oRTRoMUs5OG9reFNEZExTdy1xaVJYZzVPNWtSTXozX2ZxVWZUNkFtb3lzNlEtY3JwejZNamxNN1ByRU1rSEd6cllVUjBGbkpzSmM1VlR3d1N3aFJFekVlazlsa2NOTkRfYngxM0lNQlpBU2QtWDRrS2hsSlByZ3RkMTJ0eldZamFGTnh0NkJjcWoxUER2X1hfR3NpMUZyRG5FTTBpYW5UT0RHdTIxMVhpSWR2N0JxNC1wUUJ6dzE5RFN2ZzJ1OHhpWE5DSHZXOHp1dVZBa2RGNnBuTXBIVVBMRW5zSThYcTlzbHlrLUHSAYcCQVVfeXFMT3VPa1E5ZHhrQ3NIOTNxWjZJTDVEcmtkWko0WHlJeHdSUl9nRDVEblQybmxneUlmRFk2S254XzBhR0Vud2d3Z1ZzX0R0TUs4NUJIbkhwWmhTb1JuWDA4Sm1uMlU0bFl2cEQ5bmdVVXc4SkVnQ1FENTd3aVVxOGxlUWVweDd3NmFQY2FIYk9vRWZ2RTAxd3l6ZWZuaEZOY1JEa195eDdaQ0k2Q1dJVGItTHExUWtLaFdxNy00MDdDRDJsSDBFaXRJRGhkY2xjWEZJNi1sWlNEdll4ZnIxLTZmMTR4bVAyRy0tVkpZd1VFdW9ZeVJSdmo4dTdMcW15QmZ5UklOeTQwOTQ?oc=5",
+      "topic": "Results & finances"
     },
     {
       "title": "SBI General Insurance appoints Shrish Ramchandra Mahuli as Chief Business Officer",
       "source": "MediaBrief",
       "publishedAt": "2026-05-02T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TODNkQnc3WFh2WlNBLUhNUUZuUDJBaWFDaDFNT1BTc09vck5RMGFPWmdDWm9WN2k0TnJUeDFRdVJqT3l1ZnEzdUpvckZQVmNjcFJ6V09yRW5sc0wxOV9rbGJPc0xST1g2cS1aU1NLQnl4WjFtUElKaFJBamNKRTQ?oc=5"
-    },
-    {
-      "title": "SBI General Insurance Expands Leadership With Shrish Mahuli",
-      "source": "SMEStreet",
-      "publishedAt": "2026-05-01T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVVJFdHY1ak02U1ZzanJ3NS1IR3JvRUR4Ul9kb29KOXVvVW5aaTVrLW1UZDFPVmE0V1hqZ3FsRlNUa2xQQTlLZVdRRzNZSzlDLVpQeHE0V1BRNExnN0tidGVuLTQ2R1FOMkZHWkVlMmF5R0Q4UFpBMm9jbmJKaFV5R1Y2aEdPTTNHR0FKbXZaR01UZUJ6NkpSeEozcGxudw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TODNkQnc3WFh2WlNBLUhNUUZuUDJBaWFDaDFNT1BTc09vck5RMGFPWmdDWm9WN2k0TnJUeDFRdVJqT3l1ZnEzdUpvckZQVmNjcFJ6V09yRW5sc0wxOV9rbGJPc0xST1g2cS1aU1NLQnl4WjFtUElKaFJBamNKRTQ?oc=5",
+      "topic": "Leadership & people"
     }
   ]
 }

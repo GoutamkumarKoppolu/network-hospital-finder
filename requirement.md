@@ -237,6 +237,7 @@ If any check fails: do NOT overwrite the old data. Exit non-zero.
 - Prefer free-to-read sources, but never drop a story: headlines about the same story are grouped and a free version is chosen when one exists. Partly readable sites (metered/premium previews) count as free. A story only available behind a hard paywall or login (hand-kept `HARD_PAYWALL` list in `news.ts`) is still shown, tagged "Subscription". Added 2026-10-06.
 - Fetch on the server side (in Actions), **not in the browser** (CORS would block it).
 - If the fetch fails, keep the old `news/<id>.json`.
+- Each headline gets a topic label (Claims & complaints, Legal & regulatory, Leadership & people, Stock market, Results & finances, Brand & marketing, Expansion & partnerships, Products & launches, Health & awareness, Other) from keyword rules in `news.ts`. No AI, no good/bad sentiment. Added 2026-10-07.
 - Use a clear `User-Agent`. Max one request per insurer per run.
 - Risk note: Google News RSS terms can change. Keep news code isolated in `news.ts` so the source can be swapped later.
 

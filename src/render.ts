@@ -75,6 +75,7 @@ export function newsItem(n: NewsItem): HTMLLIElement {
   a.rel = "noopener noreferrer nofollow";
   const meta = el("span", "meta", [n.source, formatDate(n.publishedAt)].filter(Boolean).join(" · "));
   if (n.paywalled) meta.append(" ", el("span", "badge", strings.subscription));
+  if (n.topic) li.append(el("span", "topic", n.topic));
   li.append(a, meta);
   return li;
 }
