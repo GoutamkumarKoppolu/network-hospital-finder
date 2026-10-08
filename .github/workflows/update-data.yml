@@ -34,12 +34,32 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: gh issue create --title "Data update failed $(date -u +%F)" --body-file update-report.txt
 
+      # always(): a failed hospital update must not stop news
       - name: Update news
+        if: always()
         run: npm run news
 
       - name: Commit changes
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data public/data
           git diff --cached --quiet || { git commit -m "Weekly data update" && git push; }
+
+      - name: Check links
+        id: links
+        if: always()
+        continue-on-error: true # a broken link opens an issue but must not block deploy
+        run: |
+          set -o pipefail
+          npm run links 2>&1 | tee links-report.txt
+
+      - name: Open issue for broken links
+        if: always() && steps.links.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # One open issue at a time
+          [ "$(gh issue list --state open --search 'Broken links in:title' --json number --jq length)" = 0 ] &&
+            gh issue create --title "Broken links $(date -u +%F)" --body-file links-report.txt || true

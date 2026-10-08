@@ -20,7 +20,7 @@ concurrency:
 
 jobs:
   deploy:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    # Deploy after every data run, even a failed one: news may still have been committed. Tests below guard the build.
     runs-on: ubuntu-latest
     environment:
       name: github-pages

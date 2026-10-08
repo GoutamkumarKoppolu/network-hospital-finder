@@ -41,7 +41,7 @@ Ideas checked against the hard rules in [requirement.md](requirement.md) section
 
 ## Code fixes noted in the 2026-10-08 review
 
-- `.github/workflows/update-data.yml`: if "Update hospitals" fails, "Update news" and "Commit changes" are skipped. Add `if: always()` to those two steps before the first hospital adapter goes live.
+- ~~update-data.yml news skipped when hospital update fails~~: fixed 2026-10-08 (`if: always()`, deploy runs after any data run).
 - `insurers.json` could carry `hasHospitals` so the page stops requesting a hospital file that 404s.
 - `pipeline/validate.ts` repeats the pincode regex; reuse `isValidPincode` from `src/search.ts`.
 - The "About" panel facts (registration no., listed status) were checked on 2026-10-08. Re-check yearly, and fill the empty links (Aditya Birla docs/claims, Care and ICICI docs, ICICI and New India claims) once confirmed on the insurer's site.
