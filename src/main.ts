@@ -1,7 +1,7 @@
 import "./style.css";
 import type { HospitalFile, Insurer, InsurerId, NewsFile } from "./types";
 import { isValidPincode, search, type Result } from "./search";
-import { formatDate, hospitalCard, newsGroups, strings } from "./render";
+import { aboutInsurer, formatDate, hospitalCard, newsGroups, strings } from "./render";
 
 const PAGE = 50;
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -117,6 +117,9 @@ select.addEventListener("change", async () => {
   formError.textContent = "";
   if (!ins) return;
   $("intro").hidden = true;
+  $("about").hidden = false;
+  $("about-heading").textContent = strings.aboutHeading(ins.displayName);
+  $("about-body").replaceChildren(...aboutInsurer(ins));
   showNews(ins);
   let data: Data;
   try {

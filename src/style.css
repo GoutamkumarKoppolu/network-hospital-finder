@@ -294,6 +294,15 @@ ul.cards, ul.news { list-style: none; padding: 0; margin: 0.5rem 0; }
 }
 .news-group ul.news { margin: 0.25rem 0 0; }
 
+/* About the insurer */
+.facts { display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1rem; margin: 0 0 0.5rem; }
+.facts dt { color: var(--muted); }
+.facts dd { margin: 0; font-weight: 600; }
+#about h3 { margin: 1.1rem 0 0.4rem; font-size: 1rem; color: var(--primary-dark); }
+ul.links, ol.escalation { margin: 0; padding-left: 1.25rem; }
+ul.links li, ol.escalation li { margin: 0.35rem 0; }
+#about a { overflow-wrap: anywhere; font-weight: 600; }
+
 /* Footer */
 footer { margin-top: 3rem; background: #e8f1f4; border-top: 1px solid var(--line); padding: 1.5rem 0 2rem; font-size: 0.9rem; color: var(--muted); }
 footer h2 { display: flex; align-items: center; gap: 0.5rem; margin: 0 0 0.5rem; font-size: 1rem; color: var(--text); }

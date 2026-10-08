@@ -33,7 +33,8 @@ describe("validate", () => {
 describe("processInsurer", () => {
   const insurer: Insurer = {
     id: "star", displayName: "Star", officialSite: "", hospitalSourceUrl: "https://example.org/list",
-    download: "manual", newsQuery: "", note: "",
+    download: "manual", newsQuery: "", note: "", irdaiRegNo: "129", kind: "Standalone health insurer",
+    sector: "Private sector", listed: true, docsUrl: "", claimsUrl: "", grievanceUrl: "",
   };
   const parse = async () => [
     { name: "A HOSPITAL", address: "Hyd 500001", city: "", state: "", pincode: "" },

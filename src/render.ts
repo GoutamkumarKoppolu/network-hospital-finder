@@ -1,4 +1,4 @@
-import { TOPICS, type NewsItem } from "./types";
+import { TOPICS, type Insurer, type NewsItem } from "./types";
 import type { Result } from "./search";
 
 // All page text lives here so other languages can be added later.
@@ -41,6 +41,30 @@ export const strings = {
     `We don't have the hospital list for ${insurer} yet. You can search it on their official website.`,
   locator: (insurer: string) => `Search on ${insurer}'s official hospital locator`,
   newsHeading: (insurer: string) => `Latest news about ${insurer}`,
+  aboutHeading: (insurer: string) => `About ${insurer}`,
+  regNo: "IRDAI registration no.",
+  kind: "Type",
+  sector: "Ownership",
+  listed: "Listed on stock exchange",
+  yes: "Yes",
+  no: "No",
+  checkIrdai: "Check it on IRDAI's list of insurers",
+  usefulLinks: "Official links",
+  docs: "Policy wordings and brochures",
+  claims: "How to make a claim",
+  grievance: "Grievance redressal",
+  escalationHeading: "If you have a complaint",
+  escalation: [
+    ["Complain to the insurer first, through its grievance team.", ""],
+    [
+      "Not resolved within 15 days? Complain to IRDAI on the Bima Bharosa portal, or call 155255 (toll-free).",
+      "https://bimabharosa.irdai.gov.in/",
+    ],
+    [
+      "Still not satisfied? Go to the Insurance Ombudsman. It is free. Apply within 1 year of the insurer's reply.",
+      "https://www.cioins.co.in/",
+    ],
+  ],
   source: (insurer: string, date: string) => `Source: ${insurer} official list, last updated ${date}`,
   found: (exact: number, nearby: number) =>
     `${exact} hospital${exact === 1 ? "" : "s"} at this pincode` + (nearby ? `, ${nearby} nearby` : ""),
@@ -67,12 +91,56 @@ export function hospitalCard(h: Result): HTMLLIElement {
   return li;
 }
 
-export function newsItem(n: NewsItem): HTMLLIElement {
-  const li = el("li");
-  const a = el("a", "", n.title);
-  a.href = n.url;
+function extLink(text: string, url: string, className = "") {
+  const a = el("a", className, text);
+  a.href = url;
   a.target = "_blank";
   a.rel = "noopener noreferrer nofollow";
+  return a;
+}
+
+const IRDAI_LIST = "https://irdai.gov.in/list-of-general-insurers";
+
+/** Facts, official links and the complaint path for one insurer. Links we could not confirm are "" and skipped. */
+export function aboutInsurer(ins: Insurer): HTMLElement[] {
+  const facts = el("dl", "facts");
+  const fact = (k: string, v: string) => facts.append(el("dt", "", k), el("dd", "", v));
+  fact(strings.regNo, ins.irdaiRegNo);
+  fact(strings.kind, ins.kind);
+  fact(strings.sector, ins.sector);
+  fact(strings.listed, ins.listed ? strings.yes : strings.no);
+
+  const links = el("ul", "links");
+  for (const [text, url] of [
+    [strings.docs, ins.docsUrl],
+    [strings.claims, ins.claimsUrl],
+    [strings.grievance, ins.grievanceUrl],
+  ])
+    if (url) {
+      const li = el("li");
+      li.append(extLink(text, url));
+      links.append(li);
+    }
+
+  const steps = el("ol", "escalation");
+  for (const [text, url] of strings.escalation) {
+    const href = url || ins.grievanceUrl || ins.officialSite; // step 1 points at the insurer
+    const li = el("li", "", text + " ");
+    li.append(extLink(new URL(href).hostname.replace(/^www\./, ""), href));
+    steps.append(li);
+  }
+
+  const check = el("p", "meta");
+  check.append(extLink(strings.checkIrdai, IRDAI_LIST));
+  const out: HTMLElement[] = [facts, check];
+  if (links.childElementCount) out.push(el("h3", "", strings.usefulLinks), links);
+  out.push(el("h3", "", strings.escalationHeading), steps);
+  return out;
+}
+
+export function newsItem(n: NewsItem): HTMLLIElement {
+  const li = el("li");
+  const a = extLink(n.title, n.url);
   const meta = el("span", "meta", [n.source, formatDate(n.publishedAt)].filter(Boolean).join(" · "));
   if (n.paywalled) meta.append(" ", el("span", "badge", strings.subscription));
   li.append(a, meta);

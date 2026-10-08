@@ -66,5 +66,12 @@ export type Insurer = {
   hospitalSourceUrl: string; // where list comes from
   download: "auto" | "manual";
   newsQuery: string; // e.g. "Care Health Insurance"
+  irdaiRegNo: string; // as printed on the insurer's own site
+  kind: "Standalone health insurer" | "General insurer";
+  sector: "Private sector" | "Public sector";
+  listed: boolean; // shares listed on NSE/BSE
+  docsUrl: string; // policy wordings / brochures page, "" if not confirmed
+  claimsUrl: string; // how to make a health claim, "" if not confirmed
+  grievanceUrl: string; // insurer's grievance redressal page, "" if not confirmed
   note: string; // robots/terms/permission status (requirement 3.3)
 };

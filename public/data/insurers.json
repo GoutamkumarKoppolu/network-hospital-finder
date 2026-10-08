@@ -6,7 +6,14 @@
     "hospitalSourceUrl": "https://www.adityabirlacapital.com/healthinsurance/locate-care/hospital-listing",
     "download": "manual",
     "newsQuery": "\"Aditya Birla Health Insurance\"",
-    "note": "2026-10-06: robots.txt has no hospital-specific rules. No downloadable list found; locator only. Not contacted yet; no data until permission."
+    "irdaiRegNo": "153",
+    "kind": "Standalone health insurer",
+    "sector": "Private sector",
+    "listed": false,
+    "docsUrl": "",
+    "claimsUrl": "",
+    "grievanceUrl": "https://www.adityabirlacapital.com/healthinsurance/assets/pdf/12.Grievance_Redressal_Policy.pdf",
+    "note": "2026-10-06: robots.txt has no hospital-specific rules. No downloadable list found; locator only. Not contacted yet; no data until permission. 2026-10-08: reg no, docs/claims/grievance links checked on the insurer's own site; empty = not confirmed."
   },
   {
     "id": "bajaj",
@@ -15,7 +22,14 @@
     "hospitalSourceUrl": "https://www.bajajgeneralinsurance.com/branch-locator.html",
     "download": "manual",
     "newsQuery": "\"Bajaj General Insurance\"",
-    "note": "2026-10-06: robots.txt disallows parts of /content/dam/. Branch/hospital locator only. Not contacted yet; no data until permission."
+    "irdaiRegNo": "113",
+    "kind": "General insurer",
+    "sector": "Private sector",
+    "listed": false,
+    "docsUrl": "https://www.bajajgeneralinsurance.com/download-documents/other-information/List-of-products-for-website.pdf",
+    "claimsUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-insurance-claim-process.html",
+    "grievanceUrl": "https://www.bajajgeneralinsurance.com/download-documents/Grievance-Redressal-Procedure.pdf",
+    "note": "2026-10-06: robots.txt disallows parts of /content/dam/. Branch/hospital locator only. Not contacted yet; no data until permission. 2026-10-08: reg no, docs/claims/grievance links checked on the insurer's own site; empty = not confirmed."
   },
   {
     "id": "care",
@@ -24,7 +38,14 @@
     "hospitalSourceUrl": "https://www.careinsurance.com/health-plan-network-hospitals.html",
     "download": "manual",
     "newsQuery": "\"Care Health Insurance\"",
-    "note": "2026-10-06: site blocks all automated requests (403, incl. robots.txt). No downloadable list found. Permission requested by email; no data until granted."
+    "irdaiRegNo": "148",
+    "kind": "Standalone health insurer",
+    "sector": "Private sector",
+    "listed": false,
+    "docsUrl": "",
+    "claimsUrl": "https://www.careinsurance.com/health-insurance-claim-center.html",
+    "grievanceUrl": "https://www.careinsurance.com/customer-grievance-redressal.html",
+    "note": "2026-10-06: site blocks all automated requests (403, incl. robots.txt). No downloadable list found. Permission requested by email; no data until granted. 2026-10-08: reg no, docs/claims/grievance links checked on the insurer's own site; empty = not confirmed."
   },
   {
     "id": "galaxy",
@@ -33,7 +54,14 @@
     "hospitalSourceUrl": "https://www.galaxyhealth.com/network-hospital",
     "download": "manual",
     "newsQuery": "\"Galaxy Health Insurance\"",
-    "note": "2026-10-06: robots.txt has no hospital-specific rules. Hospital list not checked yet. Not contacted yet; no data until permission."
+    "irdaiRegNo": "167",
+    "kind": "Standalone health insurer",
+    "sector": "Private sector",
+    "listed": false,
+    "docsUrl": "https://www.galaxyhealth.com/product-brochures",
+    "claimsUrl": "https://www.galaxyhealth.com/claims/cashless-claim",
+    "grievanceUrl": "https://www.galaxyhealth.com/grievance-redressal",
+    "note": "2026-10-06: robots.txt has no hospital-specific rules. Hospital list not checked yet. Not contacted yet; no data until permission. 2026-10-08: reg no, docs/claims/grievance links checked on the insurer's own site; empty = not confirmed."
   },
   {
     "id": "hdfcergo",
@@ -42,7 +70,14 @@
     "hospitalSourceUrl": "https://www.hdfcergo.com/locators/cashless-hospitals-networks",
     "download": "manual",
     "newsQuery": "\"HDFC ERGO\"",
-    "note": "2026-10-06: robots.txt has no hospital-specific rules. Locator only; only excluded-hospital PDFs are downloadable. Not contacted yet; no data until permission."
+    "irdaiRegNo": "146",
+    "kind": "General insurer",
+    "sector": "Private sector",
+    "listed": false,
+    "docsUrl": "https://www.hdfcergo.com/download/policy-wordings",
+    "claimsUrl": "https://www.hdfcergo.com/claim/register-health-insurance-claim",
+    "grievanceUrl": "https://www.hdfcergo.com/customer-voice/grievances",
+    "note": "2026-10-06: robots.txt has no hospital-specific rules. Locator only; only excluded-hospital PDFs are downloadable. Not contacted yet; no data until permission. 2026-10-08: reg no, docs/claims/grievance links checked on the insurer's own site; empty = not confirmed."
   },
   {
     "id": "icici",
@@ -51,7 +86,14 @@
     "hospitalSourceUrl": "https://www.icicilombard.com/cashless-hospitals",
     "download": "manual",
     "newsQuery": "\"ICICI Lombard\"",
-    "note": "2026-10-06: site blocks automated requests (403 on robots.txt). Not contacted yet; no data until permission."
+    "irdaiRegNo": "115",
+    "kind": "General insurer",
+    "sector": "Private sector",
+    "listed": true,
+    "docsUrl": "",
+    "claimsUrl": "",
+    "grievanceUrl": "https://www.icicilombard.com/grievance-redressal",
+    "note": "2026-10-06: site blocks automated requests (403 on robots.txt). Not contacted yet; no data until permission. 2026-10-08: reg no, docs/claims/grievance links checked on the insurer's own site; empty = not confirmed."
   },
   {
     "id": "manipalcigna",
@@ -60,7 +102,14 @@
     "hospitalSourceUrl": "https://www.manipalcigna.com/hospital-locator",
     "download": "manual",
     "newsQuery": "\"ManipalCigna\"",
-    "note": "2026-10-06: robots.txt appears to disallow all bots. Not contacted yet; no data until permission."
+    "irdaiRegNo": "151",
+    "kind": "Standalone health insurer",
+    "sector": "Private sector",
+    "listed": false,
+    "docsUrl": "https://www.manipalcigna.com/downloads/products",
+    "claimsUrl": "https://www.manipalcigna.com/claims",
+    "grievanceUrl": "https://www.manipalcigna.com/grievance-redressal",
+    "note": "2026-10-06: robots.txt appears to disallow all bots. Not contacted yet; no data until permission. 2026-10-08: reg no, docs/claims/grievance links checked on the insurer's own site; empty = not confirmed."
   },
   {
     "id": "newindia",
@@ -69,7 +118,14 @@
     "hospitalSourceUrl": "https://www.newindia.co.in/hospitals-list",
     "download": "manual",
     "newsQuery": "\"New India Assurance\"",
-    "note": "2026-10-06: robots.txt has no hospital-specific rules. PPN hospital list via 'Locate Us' tool; no download found. Not contacted yet; no data until permission."
+    "irdaiRegNo": "190",
+    "kind": "General insurer",
+    "sector": "Public sector",
+    "listed": true,
+    "docsUrl": "https://www.newindia.co.in/download-policy-document",
+    "claimsUrl": "",
+    "grievanceUrl": "https://www.newindia.co.in/grievance",
+    "note": "2026-10-06: robots.txt has no hospital-specific rules. PPN hospital list via 'Locate Us' tool; no download found. Not contacted yet; no data until permission. 2026-10-08: reg no, docs/claims/grievance links checked on the insurer's own site; empty = not confirmed."
   },
   {
     "id": "niva",
@@ -78,7 +134,14 @@
     "hospitalSourceUrl": "https://rules.nivabupa.com/hospital-network/",
     "download": "manual",
     "newsQuery": "\"Niva Bupa\"",
-    "note": "2026-10-06: robots.txt disallows the hospital network page and /content/dam/. Locator is a JS search tool, no downloadable list. Permission requested by email; no data until granted."
+    "irdaiRegNo": "145",
+    "kind": "Standalone health insurer",
+    "sector": "Private sector",
+    "listed": true,
+    "docsUrl": "https://transactions.nivabupa.com/pages/downloads.aspx",
+    "claimsUrl": "https://transactions.nivabupa.com/claims/pages/health-claim.aspx",
+    "grievanceUrl": "https://transactions.nivabupa.com/pages/grievance-redressal.aspx",
+    "note": "2026-10-06: robots.txt disallows the hospital network page and /content/dam/. Locator is a JS search tool, no downloadable list. Permission requested by email; no data until granted. 2026-10-08: reg no, docs/claims/grievance links checked on the insurer's own site; empty = not confirmed."
   },
   {
     "id": "sbi",
@@ -87,7 +150,14 @@
     "hospitalSourceUrl": "https://www.sbigeneral.in/contact-us/cashless-hospitals-networks",
     "download": "manual",
     "newsQuery": "\"SBI General Insurance\"",
-    "note": "2026-10-06: robots.txt has no hospital-specific rules. Locator only. Not contacted yet; no data until permission."
+    "irdaiRegNo": "144",
+    "kind": "General insurer",
+    "sector": "Private sector",
+    "listed": false,
+    "docsUrl": "https://www.sbigeneral.in/downloads",
+    "claimsUrl": "https://www.sbigeneral.in/claim/health",
+    "grievanceUrl": "https://www.sbigeneral.in/grievance-redressal",
+    "note": "2026-10-06: robots.txt has no hospital-specific rules. Locator only. Not contacted yet; no data until permission. 2026-10-08: reg no, docs/claims/grievance links checked on the insurer's own site; empty = not confirmed."
   },
   {
     "id": "star",
@@ -96,7 +166,14 @@
     "hospitalSourceUrl": "https://www.starhealth.in/lookup/hospital/",
     "download": "manual",
     "newsQuery": "\"Star Health\"",
-    "note": "2026-10-06: robots.txt allows /, but city pages show only ~10 hospitals; full list needs an undocumented internal API. Terms page not readable by bots. Permission requested by email; no data until granted."
+    "irdaiRegNo": "129",
+    "kind": "Standalone health insurer",
+    "sector": "Private sector",
+    "listed": true,
+    "docsUrl": "https://www.starhealth.in/downloads/",
+    "claimsUrl": "https://www.starhealth.in/claims/",
+    "grievanceUrl": "https://www.starhealth.in/grievance-redressal/",
+    "note": "2026-10-06: robots.txt allows /, but city pages show only ~10 hospitals; full list needs an undocumented internal API. Terms page not readable by bots. Permission requested by email; no data until granted. 2026-10-08: reg no, docs/claims/grievance links checked on the insurer's own site; empty = not confirmed."
   },
   {
     "id": "tataaig",
@@ -105,6 +182,13 @@
     "hospitalSourceUrl": "https://www.tataaig.com/locator/cashless-network-hospitals",
     "download": "manual",
     "newsQuery": "\"Tata AIG\"",
-    "note": "2026-10-06: robots.txt disallows /dam/tagic (its file store). Not contacted yet; no data until permission."
+    "irdaiRegNo": "108",
+    "kind": "General insurer",
+    "sector": "Private sector",
+    "listed": false,
+    "docsUrl": "https://www.tataaig.com/downloads",
+    "claimsUrl": "https://www.tataaig.com/claims-process",
+    "grievanceUrl": "https://www.tataaig.com/grievance-redressal-policy",
+    "note": "2026-10-06: robots.txt disallows /dam/tagic (its file store). Not contacted yet; no data until permission. 2026-10-08: reg no, docs/claims/grievance links checked on the insurer's own site; empty = not confirmed."
   }
 ]
