@@ -14,7 +14,7 @@ export default defineConfig({
       transformIndexHtml: (html) =>
         html
           .replace(/(<[^>]*\bdata-s="(\w+)"[^>]*>)(?=<\/)/g, (_, open: string, key: keyof typeof strings) => open + esc(strings[key] as string))
-          .replace('<ul id="disclaimers"></ul>', `<ul id="disclaimers">${strings.disclaimers.map((d) => `<li>${esc(d)}</li>`).join("")}</ul>`),
+          .replace('<ul id="disclaimers"></ul>', `<ul id="disclaimers">${strings.disclaimers.map((d) => `<li>${esc(d).replace(/^[^:]+:/, "<strong>$&</strong>")}</li>`).join("")}</ul>`),
     },
   ],
   test: { passWithNoTests: true },
