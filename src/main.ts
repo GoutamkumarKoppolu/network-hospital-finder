@@ -75,6 +75,11 @@ async function runSearch() {
   formError.textContent = ins ? "" : strings.chooseInsurer;
   if (!ins) return;
   const pin = pinInput.value;
+  $("intro").hidden = true;
+  $("about").hidden = false;
+  $("about-heading").textContent = strings.aboutHeading(ins.displayName);
+  $("about-body").replaceChildren(...aboutInsurer(ins));
+  showNews(ins);
   hospitalsSection.hidden = false;
   list.replaceChildren();
   showMore.hidden = source.hidden = locator.hidden = true;
@@ -112,15 +117,12 @@ async function runSearch() {
   }
 }
 
+// Picking an insurer only prepares the form; results (hospitals, about, news) appear on Search.
 select.addEventListener("change", async () => {
   const ins = current();
   formError.textContent = "";
+  hospitalsSection.hidden = $("about").hidden = newsSection.hidden = true; // results of the previous insurer
   if (!ins) return;
-  $("intro").hidden = true;
-  $("about").hidden = false;
-  $("about-heading").textContent = strings.aboutHeading(ins.displayName);
-  $("about-body").replaceChildren(...aboutInsurer(ins));
-  showNews(ins);
   let data: Data;
   try {
     data = await load(ins.id);
@@ -131,18 +133,7 @@ select.addEventListener("change", async () => {
   if (current() !== ins) return;
 
   // No hospital list for this insurer: no pincode box; Search shows a link to their official locator.
-  const hasList = !!data.hospitals;
-  pinField.hidden = hospitalsSection.hidden = !hasList;
-  if (!hasList) {
-    history.replaceState(null, "", `#insurer=${ins.id}`);
-    return;
-  }
-  if (isValidPincode(pinInput.value)) runSearch();
-  else {
-    list.replaceChildren();
-    showMore.hidden = source.hidden = locator.hidden = true;
-    status.textContent = strings.enterPincode;
-  }
+  pinField.hidden = !data.hospitals;
 });
 pinInput.addEventListener("input", () => (pinInput.value = pinInput.value.replace(/\D/g, "").slice(0, 6)));
 form.addEventListener("submit", (e) => {
@@ -165,5 +156,6 @@ showMore.addEventListener("click", renderMore);
     select.value = id;
     pinInput.value = (params.get("pincode") ?? "").replace(/\D/g, "").slice(0, 6);
     select.dispatchEvent(new Event("change"));
+    runSearch(); // a shared link opens with results
   }
 })();

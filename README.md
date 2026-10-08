@@ -11,7 +11,7 @@ This site puts both in one place:
 - **Network hospitals by pincode:** pick one of 12 major Indian health insurers, enter your 6-digit pincode, and see the cashless network hospitals there, with nearby ones if there are only a few.
 - **Latest news about the insurer:** recent headlines (good and bad) with links to the original articles, to help when choosing or reviewing a policy.
 
-It is a free, unofficial hobby project: no login, no ads, no tracking. Hospital data comes only from each insurer's official list and is refreshed weekly. It does not give insurance advice. Always confirm cashless eligibility with the hospital and your insurer before admission.
+It is a free, unofficial hobby project: no login, no ads, no cookies; only an anonymous visitor count (Cloudflare Web Analytics). Hospital data comes only from each insurer's official list and is refreshed weekly. It does not give insurance advice. Always confirm cashless eligibility with the hospital and your insurer before admission.
 
 Full spec: [requirement.md](requirement.md).
 

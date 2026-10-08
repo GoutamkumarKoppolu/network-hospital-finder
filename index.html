@@ -81,5 +81,7 @@
     <!-- Search state lives in the #hash, which browsers never send to any server (a pincode hints at location).
          Old ?insurer=…&pincode=… links are moved to the hash. -->
     <script>if (location.search) history.replaceState(null, "", location.pathname + "#" + location.search.slice(1));</script>
+    <!-- Cloudflare Web Analytics: cookieless page-view counts (requirement 3.8) -->
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "c9d23b48d6ea465fa8e7be784b9d7013"}'></script>
   </body>
 </html>

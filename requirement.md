@@ -52,7 +52,7 @@ Claude must follow these while building. I am not a lawyer; these are risk-reduc
 5. **News:** show only title, source name, publish date, and link to the original. Never copy article body text or images.
 6. **No advice.** No wording like "best", "recommended", "buy this". Facts and links only.
 7. Disclaimers (section 8) must be visible. They are not optional.
-8. No personal data collected. No cookies. No analytics in v1 (GoatCounter was tried 2026-10-06 and removed 2026-10-07).
+8. No personal data collected. No cookies. Only cookieless page-view counts: Cloudflare Web Analytics, added 2026-10-08 (GoatCounter was tried 2026-10-06 and removed 2026-10-07). It never sees the `#hash`, so no pincodes.
 
 ---
 
