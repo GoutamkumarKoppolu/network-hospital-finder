@@ -35,7 +35,6 @@ export const strings = {
     "Hospital list: This is unofficial information collected from each insurer's published network list. Network lists change often. Always confirm cashless eligibility with the hospital and your insurer before admission.",
     "News: Headlines are shown from public news sources with links to the original article. We do not write, verify, or endorse them.",
     "No advice: This site does not give insurance advice and does not recommend any policy or insurer.",
-    "Visitor count: We count page visits with Cloudflare Web Analytics. It uses no cookies and does not track individual visitors.",
     "Affiliation: Not affiliated with any insurer or hospital. Names belong to their respective owners.",
   ],
   notAvailable: (insurer: string) =>
