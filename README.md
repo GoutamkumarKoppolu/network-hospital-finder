@@ -12,7 +12,7 @@ This site puts both in one place:
 - **About the insurer:** IRDAI registration, ownership, official links and the step-by-step complaint path.
 - **Latest news about the insurer:** recent headlines (good and bad) with links to the original articles, to help when choosing or reviewing a policy.
 
-It is a free, unofficial hobby project: no login, no ads, no cookies; only an anonymous visitor count (Cloudflare Web Analytics). We keep no hospital lists of our own; we link to each insurer's official locator. It does not give insurance advice. Always confirm cashless eligibility with the hospital and your insurer before admission.
+It is a free, unofficial hobby project: no login, no ads, no cookies; only an anonymous visitor count (Firebase Analytics). We keep no hospital lists of our own; we link to each insurer's official locator. It does not give insurance advice. Always confirm cashless eligibility with the hospital and your insurer before admission.
 
 Full spec: [requirement.md](requirement.md).
 
