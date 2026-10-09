@@ -1,20 +1,184 @@
 {
-  "source": "IRDAI Annual Report 2024-25 (Statements 10 and 12)",
-  "sourceUrl": "https://irdai.gov.in/annual-reports",
+  "sources": [
+    {
+      "name": "IRDAI Annual Report 2024-25 (Statements 10 and 12)",
+      "url": "https://irdai.gov.in/annual-reports"
+    },
+    {
+      "name": "Handbook on Indian Insurance Statistics 2024-25 (Tables 53, 56 and 58)",
+      "url": "https://irdai.gov.in/"
+    }
+  ],
   "period": "2024-25",
-  "updatedAt": "2026-10-09T07:13:04Z",
+  "updatedAt": "2026-10-09T07:47:42Z",
   "insurers": {
-    "adityabirla": { "healthIcr": { "2023-24": 68.31, "2024-25": 71.5 }, "solvency": 1.84 },
-    "bajaj": { "healthIcr": { "2023-24": 84.96, "2024-25": 87.31 }, "solvency": 3.25 },
-    "care": { "healthIcr": { "2023-24": 57.69, "2024-25": 64.53 }, "solvency": 1.68 },
-    "galaxy": { "healthIcr": { "2023-24": null, "2024-25": null }, "solvency": 4.7 },
-    "hdfcergo": { "healthIcr": { "2023-24": 80.98, "2024-25": 84.85 }, "solvency": 2.0 },
-    "icici": { "healthIcr": { "2023-24": 78.85, "2024-25": 82.24 }, "solvency": 2.69 },
-    "manipalcigna": { "healthIcr": { "2023-24": 63.78, "2024-25": 74.81 }, "solvency": 1.76 },
-    "newindia": { "healthIcr": { "2023-24": 105.87, "2024-25": 100.98 }, "solvency": 1.91 },
-    "niva": { "healthIcr": { "2023-24": 59.02, "2024-25": 61.22 }, "solvency": 3.03 },
-    "sbi": { "healthIcr": { "2023-24": 87.86, "2024-25": 82.19 }, "solvency": 2.03 },
-    "star": { "healthIcr": { "2023-24": 66.47, "2024-25": 70.3 }, "solvency": 2.21 },
-    "tataaig": { "healthIcr": { "2023-24": 77.94, "2024-25": 76.24 }, "solvency": 1.81 }
+    "adityabirla": {
+      "healthIcr": {
+        "2023-24": 68.31,
+        "2024-25": 71.5
+      },
+      "solvency": 1.84,
+      "claims": {
+        "openAtStart": 15197,
+        "reported": 2412454,
+        "paid": 2284121,
+        "repudiated": 96675,
+        "openAtEnd": 46855,
+        "paidWithin3MonthsPct": 100
+      },
+      "complaints": {
+        "openingBalance": 38,
+        "reportedInclOpening": 5329,
+        "attended": 5275,
+        "closingBalance": 54
+      },
+      "healthPolicies": 1142116
+    },
+    "bajaj": {
+      "healthIcr": {
+        "2023-24": 84.96,
+        "2024-25": 87.31
+      },
+      "solvency": 3.25
+    },
+    "care": {
+      "healthIcr": {
+        "2023-24": 57.69,
+        "2024-25": 64.53
+      },
+      "solvency": 1.68,
+      "claims": {
+        "openAtStart": 22223,
+        "reported": 1486706,
+        "paid": 1436282,
+        "repudiated": 46710,
+        "openAtEnd": 25937,
+        "paidWithin3MonthsPct": 99.95
+      },
+      "complaints": {
+        "openingBalance": 0,
+        "reportedInclOpening": 10281,
+        "attended": 10281,
+        "closingBalance": 0
+      },
+      "healthPolicies": 2754040
+    },
+    "galaxy": {
+      "healthIcr": {
+        "2023-24": null,
+        "2024-25": null
+      },
+      "solvency": 4.7,
+      "claims": {
+        "openAtStart": 0,
+        "reported": 75,
+        "paid": 50,
+        "repudiated": 13,
+        "openAtEnd": 12,
+        "paidWithin3MonthsPct": 100
+      },
+      "healthPolicies": 36117
+    },
+    "hdfcergo": {
+      "healthIcr": {
+        "2023-24": 80.98,
+        "2024-25": 84.85
+      },
+      "solvency": 2
+    },
+    "icici": {
+      "healthIcr": {
+        "2023-24": 78.85,
+        "2024-25": 82.24
+      },
+      "solvency": 2.69
+    },
+    "manipalcigna": {
+      "healthIcr": {
+        "2023-24": 63.78,
+        "2024-25": 74.81
+      },
+      "solvency": 1.76,
+      "claims": {
+        "openAtStart": 4330,
+        "reported": 488416,
+        "paid": 458566,
+        "repudiated": 30771,
+        "openAtEnd": 3409,
+        "paidWithin3MonthsPct": 99.88
+      },
+      "complaints": {
+        "openingBalance": 0,
+        "reportedInclOpening": 2041,
+        "attended": 2041,
+        "closingBalance": 0
+      },
+      "healthPolicies": 385024
+    },
+    "newindia": {
+      "healthIcr": {
+        "2023-24": 105.87,
+        "2024-25": 100.98
+      },
+      "solvency": 1.91
+    },
+    "niva": {
+      "healthIcr": {
+        "2023-24": 59.02,
+        "2024-25": 61.22
+      },
+      "solvency": 3.03,
+      "claims": {
+        "openAtStart": 15127,
+        "reported": 1024782,
+        "paid": 942543,
+        "repudiated": 75892,
+        "openAtEnd": 21474,
+        "paidWithin3MonthsPct": 100
+      },
+      "complaints": {
+        "openingBalance": 0,
+        "reportedInclOpening": 7970,
+        "attended": 7970,
+        "closingBalance": 0
+      },
+      "healthPolicies": 2412265
+    },
+    "sbi": {
+      "healthIcr": {
+        "2023-24": 87.86,
+        "2024-25": 82.19
+      },
+      "solvency": 2.03
+    },
+    "star": {
+      "healthIcr": {
+        "2023-24": 66.47,
+        "2024-25": 70.3
+      },
+      "solvency": 2.21,
+      "claims": {
+        "openAtStart": 201662,
+        "reported": 2374200,
+        "paid": 2022177,
+        "repudiated": 317661,
+        "openAtEnd": 236024,
+        "paidWithin3MonthsPct": 99.81
+      },
+      "complaints": {
+        "openingBalance": 331,
+        "reportedInclOpening": 20527,
+        "attended": 20071,
+        "closingBalance": 456
+      },
+      "healthPolicies": 8358581
+    },
+    "tataaig": {
+      "healthIcr": {
+        "2023-24": 77.94,
+        "2024-25": 76.24
+      },
+      "solvency": 1.81
+    }
   }
 }

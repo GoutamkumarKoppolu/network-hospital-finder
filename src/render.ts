@@ -45,10 +45,20 @@ export const strings = {
   icr: (year: string) => `Health incurred claim ratio, FY ${year}`,
   solvency: (period: string) => `Solvency ratio on 31 March 20${period.slice(5)}`,
   notReported: "Not reported",
+  claimsTotal: (period: string) => `Health claims handled, FY ${period}`,
+  claimsPaid: "Claims paid",
+  claimsRejected: "Claims rejected",
+  claimsPending: "Claims pending at year end",
+  paidWithin3Months: "Paid claims settled within 3 months",
+  complaints: (period: string) => `Complaints received, FY ${period}`,
+  perPolicies: (n: string) => `${n} per 10,000 health policies`,
+  complaintsPending: "Complaints pending at year end",
+  generalInsurerNote:
+    "For this insurer IRDAI publishes claim settlement and complaint figures only for all its insurance together (motor, health, fire and more), so we do not show them here.",
   statsExplained:
-    "Incurred claim ratio: claims incurred as a percentage of premium earned (IRDAI's health figure includes personal accident). Solvency ratio: the capital an insurer holds compared with what IRDAI requires; the minimum allowed is 1.50.",
+    "Incurred claim ratio: claims incurred as a percentage of premium earned (IRDAI's health figure includes personal accident). Solvency ratio: the capital an insurer holds compared with what IRDAI requires; the minimum allowed is 1.50. Claims paid, rejected and pending are shares of all claims the insurer handled that year (claims open at the start plus new claims), the method IRDAI uses in its Annual Report.",
   statsNote:
-    "All figures are from IRDAI (Insurance Regulatory and Development Authority of India) and are shown as published. They describe the insurer as a whole, not any single policy or claim.",
+    "All figures are from IRDAI (Insurance Regulatory and Development Authority of India). The percentages and the per-policy figure are worked out from IRDAI's own counts. They describe the insurer as a whole, not any single policy or claim.",
   statsSource: (source: string) => `Read the official ${source} on IRDAI's website`,
   lastUpdated: (when: string) => `Last updated here: ${when}`,
   usefulLinks: "Official links",
@@ -98,16 +108,34 @@ function insurerStats(ins: Insurer, stats: StatsFile | null): HTMLElement[] {
   if (!stats || !s) return [];
   const facts = el("dl", "facts");
   const fact = (k: string, v: string) => facts.append(el("dt", "", k), el("dd", "", v));
+  const pct = (n: number, total: number) => `${((100 * n) / total).toFixed(2)}%`;
   for (const [year, v] of Object.entries(s.healthIcr)) fact(strings.icr(year), v === null ? strings.notReported : `${v.toFixed(2)}%`);
   fact(strings.solvency(stats.period), s.solvency.toFixed(2));
-  const source = el("p", "meta");
-  source.append(extLink(strings.statsSource(stats.source), stats.sourceUrl));
+  if (s.claims) {
+    const c = s.claims;
+    const total = c.openAtStart + c.reported;
+    fact(strings.claimsTotal(stats.period), total.toLocaleString("en-IN"));
+    fact(strings.claimsPaid, pct(c.paid, total));
+    fact(strings.claimsRejected, pct(c.repudiated, total));
+    fact(strings.claimsPending, pct(c.openAtEnd, total));
+    fact(strings.paidWithin3Months, `${c.paidWithin3MonthsPct.toFixed(2)}%`);
+  }
+  if (s.complaints && s.healthPolicies) {
+    const received = s.complaints.reportedInclOpening - s.complaints.openingBalance; // IRDAI's "reported" includes the opening balance
+    const per = ((received / s.healthPolicies) * 10_000).toFixed(1);
+    fact(strings.complaints(stats.period), `${received.toLocaleString("en-IN")} (${strings.perPolicies(per)})`);
+    fact(strings.complaintsPending, s.complaints.closingBalance.toLocaleString("en-IN"));
+  }
+  const out = [el("h3", "", strings.statsHeading), facts];
+  if (ins.kind === "General insurer") out.push(el("p", "meta", strings.generalInsurerNote));
+  out.push(el("p", "meta", strings.statsExplained), el("p", "meta", strings.statsNote));
+  for (const src of stats.sources) {
+    const p = el("p", "meta");
+    p.append(extLink(strings.statsSource(src.name), src.url));
+    out.push(p);
+  }
   return [
-    el("h3", "", strings.statsHeading),
-    facts,
-    el("p", "meta", strings.statsExplained),
-    el("p", "meta", strings.statsNote),
-    source,
+    ...out,
     el("p", "meta", strings.lastUpdated(formatDateTime(stats.updatedAt))),
   ];
 }

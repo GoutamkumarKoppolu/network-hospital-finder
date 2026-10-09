@@ -63,11 +63,15 @@ export type NewsFile = {
 export type InsurerStats = {
   healthIcr: Record<string, number | null>; // financial year → health incurred claim ratio in %, null = not reported (Statement 10)
   solvency: number; // solvency ratio on 31 March at the end of `period` (Statement 12)
+  // Handbook on Indian Insurance Statistics, counts as published. Only for standalone health insurers:
+  // for general insurers IRDAI mixes motor, health, fire etc., so these are left out.
+  claims?: { openAtStart: number; reported: number; paid: number; repudiated: number; openAtEnd: number; paidWithin3MonthsPct: number }; // Table 53
+  complaints?: { openingBalance: number; reportedInclOpening: number; attended: number; closingBalance: number }; // Table 56
+  healthPolicies?: number; // Table 58, total number of health policies
 };
 
 export type StatsFile = {
-  source: string; // "IRDAI Annual Report 2024-25"
-  sourceUrl: string; // the report on irdai.gov.in
+  sources: { name: string; url: string }[]; // official IRDAI publications the figures come from
   period: string; // financial year the figures cover, "2024-25"; "" = not entered yet
   updatedAt: string; // ISO date-time the figures were entered here
   insurers: Partial<Record<InsurerId, InsurerStats>>;

@@ -14,10 +14,10 @@ Ideas checked against the hard rules in [requirement.md](requirement.md) section
 
 | # | What | Source |
 |---|---|---|
-| 1 | Health claims settled, repudiated and pending (by count and amount). **Not in the Annual Report 2024-25** (industry total only, Table I.29). May be in IRDAI's Handbook on Indian Insurance Statistics; the user would download it by hand | IRDAI Annual Report / Handbook on Indian Insurance Statistics (irdai.gov.in) |
+| 1 | ~~Health claims settled, repudiated and pending~~: done 2026-10-09 for the 6 standalone health insurers (by number, plus % paid within 3 months) from Handbook 2024-25 Table 53. Not shown for the 6 general insurers: IRDAI mixes motor, health, fire etc. for them. No amounts per insurer anywhere. Still open: a health-only source for general insurers (their own public disclosures, downloaded by hand) | IRDAI Handbook on Indian Insurance Statistics (Excel) |
 | 2 | ~~Health incurred claim ratio~~: done 2026-10-09, FY 2023-24 and 2024-25 from Annual Report Statement 10, in `public/data/insurer-stats.json` | Same IRDAI reports |
-| 3 | Complaints per 10,000 policies, and how many were resolved | IRDAI Annual Report, grievance tables |
-| 4 | Complaints and awards at the Insurance Ombudsman | Council for Insurance Ombudsmen annual reports (cioins.co.in) |
+| 3 | ~~Complaints per 10,000 policies~~: done 2026-10-09 for the 6 standalone health insurers (Handbook Tables 56 and 58). Same all-lines catch for general insurers. Galaxy has no row in Table 56 | IRDAI Handbook |
+| 4 | Complaints and awards at the Insurance Ombudsman. Handbook Table 57 has these by ombudsman centre (general vs health), not by insurer, so it cannot go in the insurer panel. Could feed idea B (which ombudsman office covers your state) | Handbook Table 57; CIO annual reports (cioins.co.in) |
 | 5 | ~~Solvency ratio (regulatory minimum 1.5)~~: done 2026-10-09, 31 March 2025 from Annual Report Statement 12. Weekly workflow opens an issue when the next report is due (`npm run stats`) | Each insurer's quarterly public disclosures (required by IRDAI); or just link the disclosures page |
 
 ## Static pages (no data feed)

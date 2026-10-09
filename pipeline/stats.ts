@@ -20,12 +20,15 @@ function main() {
   }
   console.log(`IRDAI figures need an update (now: ${stats.period ? `FY ${stats.period}` : "none entered"}).
 
-1. In a browser, open https://irdai.gov.in/annual-reports and download the latest Annual Report PDF (bots are not allowed there, so do this by hand).
-2. Find Statement 10 (incurred claims ratio, use the Health columns) and Statement 12 (solvency ratio, use March).
+1. In a browser, download from irdai.gov.in (bots are not allowed there, so do this by hand):
+   the latest Annual Report PDF and the latest Handbook on Indian Insurance Statistics (Excel files).
+2. Annual Report: Statement 10 (incurred claims ratio, Health columns) and Statement 12 (solvency ratio, March).
    The plain text copy of these tables can shift rows; check each number against the printed page.
-3. Update public/data/insurer-stats.json: source, sourceUrl, period, updatedAt (now), and for each insurer
-   healthIcr (both years shown in the report, null where it prints NA or -) and solvency.
-4. Run npm test, then commit. Close this issue once the new figures are live.`);
+3. Handbook: Table 53 (status of claims), Table 56 (grievances), Table 58 (number of health policies, TOTAL).
+   Standalone health insurers only: for general insurers these tables mix all lines of business.
+4. Update public/data/insurer-stats.json: sources, period, updatedAt (now), and each insurer's figures
+   (healthIcr: both years in the report, null where it prints NA or -).
+5. Run npm test, then commit. Close this issue once the new figures are live.`);
   process.exitCode = 1;
 }
 
