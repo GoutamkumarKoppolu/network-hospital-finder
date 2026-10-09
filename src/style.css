@@ -166,6 +166,10 @@ button svg { width: 1.2em; height: 1.2em; fill: none; stroke: currentColor; stro
   font-weight: 800;
 }
 
+/* FAQ */
+.faq h3 { margin: 1rem 0 0.25rem; font-size: 1rem; }
+.faq p { margin: 0; }
+
 /* Panels */
 .panel {
   margin-top: 1.5rem;

@@ -30,6 +30,35 @@ export const strings = {
     "No advice: This site does not give insurance advice and does not recommend any policy or insurer.",
     "Affiliation: Not affiliated with IRDAI, any insurer or hospital. Names belong to their respective owners.",
   ],
+  updated: (date: string) => `Last updated ${formatDate(date)}`,
+  faqHeading: "Questions people ask",
+  // Facts only, no advice (rule 3.6). Also published as FAQPage structured data for search and AI answers.
+  faq: [
+    [
+      "What is a network hospital?",
+      "A hospital that has an agreement with your health insurer for cashless treatment: the insurer pays the hospital directly for approved, covered costs, instead of you paying first and claiming later.",
+    ],
+    [
+      "How do I find network hospitals for my health insurer?",
+      "Choose your insurer above and open its official hospital locator. Network lists change often, so the insurer's own locator is the current source.",
+    ],
+    [
+      "How do I confirm cashless treatment before admission?",
+      "Ask the hospital's insurance (TPA) desk and your insurer, with your policy number, before admission. A hospital being on the list does not guarantee that a particular treatment is covered.",
+    ],
+    [
+      "What if my hospital is not in the network?",
+      "You can usually pay the hospital yourself and claim reimbursement from your insurer, subject to your policy terms.",
+    ],
+    [
+      "Where can I complain about my health insurer?",
+      "Start with the insurer's grievance team. If you are not satisfied, or get no reply within 30 days, you can go to IRDAI's Bima Bharosa portal or the Insurance Ombudsman. Each insurer's About panel on this site lists the steps and links.",
+    ],
+    [
+      "Is this site official?",
+      "No. It is a free, unofficial site, not affiliated with IRDAI, any insurer or hospital, and it does not give insurance advice.",
+    ],
+  ] as [string, string][],
   newsNote: "Headlines from public news sources, linked to the original. We do not write, verify, or endorse them.",
   notAvailable: (insurer: string) =>
     `${insurer} keeps its network hospital list on its own website. Search it there for the latest list.`,
