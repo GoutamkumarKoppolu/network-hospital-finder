@@ -26,9 +26,11 @@ export const strings = {
   disclaimers: [
     "Hospitals: We link to each insurer's official hospital locator. We do not keep our own copy. Network lists change often. Always confirm cashless eligibility with the hospital and your insurer before admission.",
     "News: Headlines are shown from public news sources with links to the original article. We do not write, verify, or endorse them.",
+    "IRDAI figures: Claim, complaint and solvency figures are taken from IRDAI's published reports, with a link to each report. Percentages are worked out from IRDAI's own counts. They describe past years and the insurer as a whole, and do not predict how any claim will be decided.",
     "No advice: This site does not give insurance advice and does not recommend any policy or insurer.",
-    "Affiliation: Not affiliated with any insurer or hospital. Names belong to their respective owners.",
+    "Affiliation: Not affiliated with IRDAI, any insurer or hospital. Names belong to their respective owners.",
   ],
+  newsNote: "Headlines from public news sources, linked to the original. We do not write, verify, or endorse them.",
   notAvailable: (insurer: string) =>
     `${insurer} keeps its network hospital list on its own website. Search it there for the latest list.`,
   locator: (insurer: string) => `Search on ${insurer}'s official hospital locator`,
@@ -58,7 +60,7 @@ export const strings = {
   statsExplained:
     "Incurred claim ratio: claims incurred as a percentage of premium earned (IRDAI's health figure includes personal accident). Solvency ratio: the capital an insurer holds compared with what IRDAI requires; the minimum allowed is 1.50. Claims paid, rejected and pending are shares of all claims the insurer handled that year (claims open at the start plus new claims), the method IRDAI uses in its Annual Report.",
   statsNote:
-    "All figures are from IRDAI (Insurance Regulatory and Development Authority of India). The percentages and the per-policy figure are worked out from IRDAI's own counts. They describe the insurer as a whole, not any single policy or claim.",
+    "All figures are from IRDAI (Insurance Regulatory and Development Authority of India), not from this site or the insurer. The percentages and the per-policy figure are worked out from IRDAI's own counts. They describe past years and the insurer as a whole, and do not predict how any claim will be decided. This is not advice.",
   statsSource: (source: string) => `Read the official ${source} on IRDAI's website`,
   lastUpdated: (when: string) => `Last updated here: ${when}`,
   usefulLinks: "Official links",
@@ -126,9 +128,9 @@ function insurerStats(ins: Insurer, stats: StatsFile | null): HTMLElement[] {
     fact(strings.complaints(stats.period), `${received.toLocaleString("en-IN")} (${strings.perPolicies(per)})`);
     fact(strings.complaintsPending, s.complaints.closingBalance.toLocaleString("en-IN"));
   }
-  const out = [el("h3", "", strings.statsHeading), facts];
+  const out = [el("h3", "", strings.statsHeading), el("p", "note", strings.statsNote), facts];
   if (ins.kind === "General insurer") out.push(el("p", "meta", strings.generalInsurerNote));
-  out.push(el("p", "meta", strings.statsExplained), el("p", "meta", strings.statsNote));
+  out.push(el("p", "meta", strings.statsExplained));
   for (const src of stats.sources) {
     const p = el("p", "meta");
     p.append(extLink(strings.statsSource(src.name), src.url));
