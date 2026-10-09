@@ -38,6 +38,7 @@ Ideas checked against the hard rules in [requirement.md](requirement.md) section
 
 - Scores or counts from our own news topics (e.g. "complaint headlines this quarter"): this is sentiment, against requirement 2.
 - Anything from PolicyBazaar, PolicyX or similar aggregators (requirement 3.1).
+- Our own hospital lists (decided 2026-10-09): insurers will not give permission, so the site keeps linking to each insurer's official locator. No adapters, no scraping, no hidden APIs.
 
 ## Code fixes noted in the 2026-10-08 review
 
