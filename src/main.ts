@@ -2,6 +2,8 @@ import "./style.css";
 import type { Insurer, InsurerId, NewsFile, StatsFile } from "./types";
 import { aboutInsurer, newsGroups, strings } from "./render";
 
+declare function gtag(...args: unknown[]): void; // defined in index.html
+
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
 const form = $<HTMLFormElement>("search-form");
 const select = $<HTMLSelectElement>("insurer");
@@ -56,6 +58,7 @@ async function runSearch() {
   formError.textContent = ins ? "" : strings.chooseInsurer;
   if (!ins) return;
   history.replaceState(null, "", `#insurer=${ins.id}`);
+  gtag("event", "search", { insurer: ins.id });
   $("intro").hidden = true;
   $("about").hidden = false;
   $("about-heading").textContent = strings.aboutHeading(ins.displayName);
@@ -74,6 +77,7 @@ select.addEventListener("change", () => {
   formError.textContent = "";
   hospitalsSection.hidden = $("about").hidden = newsSection.hidden = true; // results of the previous insurer
 });
+locator.addEventListener("click", () => gtag("event", "locator_click", { insurer: select.value }));
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   runSearch();
