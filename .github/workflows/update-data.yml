@@ -63,3 +63,21 @@ jobs:
           # One open issue at a time
           [ "$(gh issue list --state open --search 'Broken links in:title' --json number --jq length)" = 0 ] &&
             gh issue create --title "Broken links $(date -u +%F)" --body-file links-report.txt || true
+
+      # IRDAI blocks bots, so this only reminds a human when a new Annual Report should be out
+      - name: Check IRDAI figures
+        id: stats
+        if: always()
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          npm run stats 2>&1 | tee stats-report.txt
+
+      - name: Open issue to update IRDAI figures
+        if: always() && steps.stats.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # One open issue at a time
+          [ "$(gh issue list --state open --search 'Update IRDAI figures in:title' --json number --jq length)" = 0 ] &&
+            gh issue create --title "Update IRDAI figures" --body-file stats-report.txt || true

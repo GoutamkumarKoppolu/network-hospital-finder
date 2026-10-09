@@ -1,13 +1,12 @@
-import { TOPICS, type Insurer, type NewsItem } from "./types";
-import type { Result } from "./search";
+import { TOPICS, type Insurer, type NewsItem, type StatsFile } from "./types";
 
 // All page text lives here so other languages can be added later.
 export const strings = {
   title: "Network Hospital Finder",
   tagline: "Free, unofficial information",
-  lead: "Find cashless network hospitals near you, and see the latest news about your insurer.",
+  lead: "Find your insurer's official hospital locator, key facts, and the latest news, all in one place.",
   step1: "Choose your insurer",
-  step2: "Find its network hospitals",
+  step2: "Open its official hospital locator",
   step3: "Read the latest news about it",
   disclaimerHeading: "Please read",
   contact:
@@ -15,30 +14,23 @@ export const strings = {
   contactGithub: "open a GitHub issue",
   insurerLabel: "Insurer",
   choose: "Choose an insurer",
-  pincodeLabel: "Pincode",
   search: "Search",
-  hospitalsHeading: "Hospitals",
-  showMore: "Show more",
-  nearby: "Nearby",
+  hospitalsHeading: "Network hospitals",
   subscription: "Subscription",
   loading: "Loading…",
   chooseInsurer: "Please choose an insurer.",
-  invalidPincode: "Please enter a valid 6-digit pincode.",
-  enterPincode: "Enter a pincode to see network hospitals.",
   loadError: "Sorry, the data could not be loaded. Please try again later.",
-  noHospitals:
-    "No hospitals found for this pincode in the list we have. Try a nearby pincode and confirm with your insurer.",
   noNews: "No recent headlines found.",
   shortDisclaimer:
-    "Unofficial list. Always confirm cashless eligibility with the hospital and your insurer before admission.",
+    "Always confirm cashless eligibility with the hospital and your insurer before admission.",
   disclaimers: [
-    "Hospital list: This is unofficial information collected from each insurer's published network list. Network lists change often. Always confirm cashless eligibility with the hospital and your insurer before admission.",
+    "Hospitals: We link to each insurer's official hospital locator. We do not keep our own copy. Network lists change often. Always confirm cashless eligibility with the hospital and your insurer before admission.",
     "News: Headlines are shown from public news sources with links to the original article. We do not write, verify, or endorse them.",
     "No advice: This site does not give insurance advice and does not recommend any policy or insurer.",
     "Affiliation: Not affiliated with any insurer or hospital. Names belong to their respective owners.",
   ],
   notAvailable: (insurer: string) =>
-    `We don't have the hospital list for ${insurer} yet. You can search it on their official website.`,
+    `${insurer} keeps its network hospital list on its own website. Search it there for the latest list.`,
   locator: (insurer: string) => `Search on ${insurer}'s official hospital locator`,
   newsHeading: (insurer: string) => `Latest news about ${insurer}`,
   aboutHeading: (insurer: string) => `About ${insurer}`,
@@ -49,6 +41,16 @@ export const strings = {
   yes: "Yes",
   no: "No",
   checkIrdai: "Check it on IRDAI's list of insurers",
+  statsHeading: "Figures from IRDAI",
+  icr: (year: string) => `Health incurred claim ratio, FY ${year}`,
+  solvency: (period: string) => `Solvency ratio on 31 March 20${period.slice(5)}`,
+  notReported: "Not reported",
+  statsExplained:
+    "Incurred claim ratio: claims incurred as a percentage of premium earned (IRDAI's health figure includes personal accident). Solvency ratio: the capital an insurer holds compared with what IRDAI requires; the minimum allowed is 1.50.",
+  statsNote:
+    "All figures are from IRDAI (Insurance Regulatory and Development Authority of India) and are shown as published. They describe the insurer as a whole, not any single policy or claim.",
+  statsSource: (source: string) => `Read the official ${source} on IRDAI's website`,
+  lastUpdated: (when: string) => `Last updated here: ${when}`,
   usefulLinks: "Official links",
   docs: "Policy wordings and brochures",
   claims: "How to make a claim",
@@ -65,30 +67,19 @@ export const strings = {
       "https://www.cioins.co.in/",
     ],
   ],
-  source: (insurer: string, date: string) => `Source: ${insurer} official list, last updated ${date}`,
-  found: (exact: number, nearby: number) =>
-    `${exact} hospital${exact === 1 ? "" : "s"} at this pincode` + (nearby ? `, ${nearby} nearby` : ""),
 };
 
 export const formatDate = (iso: string) =>
   iso ? new Date(iso).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" }) : "";
+
+export const formatDateTime = (iso: string) =>
+  new Date(iso).toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Kolkata" }) + " IST";
 
 function el<K extends keyof HTMLElementTagNameMap>(tag: K, className = "", text = "") {
   const e = document.createElement(tag);
   if (className) e.className = className;
   if (text) e.textContent = text;
   return e;
-}
-
-export function hospitalCard(h: Result): HTMLLIElement {
-  const li = el("li", "card");
-  const name = el("strong", "", h.name);
-  li.append(name);
-  if (h.nearby) li.append(" ", el("span", "badge", strings.nearby));
-  if (h.address) li.append(el("p", "addr", h.address));
-  const meta = [h.city, h.state, h.pincode].filter(Boolean).join(", ");
-  if (meta && !h.address.includes(h.pincode)) li.append(el("p", "meta", meta));
-  return li;
 }
 
 function extLink(text: string, url: string, className = "") {
@@ -101,8 +92,28 @@ function extLink(text: string, url: string, className = "") {
 
 const IRDAI_LIST = "https://irdai.gov.in/list-of-general-insurers";
 
-/** Facts, official links and the complaint path for one insurer. Links we could not confirm are "" and skipped. */
-export function aboutInsurer(ins: Insurer): HTMLElement[] {
+/** IRDAI figures for one insurer, or nothing if we have none. */
+function insurerStats(ins: Insurer, stats: StatsFile | null): HTMLElement[] {
+  const s = stats?.insurers[ins.id];
+  if (!stats || !s) return [];
+  const facts = el("dl", "facts");
+  const fact = (k: string, v: string) => facts.append(el("dt", "", k), el("dd", "", v));
+  for (const [year, v] of Object.entries(s.healthIcr)) fact(strings.icr(year), v === null ? strings.notReported : `${v.toFixed(2)}%`);
+  fact(strings.solvency(stats.period), s.solvency.toFixed(2));
+  const source = el("p", "meta");
+  source.append(extLink(strings.statsSource(stats.source), stats.sourceUrl));
+  return [
+    el("h3", "", strings.statsHeading),
+    facts,
+    el("p", "meta", strings.statsExplained),
+    el("p", "meta", strings.statsNote),
+    source,
+    el("p", "meta", strings.lastUpdated(formatDateTime(stats.updatedAt))),
+  ];
+}
+
+/** Facts, IRDAI figures, official links and the complaint path for one insurer. Links we could not confirm are "" and skipped. */
+export function aboutInsurer(ins: Insurer, stats: StatsFile | null): HTMLElement[] {
   const facts = el("dl", "facts");
   const fact = (k: string, v: string) => facts.append(el("dt", "", k), el("dd", "", v));
   fact(strings.regNo, ins.irdaiRegNo);
@@ -132,7 +143,7 @@ export function aboutInsurer(ins: Insurer): HTMLElement[] {
 
   const check = el("p", "meta");
   check.append(extLink(strings.checkIrdai, IRDAI_LIST));
-  const out: HTMLElement[] = [facts, check];
+  const out: HTMLElement[] = [facts, check, ...insurerStats(ins, stats)];
   if (links.childElementCount) out.push(el("h3", "", strings.usefulLinks), links);
   out.push(el("h3", "", strings.escalationHeading), steps);
   return out;

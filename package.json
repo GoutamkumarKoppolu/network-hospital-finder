@@ -12,7 +12,8 @@
     "test": "vitest run",
     "update": "tsx pipeline/update.ts",
     "news": "tsx pipeline/news.ts",
-    "links": "tsx pipeline/links.ts"
+    "links": "tsx pipeline/links.ts",
+    "stats": "tsx pipeline/stats.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.4",

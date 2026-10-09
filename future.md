@@ -14,11 +14,11 @@ Ideas checked against the hard rules in [requirement.md](requirement.md) section
 
 | # | What | Source |
 |---|---|---|
-| 1 | Health claims settled, repudiated and pending (by count and amount) | IRDAI Annual Report / Handbook on Indian Insurance Statistics (irdai.gov.in) |
-| 2 | Health incurred claim ratio | Same IRDAI reports |
+| 1 | Health claims settled, repudiated and pending (by count and amount). **Not in the Annual Report 2024-25** (industry total only, Table I.29). May be in IRDAI's Handbook on Indian Insurance Statistics; the user would download it by hand | IRDAI Annual Report / Handbook on Indian Insurance Statistics (irdai.gov.in) |
+| 2 | ~~Health incurred claim ratio~~: done 2026-10-09, FY 2023-24 and 2024-25 from Annual Report Statement 10, in `public/data/insurer-stats.json` | Same IRDAI reports |
 | 3 | Complaints per 10,000 policies, and how many were resolved | IRDAI Annual Report, grievance tables |
 | 4 | Complaints and awards at the Insurance Ombudsman | Council for Insurance Ombudsmen annual reports (cioins.co.in) |
-| 5 | Solvency ratio (regulatory minimum 1.5) | Each insurer's quarterly public disclosures (required by IRDAI); or just link the disclosures page |
+| 5 | ~~Solvency ratio (regulatory minimum 1.5)~~: done 2026-10-09, 31 March 2025 from Annual Report Statement 12. Weekly workflow opens an issue when the next report is due (`npm run stats`) | Each insurer's quarterly public disclosures (required by IRDAI); or just link the disclosures page |
 
 ## Static pages (no data feed)
 
@@ -43,6 +43,7 @@ Ideas checked against the hard rules in [requirement.md](requirement.md) section
 ## Code fixes noted in the 2026-10-08 review
 
 - ~~update-data.yml news skipped when hospital update fails~~: fixed 2026-10-08 (`if: always()`, deploy runs after any data run).
-- `insurers.json` could carry `hasHospitals` so the page stops requesting a hospital file that 404s.
-- `pipeline/validate.ts` repeats the pincode regex; reuse `isValidPincode` from `src/search.ts`.
+- ~~`insurers.json` could carry `hasHospitals` so the page stops requesting a hospital file that 404s~~: fixed 2026-10-09, the page no longer requests hospital files at all (pincode box, hospital cards and `src/search.ts` removed; wording now points to the official locator).
+- ~~`pipeline/validate.ts` repeats the pincode regex~~: moot, `src/search.ts` was removed on 2026-10-09.
+- The hospital pipeline (`npm run update`, `pipeline/update.ts`, `lib.ts`, `validate.ts`, `fixes.json`, its tests, the workflow step, the README "Update data" and "Add an insurer" sections, and requirement.md's hospital sections) is now unused. Decide whether to delete it.
 - The "About" panel facts (registration no., listed status) were checked on 2026-10-08. Re-check yearly, and fill the empty links (Aditya Birla docs/claims, Care and ICICI docs, ICICI and New India claims) once confirmed on the insurer's site.

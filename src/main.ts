@@ -1,29 +1,22 @@
 import "./style.css";
-import type { HospitalFile, Insurer, InsurerId, NewsFile } from "./types";
-import { isValidPincode, search, type Result } from "./search";
-import { aboutInsurer, formatDate, hospitalCard, newsGroups, strings } from "./render";
+import type { Insurer, InsurerId, NewsFile, StatsFile } from "./types";
+import { aboutInsurer, newsGroups, strings } from "./render";
 
-const PAGE = 50;
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
 const form = $<HTMLFormElement>("search-form");
 const select = $<HTMLSelectElement>("insurer");
-const pinInput = $<HTMLInputElement>("pincode");
-const pinField = $("pincode-field");
 const locator = $<HTMLAnchorElement>("locator");
 const formError = $("form-error");
 const hospitalsSection = $("hospitals");
-const source = $<HTMLAnchorElement>("source");
 const status = $("hospital-status");
-const list = $("hospital-list");
-const showMore = $<HTMLButtonElement>("show-more");
 const newsSection = $("news");
 const newsHeading = $("news-heading");
 const newsStatus = $("news-status");
 const newsList = $("news-list");
 
 let insurers: Insurer[] = [];
-type Data = { hospitals: HospitalFile | null; news: NewsFile | null }; // null = not published yet
-const cache = new Map<InsurerId, Promise<Data>>();
+let stats: StatsFile | null = null;
+const cache = new Map<InsurerId, Promise<NewsFile | null>>(); // null = not published yet
 
 async function getJson<T>(url: string): Promise<T | null> {
   const res = await fetch(url);
@@ -32,12 +25,9 @@ async function getJson<T>(url: string): Promise<T | null> {
   return res.json();
 }
 
-function load(id: InsurerId): Promise<Data> {
+function loadNews(id: InsurerId): Promise<NewsFile | null> {
   if (!cache.has(id)) {
-    const p = Promise.all([
-      getJson<HospitalFile>(`data/hospitals/${id}.json`),
-      getJson<NewsFile>(`data/news/${id}.json`),
-    ]).then(([hospitals, news]) => ({ hospitals, news }));
+    const p = getJson<NewsFile>(`data/news/${id}.json`);
     p.catch(() => cache.delete(id)); // allow retry
     cache.set(id, p);
   }
@@ -52,7 +42,7 @@ async function showNews(ins: Insurer) {
   newsList.replaceChildren();
   newsStatus.textContent = strings.loading;
   try {
-    const { news } = await load(ins.id);
+    const news = await loadNews(ins.id);
     if (current() !== ins) return;
     newsStatus.textContent = news?.items.length ? "" : strings.noNews;
     newsList.replaceChildren(...newsGroups(news?.items ?? []));
@@ -61,90 +51,38 @@ async function showNews(ins: Insurer) {
   }
 }
 
-let results: Result[] = [];
-let shown = 0;
-
-function renderMore() {
-  list.append(...results.slice(shown, shown + PAGE).map(hospitalCard));
-  shown += PAGE;
-  showMore.hidden = shown >= results.length;
-}
-
 async function runSearch() {
   const ins = current();
   formError.textContent = ins ? "" : strings.chooseInsurer;
   if (!ins) return;
-  const pin = pinInput.value;
+  history.replaceState(null, "", `#insurer=${ins.id}`);
   $("intro").hidden = true;
   $("about").hidden = false;
   $("about-heading").textContent = strings.aboutHeading(ins.displayName);
-  $("about-body").replaceChildren(...aboutInsurer(ins));
+  $("about-body").replaceChildren(...aboutInsurer(ins, stats));
   showNews(ins);
+  // We keep no hospital lists of our own (decided 2026-10-09): point to the insurer's official locator
   hospitalsSection.hidden = false;
-  list.replaceChildren();
-  showMore.hidden = source.hidden = locator.hidden = true;
-  status.textContent = strings.loading;
-  try {
-    const { hospitals: file } = await load(ins.id);
-    if (current() !== ins || pinInput.value !== pin) return;
-    if (!file) {
-      // No list yet: point to the insurer's official locator
-      history.replaceState(null, "", `#insurer=${ins.id}`);
-      status.textContent = strings.notAvailable(ins.displayName);
-      if (ins.hospitalSourceUrl) {
-        locator.textContent = strings.locator(ins.displayName);
-        locator.href = ins.hospitalSourceUrl;
-        locator.hidden = false;
-      }
-      return;
-    }
-    if (!isValidPincode(pin)) {
-      formError.textContent = strings.invalidPincode;
-      status.textContent = strings.enterPincode;
-      return;
-    }
-    history.replaceState(null, "", `#insurer=${ins.id}&pincode=${pin}`);
-    source.textContent = strings.source(ins.displayName, formatDate(file.fetchedAt));
-    source.href = file.sourceUrl;
-    source.hidden = false;
-    results = search(file.hospitals, pin) ?? [];
-    const nearby = results.filter((r) => r.nearby).length;
-    status.textContent = results.length ? strings.found(results.length - nearby, nearby) : strings.noHospitals;
-    shown = 0;
-    renderMore();
-  } catch {
-    if (current() === ins) status.textContent = strings.loadError;
-  }
+  status.textContent = strings.notAvailable(ins.displayName);
+  locator.hidden = !ins.hospitalSourceUrl;
+  locator.textContent = strings.locator(ins.displayName);
+  locator.href = ins.hospitalSourceUrl;
 }
 
 // Picking an insurer only prepares the form; results (hospitals, about, news) appear on Search.
-select.addEventListener("change", async () => {
-  const ins = current();
+select.addEventListener("change", () => {
   formError.textContent = "";
   hospitalsSection.hidden = $("about").hidden = newsSection.hidden = true; // results of the previous insurer
-  if (!ins) return;
-  let data: Data;
-  try {
-    data = await load(ins.id);
-  } catch {
-    if (current() === ins) formError.textContent = strings.loadError;
-    return;
-  }
-  if (current() !== ins) return;
-
-  // No hospital list for this insurer: no pincode box; Search shows a link to their official locator.
-  pinField.hidden = !data.hospitals;
 });
-pinInput.addEventListener("input", () => (pinInput.value = pinInput.value.replace(/\D/g, "").slice(0, 6)));
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   runSearch();
 });
-showMore.addEventListener("click", renderMore);
 
 (async () => {
   try {
     insurers = (await getJson<Insurer[]>("data/insurers.json")) ?? [];
+    stats = await getJson<StatsFile>("data/insurer-stats.json").catch(() => null); // optional: the page works without it
   } catch {
     formError.textContent = strings.loadError;
     return;
@@ -154,7 +92,6 @@ showMore.addEventListener("click", renderMore);
   const id = params.get("insurer");
   if (id && insurers.some((i) => i.id === id)) {
     select.value = id;
-    pinInput.value = (params.get("pincode") ?? "").replace(/\D/g, "").slice(0, 6);
     select.dispatchEvent(new Event("change"));
     runSearch(); // a shared link opens with results
   }

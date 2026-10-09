@@ -1,0 +1,20 @@
+{
+  "source": "IRDAI Annual Report 2024-25 (Statements 10 and 12)",
+  "sourceUrl": "https://irdai.gov.in/annual-reports",
+  "period": "2024-25",
+  "updatedAt": "2026-10-09T07:13:04Z",
+  "insurers": {
+    "adityabirla": { "healthIcr": { "2023-24": 68.31, "2024-25": 71.5 }, "solvency": 1.84 },
+    "bajaj": { "healthIcr": { "2023-24": 84.96, "2024-25": 87.31 }, "solvency": 3.25 },
+    "care": { "healthIcr": { "2023-24": 57.69, "2024-25": 64.53 }, "solvency": 1.68 },
+    "galaxy": { "healthIcr": { "2023-24": null, "2024-25": null }, "solvency": 4.7 },
+    "hdfcergo": { "healthIcr": { "2023-24": 80.98, "2024-25": 84.85 }, "solvency": 2.0 },
+    "icici": { "healthIcr": { "2023-24": 78.85, "2024-25": 82.24 }, "solvency": 2.69 },
+    "manipalcigna": { "healthIcr": { "2023-24": 63.78, "2024-25": 74.81 }, "solvency": 1.76 },
+    "newindia": { "healthIcr": { "2023-24": 105.87, "2024-25": 100.98 }, "solvency": 1.91 },
+    "niva": { "healthIcr": { "2023-24": 59.02, "2024-25": 61.22 }, "solvency": 3.03 },
+    "sbi": { "healthIcr": { "2023-24": 87.86, "2024-25": 82.19 }, "solvency": 2.03 },
+    "star": { "healthIcr": { "2023-24": 66.47, "2024-25": 70.3 }, "solvency": 2.21 },
+    "tataaig": { "healthIcr": { "2023-24": 77.94, "2024-25": 76.24 }, "solvency": 1.81 }
+  }
+}

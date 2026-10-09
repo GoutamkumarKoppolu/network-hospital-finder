@@ -19,7 +19,6 @@
   color-scheme: light;
 
   /* Icons (SVG masks, coloured with background-color) */
-  --i-pin: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z'/%3E%3Ccircle cx='12' cy='10' r='3'/%3E%3C/svg%3E");
   --i-hospital: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 6v4M14 8h-4M18 21V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v17M2 21h20M10 21v-4h4v4'/%3E%3C/svg%3E");
   --i-news: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0V11h4M18 14h-8M15 18h-5M10 6h8v4h-8z'/%3E%3C/svg%3E");
   --i-shield: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z'/%3E%3C/svg%3E");
@@ -41,7 +40,7 @@ body {
 .wrap { max-width: 52rem; margin: 0 auto; padding: 0 1rem; }
 
 /* Icon helper: any element with --icon gets a coloured mask before it */
-.h-hospital::before, .h-news::before, .h-shield::before, .addr::before, .note::before, .source::before {
+.h-hospital::before, .h-news::before, .h-shield::before, .note::before {
   content: "";
   flex: none;
   width: 1.15em;
@@ -53,9 +52,7 @@ body {
 .h-hospital { --icon: var(--i-hospital); }
 .h-news { --icon: var(--i-news); }
 .h-shield { --icon: var(--i-shield); }
-.addr { --icon: var(--i-pin); }
 .note { --icon: var(--i-info); }
-.source { --icon: var(--i-shield); }
 
 /* Hero */
 .hero {
@@ -92,7 +89,6 @@ body {
   padding: 1.25rem;
 }
 @media (min-width: 640px) {
-  /* Flex so the row adapts when the pincode field is hidden */
   .search-card { display: flex; flex-wrap: wrap; align-items: flex-end; padding: 1.5rem; }
   .search-card .field { flex: 1 1 14rem; }
   .search-card .error { flex-basis: 100%; }
@@ -133,8 +129,6 @@ button {
 button:hover { background: var(--primary-dark); box-shadow: 0 6px 16px rgb(14 116 144 / 30%); }
 button:active { transform: translateY(1px); }
 button svg { width: 1.2em; height: 1.2em; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; }
-button.secondary { width: 100%; background: var(--primary-tint); color: var(--primary-dark); border: 1.5px solid #b6e4ec; }
-button.secondary:hover { background: #d9f6fa; box-shadow: none; }
 
 :focus-visible { outline: 3px solid var(--primary); outline-offset: 3px; }
 
@@ -196,7 +190,6 @@ button.secondary:hover { background: #d9f6fa; box-shadow: none; }
 }
 .note::before { margin-top: 0.15em; }
 
-.source { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.9rem; color: var(--accent); font-weight: 600; }
 .status { margin: 0.5rem 0; color: var(--muted); font-weight: 600; }
 .status:empty { display: none; }
 
@@ -227,23 +220,7 @@ a { color: var(--primary); text-underline-offset: 2px; }
   mask: var(--i-ext) center / contain no-repeat;
 }
 
-/* Hospital cards */
-ul.cards, ul.news { list-style: none; padding: 0; margin: 0.5rem 0; }
-.card {
-  position: relative;
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-left: 4px solid var(--primary);
-  border-radius: 12px;
-  padding: 0.9rem 1rem;
-  margin-bottom: 0.65rem;
-  transition: box-shadow var(--ease), transform var(--ease);
-}
-.card:hover { box-shadow: var(--shadow-hover); transform: translateY(-1px); }
-.card strong { font-size: 1.05rem; color: var(--text); }
-.card p { margin: 0.35rem 0 0; }
-.addr { display: flex; gap: 0.45rem; align-items: flex-start; color: var(--muted); }
-.addr::before { margin-top: 0.2em; color: var(--primary); }
+ul.news { list-style: none; padding: 0; margin: 0.5rem 0; }
 .meta { color: var(--muted); font-size: 0.9rem; }
 .badge {
   display: inline-block;

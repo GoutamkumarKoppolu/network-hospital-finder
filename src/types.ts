@@ -59,6 +59,20 @@ export type NewsFile = {
   items: NewsItem[]; // newest first, max 15
 };
 
+// Figures from IRDAI's Annual Report, entered by hand (irdai.gov.in blocks bots).
+export type InsurerStats = {
+  healthIcr: Record<string, number | null>; // financial year → health incurred claim ratio in %, null = not reported (Statement 10)
+  solvency: number; // solvency ratio on 31 March at the end of `period` (Statement 12)
+};
+
+export type StatsFile = {
+  source: string; // "IRDAI Annual Report 2024-25"
+  sourceUrl: string; // the report on irdai.gov.in
+  period: string; // financial year the figures cover, "2024-25"; "" = not entered yet
+  updatedAt: string; // ISO date-time the figures were entered here
+  insurers: Partial<Record<InsurerId, InsurerStats>>;
+};
+
 export type Insurer = {
   id: InsurerId;
   displayName: string; // "Care Health Insurance"
