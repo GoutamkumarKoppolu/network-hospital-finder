@@ -1,7 +1,14 @@
 {
   "insurer": "care",
-  "fetchedAt": "2026-10-07T06:24:05.617Z",
+  "fetchedAt": "2026-10-12T10:01:25.474Z",
   "items": [
+    {
+      "title": "Care Health Insurance logs 44% rise in premium income",
+      "source": "BusinessLine",
+      "publishedAt": "2026-10-08T12:20:45.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbzN3dUZCUHBjNG84OGtsVFQ5d3dEMFpDdVhfOGlFT3A0WFd4Y3hVeHN3a1FILTBFT3BsN25oQ3FPQkFjajRHTzdlRU13WVI3MVVmYlBUNlBhYXlHZjdDOG5FQUJaWVZDN0RGclhXMDhzTHE4Znowb1JMaUNKT1V2dlRKbUtpMFdfTy0xbWtSM3BxcGxUQ09LQ1VyLUZNcTF6R21rU1RmOFZ6MnpzeVBuRUJrbWNBYlpOQnVHSHBrTGfSAccBQVVfeXFMT1loOUE2bVNDVDRnU1R4cFBBNy1LdjQ3UmJySFBDRVNvQmNEQW12NUhDbVo1bVR3ODlIbkF2bXRpQl9qVnRodHhjRGxmVzlxZHdqZkNNRjBnbVM0eWRKZlVZTTZlcTN0cVdRUlJfZUlzcUp4SzE5NGlvMmFaT3VGSXlYRzVlYVdkeEhTdGhndHpCa1VIbzUyUmdxSjJOaHhEODR3Qld2NU5SbThuektqdktOb1JfNVdYNTVqOE1rWVpka2M2cEk5VQ?oc=5",
+      "topic": "Results & finances"
+    },
     {
       "title": "Religare subsidiary Care Health Insurance allots ₹100 Cr NCDs at 10% coupon",
       "source": "scanx.trade",
@@ -80,6 +87,13 @@
       "topic": "Health & awareness"
     },
     {
+      "title": "Religare Enterprises Receives Bombay High Court Stay Order on GST Demand for Subsidiary Care Health Insurance",
+      "source": "scanx.trade",
+      "publishedAt": "2026-03-30T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPczJQd2p2R3BBWEI5M01TeXlEVHhSb3dLVjMwNlV4dXo4bEliOV93MzlyV0h4cFlzd1haejZkeklsQlhORV9YaFN0MW00UF9sUHZ4QUhmLS1WNUh6LTRhX05iM3FLYUlXU3FlR29tUDA2X0I5R0VjNGVzOUFKSDN5Q2wxbUU4cU5zeHdBZml1OUQ2VWVDWmZGd2NJa0NmZDlWMDBtRWdFTU53Q2lIOFQ3S2t4S3dzanI1bW1pZllNZlFXSkd5QmVtYThRM3JDX3Jsczh2N3M5OWNEUWZ0dmYycjdocVRDMFVmQkZSekN2STNDeHpMZmVtM0V3?oc=5",
+      "topic": "Legal & regulatory"
+    },
+    {
       "title": "Women’s workforce gains yet to translate into health insurance ownership: Care Health Insurance",
       "source": "Fortune India",
       "publishedAt": "2026-03-08T08:00:00.000Z",
@@ -87,25 +101,11 @@
       "topic": "Health & awareness"
     },
     {
-      "title": "Women’s health insurance ownership rises, but adequacy gap remains: Care Health Insurance",
-      "source": "StoryBoard 18",
-      "publishedAt": "2026-03-06T08:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaDF0YjZIU3puTVoyNUdxMFJQM0ZpLVVTd3dkLTNMSEpjSzBrMXhvVmRLVHltUmcyOWZOQ2h1RGNuRXVxdDZmZ3BSaHpCYS0xek1PV3VPRmNDSnNpS2NQVVNaaklzUXN1MzlBclliN0NTanEzYmpxZkkzNFdGSkdFZFY3Y2t6YmpLTlBMa2h6U2FsdXdVcHlHVTJia2ZURGgtV0xUeXNWMGpCMmE3WDNpR0tndS1QRmPSAbwBQVVfeXFMUEhfUXdsUWlVRE9zMWhkOEdYNnhsSS1XeWh6a3dVMmhyM2ROb20wc1pOZmhoZmQ0SE41STdHTGpfUnk1OXBvcUtPNkdYSnNUY0ZHeTBZa1ozemVqbm1QNnktMVllb1dVUW5ZMFZfNGNoaTNSdzFLNnJHVTlNMkozMTl6bEhEZGp3OFIyb2I5cE5FZC1zUFNvaFFLQjUwaUhIT3BZRWViQmt0WlJKcV9sWUQxZHN0d2dQaXVvMDM?oc=5",
-      "topic": "Health & awareness"
-    },
-    {
       "title": "Rising cancer treatment costs increase financial exposure in India, finds Care Health Insurance",
-      "source": "expresshealthcare.in",
+      "source": "Express Healthcare",
       "publishedAt": "2026-02-04T08:00:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRHRWTlBURXBMa1dXY1kwMUpDR2dyOHBIVkNETmN0anhpTmlQY1FFWk4xaVBwSFBGVWFHel90dmpfY3lRNkI0QXk4a2U0ZS1OTFVVcUc5UUlDR2ZmTkI4V3Z5bmxMZWZPNlc2aWRnTXBqcXpVYlhvaVNiRzRGWDMzMGdXUUNnNGRHVHRlTGFSYUJnNzdDX0tfOWM0R1M5UzR4YndVNF80M1k1WU5Db01UaTVKM09PbmJReVJjd1JZcjJuRnlmV1hPU2JLdl8wRFBMRVZfSUZsMA?oc=5",
       "topic": "Results & finances"
-    },
-    {
-      "title": "Religare Enterprises likely to announce demerger and listing of Care Health Insurance",
-      "source": "Moneycontrol.com",
-      "publishedAt": "2026-02-03T08:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSDF5T25ENW5uR05JWUVkbEtKVlRpZEk4YWl3cGMyZVl6bjNqMENtYVBERklmSmdGVEJtdlQ2Y1lOeEJMSFhfd0tSOGFBYWJIQ1VJczRzMDBFNzJCOXVZYjFzRjQwM3A0ZnI2WVNqWWEwN3JsNWVRVERxV0pqYjNEZ3FlYUphWWFwcjJTRFpnTHVpeXJRVUJZam5hRUttQVRvdHRSOUFNa0d3SGppdy1UemR6ek5YNDJ3dTJ3TUs0V1ZHYUtkdWN5Q3EzTmFVYzg3eEt4SlcxVmgzd1NqWGl0eVVB0gHnAUFVX3lxTE14blV5LVR0Tm1wYTdFcmJaanRPZGdPR2RkZXF5Tl9IM1R3b21QcHJDRjRDY1RJaW8zOUNob1U2cG02QkRnX3ZHQ1RWelRERjUtQmdwWVFkTTVYNUU4WENaRTVkVkZPVV9BY05Nd296YlFaVy1wZlUwSTM1aFF3YS1XWFZqY2xyM1YzN1dDb0NmVEtKeldaUlliSEt1THF4TU1QQkpMYTh6aWppMV9GZkVFTTIzV045WjZ0bU8wa0pBZjdYenRtZkhmOFc0OGtnLXg1OGlYX21OMXU0ZGpJN3RIU2tyVmtrWQ?oc=5",
-      "topic": "Expansion & partnerships"
     }
   ]
 }
