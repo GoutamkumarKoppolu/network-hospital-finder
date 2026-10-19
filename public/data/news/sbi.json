@@ -1,13 +1,20 @@
 {
   "insurer": "sbi",
-  "fetchedAt": "2026-10-12T10:01:28.406Z",
+  "fetchedAt": "2026-10-19T08:18:15.504Z",
   "items": [
     {
-      "title": "SBI General Insurance launches Health Alpha with maternity and sports injury cover",
+      "title": "SBI General Insurance Introduces Health Alpha Policy",
       "source": "MediaBrief",
       "publishedAt": "2026-10-05T13:54:20.000Z",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00ZFFnN1dDUlltZ1ExZUdqRFlWRFN2aFR0bEV0REx5WmNSZnZyWDJuVnBldGprekZ0YlJyQi1hVDBGSE1mZlQwV3VnZnoydUpwMDFlbC15TE5KTXNHNXp2WnBfNXVyNGFhb0VoOS1zcEU1LXFYdVE?oc=5",
       "topic": "Products & launches"
+    },
+    {
+      "title": "CSR: SBI General Insurance Supports 1,000 Flood-Hit Assam Families",
+      "source": "India CSR",
+      "publishedAt": "2026-09-16T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0tUjZOdUc3bzRxSHRCd0JFQXR5ZkRaVld2cXhnS0pJcWtFRFZUTnNEczAyblJmaWdIUDVYalFBcWxpM2VEaDlCSmNZWmhXUE5fc1dTNE5GWWRaX0NqOUt5M2ltRFNVUl9wbzNwQk5GTGtLRlV4RDV3ZVVFOFA?oc=5",
+      "topic": "Health & awareness"
     },
     {
       "title": "SBI General Insurance Q1 GDPI rises 10.9% to Rs 3,506 crore",
@@ -35,13 +42,6 @@
       "source": "Exchange4Media",
       "publishedAt": "2026-08-20T07:00:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPa1FFZmpWYzZ0VFRTWUdYMi05TWdISS1TNDdSb0M3VWp0c2F5VV90VDFqUk15SEFULTB6WDA5UTEwUk96bWR6anhnVEZqN05oZ0pyc2tsYVFlTTBBVkxuR0hxZTY0b1BEQlNtZklJazVUZHJ4cFctYTllZThvbkxnRWJBZjBzd1dpYTN1SVNPV0FwaUdOWS1MNEdWbnlONHI5TktHbHZuTzFlX3R0UEtfUmFFNHRkVWNmQzYzWU93WFFfdzFDa0ZUOGltX3R0OHJadnoweFI5aGRvcldPNXRVQg?oc=5",
-      "topic": "Brand & marketing"
-    },
-    {
-      "title": "Platinum Outdoor drives visibility for SBI General Insurance across Mumbai",
-      "source": "MediaBrief",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMlZmc2RLZzNWRkM2VjZ2end0eXdEMUlSdVU2M2pSeU91ekxDSDJPeGVfcEx3LUJrS0xoV1AxMGFWUGZjaGxqVkJQaGlCNVdKZWlpMVNtYnhkUEt3c3lrU3hTamFSRlNNMFNoWl9lbS14cU4xbmIyb1RvbUppUEdCa2Q0eUhuX3RoVEpyeg?oc=5",
       "topic": "Brand & marketing"
     },
     {
@@ -83,29 +83,29 @@
       "title": "SBI General Insurance to list after AMC’s IPO: SBI chairman CS Setty",
       "source": "Moneycontrol.com",
       "publishedAt": "2026-06-09T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNlBBVnBqUEpCMXRremw3alBkVy10NFBHUkMyNWpYQ1owMHgxSmFwZTBLZC1vRlE4cmhObDRJNEJ4OXNUMHlRSHhtcjZYMmlLclo1T3RUMXBTOTFMOHJpX2VHMTlOVEJKdi1WNHQzbE1UNk9nX0tsOHg2bWlwYlJQa3p0QWdUY1pjbUlLVl9OR2doTTk1NkEtTzhuTG1CNWdwV253eV9Ya2FfejhIS2NPTDE3VE1QcDZYb0pYNmlmRnJCSTdt?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNlBBVnBqUEpCMXRremw3alBkVy10NFBHUkMyNWpYQ1owMHgxSmFwZTBLZC1vRlE4cmhObDRJNEJ4OXNUMHlRSHhtcjZYMmlLclo1T3RUMXBTOTFMOHJpX2VHMTlOVEJKdi1WNHQzbE1UNk9nX0tsOHg2bWlwYlJQa3p0QWdUY1pjbUlLVl9OR2doTTk1NkEtTzhuTG1CNWdwV253eV9Ya2FfejhIS2NPTDE3VE1QcDZYb0pYNmlmRnJCSTdt0gHKAUFVX3lxTE44UDZxUjd4ZE5Nc2MwT0lvMmtPV3ExNTJmNTQyXzU2c0sxcmNHY3JaRkhzTk1iYzJEY3lzWVM1b3FkMFk1cEFIX19melBXNVlscDZQbDZtODNJSEU2S3cycVB1X3R3d25uQk9uOVR0WS1WZEplTjRqUHFYTmhpWWR3cWtiZkZlVkttNWZabjZ5aXZqOGtpNUQ0ZXg3SHhmWHZxclN2b3BTUnF3ek9nN1RheXBrYjBxMmxUS1dzNklXdW92TDczSkZmQ1E?oc=5",
       "topic": "Leadership & people"
     },
     {
-      "title": "SBI General Insurance highlights health cover in new film",
-      "source": "Campaign India",
-      "publishedAt": "2026-05-18T09:13:59.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdlhTNzV5TnFIdVJhSmxMRjUxRjZMWFZub1VmbmM3bFF6dnVJTUtubDRHcHZHb2pldkY2RXQyVUp4MkNsRFpuXzd1YkNRdWlQcUw5YUl1dlJCMkwtLXhKSEVDc01DRi04WEpWdGZvRDVndlpaTWYtOUVQMDlMUXFyREVYN1BxdEZ5UzBxRUEzTXJsUTA2OHR0cHRZWVpwNmR1TUhSdG9HVE96R21VbUU4WFBuUktzWE4yMUZtbFRn?oc=5",
-      "topic": "Brand & marketing"
-    },
-    {
-      "title": "SBI General Insurance rolls out new campaign film with Pankaj Tripathi",
-      "source": "MediaBrief",
+      "title": "SBI General Insurance Highlights Need For Health Insurance",
+      "source": "SMEStreet",
       "publishedAt": "2026-05-16T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBiSEZmWllMOVFXWVZVOVVkaF9DU1pKUFNNVkV6Mm1iSXQycjk0NDdpU2RfNTV6Zkc2LVNoOXZzSjlGcTJxX0ttZ0psbE0yWThZN3VGSi1xUmdCUU9BN2Zva1hjdFdwRHBTVjBKSGs1OFJWWGVfT3BJc093?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOVhVeU1DSHQ2ODRGbGtfSFpJSHpsbnpjR0x5cDNCZkdlVFAyTlprelhXOXVQS1MwMVAteFZOTkJtV0tDUG1tLWxvcGk5eTBUejM1V2xGX3hmZ0VWRXA5azZOc2xPVVBneENEY2R0UHlyM1A2ZGltWF9nQ3dDMkFDTFpxNWRVY053azVWY0oyQ2VRY0Rsd2xqTjlSZVPSAZwBQVVfeXFMUDlYVXlNQ0h0Njg0RmxrX0haSUh6bG56Y0dMeXAzQmZHZVRQMk5aa3pYVzl1UEtTMDFQLXhWTk5CbVdLQ1BtbS1sb3BpOXkwVHozNVdsRl94ZmdFVkVwOWs2TnNsT1VQZ3hDRGNkdFB5cjNQNmRpbVhfZ0N3QzJBQ0xacTVkVWNOd2s1VmNKMkNlUWNEbHdsak45UmVT?oc=5",
+      "topic": "Health & awareness"
+    },
+    {
+      "title": "SBI General Insurance’s new campaign film spotlights need for comprehensive health cover",
+      "source": "IMPACT Magazine",
+      "publishedAt": "2026-05-14T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVXZBRWIyRmFQV3F5c3hicW9NTXdGMkJnOHU3YkxVc3pwM3lUajB0Zmp3VTh2T0pjQURyaHBHSXVKWjVWM0pQRTR2U016MlNrcXUwMHBBNjNzUmtXdUZ0Y2p4Ymk1dTRlUEJ3N2dnTVVtYXpoOWQ2ZFFXQmdXMHNncVI3aF80OWlPVXlBR0dSbGdnTVFPUi1iOFpYX0Q1bUttdWZDMVNnQ0N2cUtjMmJQT0ZVRVNjRGJaVGF5TmpjV3lldEUwSEVOTldMekxaUGRwQ3dueHU5QTVSRlk?oc=5",
       "topic": "Brand & marketing"
     },
     {
-      "title": "SBI General Insurance spotlights need for comprehensive health cover",
-      "source": "Adgully.com",
-      "publishedAt": "2026-05-14T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd1ZIdnZYQzZ3R2doX2VuYkdDeUswQm9nYzFlTy1kUlJfSDBtXzE4aWdOYmtyY1FrS25EQTlJVU04aTJ4ejNpX2VjMmd1LVVPSmJST0NwQ3dHYVRscVA1M2FnM2syWWxGN0w5ckF2LXkybWJnRE5BNTZ1R1lSTTNHVmJxQTl4SXhSc0RtclZ1QWZQak1YNkZ1X1dMZGtTZy1neDlQQmZB?oc=5",
-      "topic": "Health & awareness"
+      "title": "SBI General Insurance Company standalone net profit rises 478.90% in the March 2026 quarter",
+      "source": "Business Standard",
+      "publishedAt": "2026-05-02T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPNDRfZE1xOTZNV1lEZ2Q4TEktZ19oRTRoMUs5OG9reFNEZExTdy1xaVJYZzVPNWtSTXozX2ZxVWZUNkFtb3lzNlEtY3JwejZNamxNN1ByRU1rSEd6cllVUjBGbkpzSmM1VlR3d1N3aFJFekVlazlsa2NOTkRfYngxM0lNQlpBU2QtWDRrS2hsSlByZ3RkMTJ0eldZamFGTnh0NkJjcWoxUER2X1hfR3NpMUZyRG5FTTBpYW5UT0RHdTIxMVhpSWR2N0JxNC1wUUJ6dzE5RFN2ZzJ1OHhpWE5DSHZXOHp1dVZBa2RGNnBuTXBIVVBMRW5zSThYcTlzbHlrLUHSAYcCQVVfeXFMT3VPa1E5ZHhrQ3NIOTNxWjZJTDVEcmtkWko0WHlJeHdSUl9nRDVEblQybmxneUlmRFk2S254XzBhR0Vud2d3Z1ZzX0R0TUs4NUJIbkhwWmhTb1JuWDA4Sm1uMlU0bFl2cEQ5bmdVVXc4SkVnQ1FENTd3aVVxOGxlUWVweDd3NmFQY2FIYk9vRWZ2RTAxd3l6ZWZuaEZOY1JEa195eDdaQ0k2Q1dJVGItTHExUWtLaFdxNy00MDdDRDJsSDBFaXRJRGhkY2xjWEZJNi1sWlNEdll4ZnIxLTZmMTR4bVAyRy0tVkpZd1VFdW9ZeVJSdmo4dTdMcW15QmZ5UklOeTQwOTQ?oc=5",
+      "topic": "Results & finances"
     }
   ]
 }
