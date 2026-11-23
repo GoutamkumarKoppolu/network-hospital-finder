@@ -1,62 +1,90 @@
 {
   "insurer": "star",
-  "fetchedAt": "2026-11-16T10:24:00.990Z",
+  "fetchedAt": "2026-11-23T11:32:56.154Z",
   "items": [
     {
-      "title": "Time Travel comes to health insurance: Star Health launches Young Star NEO for young India",
-      "source": "TheWire.in",
-      "publishedAt": "2026-11-16T05:55:35.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWUlRa0JrdG1YeHhPaFRHc3UzUHlHbkpULVExMUFQdkxBSWgxR0ZwUWszUjdDQzBRMDRQR3NhUC1Vb3cyS1hHcEJJUm5GblZnbXRkMTk5Yzh3eTQyeUppa0pkUG40Vm1hOEpTcXVWQndTODI5UW9BaG5sSHluWUN4dzYtQy1uREVENV95QjRFQV85Sm8xUmhSeVp0d0JqblJfZFdlTkdNS2RwWk1VcXBBdWlTenRldGhjWFNMTURxckwtd0YzbmFJ0gHMAUFVX3lxTFAxQlFkTHlCbEE5NUxQZVdnU2lFOFN2dGl5bmF6VlRpeGpCTFhwN3R6RHd3M3psbWtNbnNpT3RzX1FwMTV5OG8xTHctRHU0STV2dVRLV0ozdTdwOUstME9NeUs3a3VfNmtEQm9Lc2w5d2dXem81clcwbkNrVWM3bU1JVl9kUlc5UG5NYkh0NF9acmxzWmxPa1dFeXhzdWtoVl9malNUSmF4R2ZpTlQ1SjVvTFRQZGFla3NWRk1NcGtma2tGNldJeU9QWlEwZQ?oc=5",
-      "topic": "Products & launches"
-    },
-    {
-      "title": "Star Health & Allied Insurance Share Price",
-      "source": "Upstox",
-      "publishedAt": "2026-11-13T08:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ock1NSnBYVTR5QTRxWkQ2MlZFOThKZ2JGUThUMlp6QnZVWTZZZGFUX3lUY0tyY0VkTElrU3BmQ1REUW84UXpDeF83SWpjVE5pQXc5WVdhaDdLa1YyNzJLLV9nZWRBa1pJeUstS0tDMA?oc=5",
-      "topic": "Stock market"
-    },
-    {
-      "title": "Star Health expects 19 pc growth in gross written premium to Rs 24,000 cr in FY27: MD",
-      "source": "bfsi.economictimes.indiatimes.com",
-      "publishedAt": "2026-11-13T07:28:30.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZllWaU1zZTBROEoxd0JZRHNZck5JYWtkYkU4bkVOV192SldBZldpU2NmU3pEVVVjLUE5Sk9JMEhHb04xNVlUQlVHeFREM2Nlb2tTOUlOdTJ5b0pNVWwxVWk4QklNOVNrMFJ1UVZ5dDZYSTVuWnBrZzhHaVJCUDVUSUhGdjVOUzVXOHRlMVZoaVlWSUFfSHR0R0NLaDhJSlVHVk1jVE54UEVLX3dYR0hISmxjRHgzdXRKZ0l4ZTdRTHdTdFVtcWctdi1pZlBIUUpqbmJGOVZoXzVBTGNv0gHiAUFVX3lxTFBlMm9yVmJ5Wk5laHRNZ1pjWHJXbG1SU3lERk9oc2JGRF85RkczcHBjVXNZR1FxR2FIZnhtaWVINHh4NmliMmVlNHZqWDIxNENZbmpfcTZWdGVmN3o0OUxtaExyMFd2UUZLbk5BNl83TU9pWUF2a2JERUdzSlg1Wmo0MDhocHhVY0FUYmsyb1oxaDBrOThkSDBsa3NyV2VJOEZ2eHVMRWI3a1BsbVQ3MjFwSHdIU0lrY0VHbUhRN3lOSnZHekQ5VHZnSXRWM3A4SVJnTVVfWDdSZ2NVTGJ1X3dPYVE?oc=5",
-      "topic": "Leadership & people"
-    },
-    {
-      "title": "IRDAI’s commission cap proposal a step in right direction: Star Health",
-      "source": "The Times of India",
-      "publishedAt": "2026-11-12T22:30:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNklBYjM3MlhfN1BCRmFqemY1SWZ2MExSbzJOS282OXNaLUpET0REOEFwQjg4R0dXR0dvSS1WWlVWTkJVdEN6MERFNWJvTUE3NUR6MmxVYm5tRTBSLWtqelowbVJZY3JzSVpTOVUwVWUtMWIxUV9uZ3E4QjRKbFltUmNJZW5pdldMUXpHOUtSc0VfLXRmbnhFV3d4UXVyUDVNNVVXWXUya3o5dF9VdFB4YjlDOFZOaXhCd3I2SkVlUmRFWEFyLUM1MmxNMnZKX3ZLVHN6MS0wcUVGWTTSAeABQVVfeXFMTjZvQUVhNFo0MkR3NE5CWjZTWkR4WnplLUdKX1JtcTBQczR6UDBFa2VVNk5SZmVFcUdpck1MMlloM080RUtFcmt2YnFSMjJTUE55SWM4YWRTSkFBd3Q0VlAzSFZLWGpzOVJOUnhmTjMzbXo4WjBOaUx6STlIX1hxZWtYd0ZmX0RPem41Q3daQVI4dWd4a0J0TGJpUEE2a2ZVR3VHQmJJYXpoRlB2YlRrRWNNckRSRVpTRmlwU01fdXlBeTRBNVNMQ2FIVGxmV2pMUEJKcmtYc1F0ZWczLXloU3U?oc=5",
-      "topic": "Legal & regulatory"
-    },
-    {
-      "title": "Star Health's Neo targets younger customers; eyes shift from parental, corporate covers",
-      "source": "DT Next",
-      "publishedAt": "2026-11-12T15:43:20.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMWxwbl8tSkphbDN5S2JQQy1DWU8xWVhaYkpaOVpiallVMUx0YUlOdVVIcnFBMXdOaTZjaGY1Ukc3TEljbEJoT3lqZWpXN3lVVkNIbUlnMzU0bXdGVHlGY1pyY0ZuNkdjdWhRN3dmNXZZbVdQaGYzX0hFUTlnY3NuaFk0V3M3dFB0S2dia19MVG9VWTRwei1oU0hheXMwTkxYRXhWTE5HY3pRVFREUGRwbW5oSjZ4Q3hRUTNKaQ?oc=5",
+      "title": "Star Health Insurance’s ‘Subho Surokkha’ shares Durga Puja bhog with patients in Kolkata",
+      "source": "Adgully",
+      "publishedAt": "2026-11-23T10:24:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTWdCdDZGZ09rOUE1QS1Yd1gxV3FoRE1rU1pSbm5UX2s2cXVHNmctNzBpQUFjaUtfNDI1STVOOGdPMVRadnZqeFM2M2IwQUo0Q3NGek5fM2d6WmJ2VldmRHVqMzJ2V3JuTXdXTWpTOW1Gc3lYeEF0UmlxTmhwS3piMnpyTWxOSnlCZmtWdXB4YUNvaXRqWGVZVG1aRjllcS1pQVczZ2FFdGJPX3lvQXd1V0VILXhUaG95a0YxVg?oc=5",
       "topic": "Other"
     },
     {
-      "title": "Star Health bets on Young Star Neo to expand insurance penetration among young Indians",
-      "source": "BusinessLine",
-      "publishedAt": "2026-11-12T13:56:36.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQX3JBX2NWQ3BYekQwQlFoaTFUTTU3dWkzNjRUZHdyTlJhY091Rl9KN0NzMTVQS21NZ25KdTZ6T185eUp5WExUT250el9QZUJCTFpiU3p6bmZ4V2cyWnpPRFZQYlNTY3I1bFJELWQ5ODhqNWx5aXlUcTRPZkV2akQxeFg0YUIybWJXaGxfV0xDNFp6WVFnUjZ4Z0ZPQ3VwWFpiYTlNYXA4OW5JSDJRbGhKSGZFSUR3VjlQTWNNYjRKbVFUQ1MwcHRTcC1RTkYwUDh5MW84bXpEdjlVbExDcmpGQzdWR1daeWZBOTBfNkhUNnQ3d1XSAfoBQVVfeXFMUGZrMnI4dlNPUGVkcVJNUmtwMFNHMkFPREZWU3RKa1F3Rkkzc0JGM3hKRllrZHctXzZMSmZ3MTg3YU1hbXpCMDJuOHphY09RV1JLREY4MHNYUWVHU2xfQmtFMW53bVY3T0tBc0JYTWM4QnhiY21aLWRYRnVEYldFZmk5RlYxSjdFT0pMTmFZM0FXSHRzeGpoM2dObFdjOGlyZmNiSkNsZ1pfYkxRM3I0aFU3YzR0SHd1MG84OXVYOF9sQ0NJVkdOc2tGRzlxdHN1MGJHQVBpa2VReXVNZFNiZmZ6LUVSVkR1elliZHVDZ29tSlZpX3lySmg5Zw?oc=5",
-      "topic": "Expansion & partnerships"
-    },
-    {
-      "title": "Six in 10 new customers are above 35: Star Health CEO",
+      "title": "‘Mandatory co-pay will discourage small-value claims’: Anand Roy, MD & CEO, Star Health",
       "source": "The Financial Express",
-      "publishedAt": "2026-11-12T12:23:39.000Z",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR0pVTFJyOUFzaEZVWHBLWnltYjRSMFFUVkpBTFVRcVNtRExBOWtxNGpFNUphc0d3b3hmMEQ4VFpST3BTd213Zk1Mc0lGbjNyWGxYS0hSZm5CbTI3SFM5ZTJNbGR0S1o0cXhOVm11Zy1RTTFnVEpSNVE1dk5mbUgxMmtnMzlDN3Q1NHY1cDN2QTlGTFdwU3VTV2tOM0Z0T3VqSjZyLUl6VXVDeU5YVkpaVmJR0gG4AUFVX3lxTE5jazB3UUZBaHhVWGkxX2VHUVh1UTg4MDlpb09iX1FBUVFFVUppOFBlSnljbXpyYzdvZEZ2TFRHR2VHNlhOQUNhYXNacUh6TG1OdUU2Um5iek8teG8wODFPYnluYXVMM3A1ekZydk02V185dmg0WUJyRnV2MnJhdV9PbTRDRE9hTHhvbW8yb0RwSWhMMVVVSl92ekJEQ2FUVGhKZThBWlNhVE1qTHRUM2k0Rk0xZmNBR1U?oc=5",
-      "topic": "Leadership & people"
+      "publishedAt": "2026-11-22T19:36:48.000Z",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNUo2N1FnRFkzb3hBY0hTRzlHYU9SZldoSzQ4c0t4Vm8yLVlLSW8yd1k4WUphcThFZUdsM0FFTEJuczZRX3FOUldwOTdrZUxqaUt4anNFbzM5cm5lQkV4di1LRFRmUTg1b0E4YkozRlA2YXdxQkhiYUdPV0I5MGRGU3FMbkhHQU1vU2VaajFHX0JXT3ZHZkZfbXF1X1dPQUdUY0FzaGpaRjl3bmtKejdnclhrM016dWVkUmpjcWVuX0loWV9GUElpT0hEODjSAdMBQVVfeXFMT0JBOGFEa0NVdUNYWXhaSUIyM2ExQ1FlbnIwbDlRZEJJVWJvZ3Jwc1VuVlVoUlBBMXozUFRLRXhidXlIWE9fTnpsQXJycE1sZ0RJXzR0QWtKZUo0bWxWeFdhdEdydWR2UWdIdW9MUHd0Ym5ndWN1SXZDd0NmT1hFaTd5NzJsWV9jcWY5RzRyVC12eXBidjBUSkVQbDFVejhGRElTdkx5NnhTdEZTSlY1bVYzLWo5aFRzY3d2Z25nSXd1ZG5JenZhbGJRSl96eWh5b3ZZZw?oc=5",
+      "topic": "Claims & complaints"
     },
     {
-      "title": "Star Health Urges Delhi NCR Families to Take Precautions as Air Quality Stays Poor; Home Health Care Use Up 4.4x",
-      "source": "TheWire.in",
-      "publishedAt": "2026-11-12T05:50:20.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWkNYZkhqMEJlQ3BXT3RzUVQ2QkJnaThUcDZBZGJwWTItdXg3WWRub01zMXBmRDhTd1hRbHlsUUgxc3l1Ylg4RGlMTGhnUFI4dDBEbWQ3cWV2TlpuemE0Vno0UHhBcUVVdnJiTzlLQWI1N002TzFZVGc1cDRmTXBaZFdvVVI3M1IyanZHUWxqQW9Qek1xX1hzcHlQN1ZNTy1uSXNPanVGMXA0VGFYektuWW5nNnE2QXN5M0Rza0taM3YtZ2xsRUZNVjVybllPUzIyU0w4dC12UEQ1NWxKZEZwOTdfeVTSAeoBQVVfeXFMTlpSek41U1BJTHUzQkVFTnR4VGFOWkdLWDdSMHptUW4tS0Nud0xLbVZtVVJlZFhqa2FtbzhlZ2lQZGFqQVB4Y0NjLVlNY18xSTZXdzF1MHdhRzVBNlZ4NmtTcVloUm5HamxPZW1sTFZSbnkwRVVWVUk3WF9mbkJoSHhTdngwX3R5NVg1V3lKRUJxUTR3MGE2YUFNRDFpbF9vNVNRaUhrQnJROU5tZUdWM0hBd05qSm42QzJIODliM3B4dHcyNVk5MzNKX3dKYUF5V2FTQnAwS2p4Ymh3R2dmU25RMXdidkFGRzVB?oc=5",
-      "topic": "Health & awareness"
+      "title": "IRDAI fined Star Health Rs 2 crore penalty for unfair claim deductions & rejections; what policyholders should know?",
+      "source": "Deccan Herald",
+      "publishedAt": "2026-11-22T11:20:35.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQeTFkSWxjOWN0NU9VbjRXUFUzdXhRdUdEVU5vVUpFMURYcHRJWGRVVUdfbGlEaVl2U1hwS2VJdlc1LU5mODg1UHZHSng4S1NXUWNLT1JQVGhpdVJYMGVzYXExX1ZGOWVTd1daNDdSN25NRkRiLTJEZ3JPODVGT1NBcTYxTFktWVYwRlpqVFFFTDZPMWRxTDI4U2JVSklFeUlLVmZrVVF1WGZpNU9JYlJuN0NtMUFRblNUU2N6S1V3bC1UeGFydDZncU5feVN6N0hZOVU2MHZpVUNkR2N4SHlxNjBVZEVHd1MxQWQ2ZkdJOElwRlhZSGZjYmM2Y9IBiAJBVV95cUxPV1dLamVsXzJ2bzNRUHJiSlMtRFRNLVhZcDdRbEtnTGxxZ0NXalh6eTYyUWpFc0s1S0p2b3dQeGxTVkh6OWZLVENOb3ZCaEp0Zmh5SmJYd0hVVEhyQWxfMFZ0Sk5sZmZRMkZPaDRpUUJHVzRjOUc1dXIwTXh5WE5XLURYQndRREV4Z2NPMGF2VUtfcG1nMXlCWWFaNGNoUkU4ajQ2VWxQRFYzOGtzQi11czk0NHF2Vk1SQnFLQ0JXazIwS3NnaU5PZFBoSjh5cnAyOVBSU2Qya1FIaXF4Vndab3E3NUIzQ09kLVAwa2tJaVY2SlVHYms5VVREUUMxcG1OeXpSRkU2LTE?oc=5",
+      "topic": "Claims & complaints"
+    },
+    {
+      "title": "Star Health gets ₹2 crore penalty over claim settlement lapses | Star Health asked to submit action-taken report | Inshorts",
+      "source": "Inshorts",
+      "publishedAt": "2026-11-21T08:36:37.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSDJWQm5oby11ZV9heFVZcHIxalM3dWZ1a0J0UkNXcEI5TTkzYWZxWFo1Rjh0UE16UmlwM0xoSWI2N1J3allkZDhjcnp1aFZjVEk3NzlOX0R0NUJHeTBxRTM1NFZLM19wOU1JMmFnbXNEeml4bnRqZllhQV9rLW9WQlNGRjE1akJoZnFEUmk3eXpHc0J1NGdBdThXcFlGYkxvNXJWdUFFcHnSAa4BQVVfeXFMTWFFdTdkdnA3S0JrZTFyUm9Ka1d0OEhfd0VzMUg1XzFpbXc3WjBCcVJhenltSVRwMDV0UXpRdFZVY3k5QTJpVW8tdGd1TWM5dWxJTFZUWnMyNWIwV1o5MmxqVUNENUdRa3NSM3NWLVI5Q2t5ZnZnQjNkcVRld19GbENaTGdMcWs0YTZ6ejd0RHFZYkI3WEZUaEVLWUM0SWhmWHluekVzRHJwWHlLUndn?oc=5",
+      "topic": "Claims & complaints"
+    },
+    {
+      "title": "Star Health faces Rs 2 crore IRDAI penalty: What the regulator found in health insurance claims",
+      "source": "Moneycontrol.com",
+      "publishedAt": "2026-11-21T08:05:59.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZ0N6RmNzZllzRWM3TnhNNHRydWY5enVyXzE5c0NQdFotZ1RxellZYzFfNm5rUTN5NTktQi1RQWtoWm1iS01XaEhpXzhsRTh3Ujd5VTk1WWttZjExQ2VxQ0s4UEp5d2VJbURtdlhBVGxyU05tLVhnbFZGREpNZmFHVjFFNnVENGxhd3RCcUl2dzFUNURVMmlzRlBQcmVOV3IyUVdjUUZ5TXM1STU1NmxYUFNjSDJNZzNwTWdhRTVQdmY5cmVwQThlM3R4N0ZkUndmWl81cjhBbmg2WlFjbU9HTWI1bUdZRVg2Q19nMVFoUVRxV2_SAfgBQVVfeXFMUFRFOGtkQVdMbXcwMW8wd2s2dkQ2X09FS0twcnpkUF9HdktRMWxCWVV6bE81aFRhYlVWUGY0b0pzTkFQNXFieElBN1ZKc3F1dGgyQk5vaWJxOGwzUGRORFNQUnBKU1RmMk9EU0xHaFhFN1EtYlBqejVUcjJXVWs2ZHVTeUh6c0RJVWJ5bEJxd2M4c3lOV1drcDZTX2w4SWNreG1CdVI3TjRsMVVyNFJiSUl4N3E2UkpfclVaQWNSM3FMb0hWTkRVcUxPa2hDa3pMSlpDOF9YcWZTdW5WMzZyN29BTmV2UHFmUWNkYjN6VDBYM0o2dXhxYzE?oc=5",
+      "topic": "Claims & complaints"
+    },
+    {
+      "title": "IRDAI ने Star Health पर हेल्थ इंश्योरेंस क्लेम गलत तरीके से रिजेक्ट करने और भुगतान में अनुचित कटौती करने के लिए ₹2 करोड़ का जुर्माना लगाया है. लिंक कमेंट में",
+      "source": "Facebook",
+      "publishedAt": "2026-11-21T04:50:20.000Z",
+      "url": "https://news.google.com/rss/articles/CBMigAZBVV95cUxPczFIbk1kLWlPaEVhWERvRm1KX3BCcFRGVlJRQW9KUjBhd3Nabnd1X3BoNmxvaTJuZEIweUpLczVRUXQ5RkNGN3dEVFp6T2xnRXJPeVBOY1cta29oZGNXLWs2OE9hU3FtN0UzU0FvZEY2MEg2UEl6emdHT096QWxQaTJtVkp1SjNQZ3R4Q05pZWtJQm1SZFJDRTdweW53Yy1GcFdVMmp6U0IzXzUzSVVwMmR0X3dIcl9qeFhhMmRWNExMVkJYdXBEb0ZPQnZJbEUyZUx5dDc4WUV5V1JwNFVHaW50ZEkxWk9JYUFJajd1YXBSTUoyZF9KZ3lxR2F2OGF5dVdJWXdIb195YV81RjlVMFp0b1BGQ2prTFlZQzNUQ0xqS25kNk95RVhxdFNpYVJxY2FNY2x1aTUwb3ZsZ1lJWXBGbUlQR1ZRY3pkQi12c3B2dDZRZ3hCMXJ3SkFReFNROXRNLU4tdjNvd0pTOTc2aWJveVBvQ3BiWlc4eHlQbkFRTHdvVDJaNFRLODBaM3F5NHozZDR5SXpIaU8xRXU5OE9LclhZNlBrTHdublowcl9jSXhUOXJuS21mUWtFOWxLd0dMSURLNmlrMXpOOERab2xaLUhjV2xnV1cyN3ZRVFVmWEpQeGdyR2tCWUo4R0NJdzhCUTZIdVVIcW16NWVSd2JDNUVSVUFMeXRNcnNfTVdsOFgyemg3WWlHUzBCNDJuMzJPb2dTQlI4aEllVE1FTEdCVHVrbkZmSEZsMkxIRFFONGx5X2tpV2RsWHVUbTl6c3BDOHRaRFVKdU13MUNDQzRSOTJsNmZnSy1yc1p1QWJoM1hfOFlrZzdIYS16Y0tQSnFXbDhOdjlnRGRBU0NBejItNHQwWWY1SFhDS0pOME5rYjY4d2tjZXlfei0wUENRU1BKb29pOTA1N25qTTc0VFlRSmF6ZFJhSy0zQmxsaWRERXRORS1yQi1sNGY4LU9HVE8tRTQ3NkpxRnI5eE94M0pPMWhtcGY2TVpjbDJuN18?oc=5",
+      "topic": "Legal & regulatory"
+    },
+    {
+      "title": "Star Health’s PAT Up 16% At Rs911 Cr",
+      "source": "https://www.fintechbiznews.com/",
+      "publishedAt": "2026-11-20T21:02:30.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOTJMUDUyRE1pbmVic2dQdXRDQ21jM01iMUhieFh5cFJqWU4xWjFxVG1sc3VSbF81NEpXYlcwN3hwR0FCNHJGeHR1YkhHTjJzaVBjR3NlNkZXSFFyb0RUcjFjMklXd2p1Y09VeTBjTnBoQno3Y2xoTHMxbXZobTA2S0tMQVpxa29mb3l3?oc=5",
+      "topic": "Results & finances"
+    },
+    {
+      "title": "Star Health slapped with Rs 2 crore penalty over COVID-related claims",
+      "source": "Zee Business",
+      "publishedAt": "2026-11-20T18:11:36.000Z",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTzNsY1ZZTGxUOHYtWDVjVVlPR0RqcGFiR3FmXzRBQ1lEbWtESXQyOHMtRWVqUXMyNy1BR3U0UTNnQmpzZ3FMRzJJUk04bExiX0VZMTJrSUVoUHlZMGQyTDhiQ3B1Y0lJYmtSMkNpMFJyUTZid3Y0OVJCSVlLM2JtYndZY0hBX21YREtmcGxXZGs0amVwb0FMVWthclV2T1RISmJJSEQ4a3ppT2djOExpNzJYNzg?oc=5",
+      "topic": "Claims & complaints"
+    },
+    {
+      "title": "IRDAI imposes ₹2 cr penalty on Star Health",
+      "source": "The Hindu",
+      "publishedAt": "2026-11-20T16:10:53.000Z",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZzh0WWFlbGpBWlNDcFZEZVB4RXBEOE4yX1RRbHF5UHNZaThZSUN6WnpibzJuYlhFdDdvRHk0VkI3d01oaUR5ZXkybW1OY3hMY0xBRzhMZUtmNUVhajZzM29xOEswanRtdW1mUnJETEFJRlBzT0dZX3N4bHZOQk52ZFZzdVZiZGhkU0stYkJ1Yk1iV0pXTHFwdDhNbWtfRk93ZjAwWjBKSdIBrgFBVV95cUxQM09aOGJDUHgwZEs4Uks1eVpoalBKY2VoQUdiWkJFSDR2STN1eUpPSzdlZVlBWE1JSGpEV1kyQlZfRnVKY0ZsVURyWjhOZlRfNVVHRmpUUmJMenBkTUk5RGlkQkdPbkdCNEZFcnViY2VNUWh5eTg1WUtHMUlYOFVhV1pYY1FSMEpjLUkxQkVJVHBOdjU3azk2M0U0RUJtVjZEOGpEcmN2X1BrMWRPdkE?oc=5",
+      "topic": "Legal & regulatory"
+    },
+    {
+      "title": "Women drive 60% of cancer claims in H1 FY27; breast cancer claims cross Rs 160 crore, reveals Star Health...",
+      "source": "Moneycontrol.com",
+      "publishedAt": "2026-11-20T12:46:37.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQYldUaUZLZlZFeEdmbjJsLVRya1JwNUZOVmtHRjVtY2N4UDhieW05WHZqbGs1MXhNcDNDdlNCbmtoZk5Ua0NKbWhveFJYdDQxZmpyNmZZcG5GVWE0SFB2cElKN2l0aTVxQ2Z0emtsS0hYWUdSNHl5d0JhcHFtaXhxUjl6RTUtbzFMNm16OWZEaW5UNDlROW5FY0JyMklRdlRGbTZaZkFNZEgzc3JrajFNVEI4b0NDOFBGR3BwZWxxOVlBRTN1dWkzTThSQVdrUFppWjdtQkc3TURpWFExSVVOeDFoVDU1d3dXSEJiZ9IB8gFBVV95cUxNRVAwMGNHNF8ybDRhZ0k3N1UxaDhselNIbzBHRXg5blNYOVlCN01ERm05SkN3MzNDZmNfSlRjWVh2SGMxdjJXMDdFUWl1MVc2U1QwMUl0ZzVEV1NxV1BfbUJVbjh3OEtjejJQVi1VSzJFZXdGQmg0TkNBNTlrbkNFcVhJdGFWZXRpcjI2MkxScUJSVkpFbWRMdmtlelgzZ2t0ckhqWEQ1VndfbXJtaXhMYk5hSEI2Rnp5TGhDX25BMklXWEVMZDdub0c0THZwY1BGZmlqVkIxc2M4OVE2NE5tWkgwZEFBVnpOS1EzRDBSdlJoUQ?oc=5",
+      "topic": "Claims & complaints"
+    },
+    {
+      "title": "Star Health among 3 stocks showing RSI trending up",
+      "source": "The Economic Times",
+      "publishedAt": "2026-11-19T04:33:29.000Z",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNkdwRDNZSkJJMHJNclJDWUtIaVFHNEFULWMwN29PM3FLdVhVUE5Sajh3aEJLNDNJN3Y4OW9LVnhxUDlscHJEdE04dmo3RG5qRXg0TG9fZjM0OEZtNGdrU1JCY211MjNPb1ZldmNRNHRiYnM3VGtldU1NeUFLRTFjNjRBcUU3YUpoRGhtTWZTYS14eTc2UEtBYl9lRHJpZHg4VmZmU2dMZEU1VVRfeTVXWlJ3UExOa2FNTW1ySjIwVFJ1MnpXSlpxaGkxaWV6dGc?oc=5",
+      "topic": "Stock market"
+    },
+    {
+      "title": "Star Health reports Normalised PAT of ₹390 Crores in Q2 FY27, up 70% YoY, fifth successive quarter of underwriting profit improvement",
+      "source": "PR Newswire",
+      "publishedAt": "2026-10-30T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNd1lqYlloX3F4OG8xWHV6aGQyWDc2Q3RFODVBS0NfcS05N2Z1aVpQY2dTeEJxaGdldkJSVjJ6VzhYbGVMVlpHU2NZeVBKY2w5bVNoNzlTb1N5VjdzTXB5N2ljc0MwUGcxN0hpQW9yVXJTLURyVmRjY2pneGh3ajcxUG5zdk9udVdrYU1MeHh2dmkzdlg1T05YWWs1UnFlZzMycHZrOVFYSVJSVU0zX0UzVzJBZmQ1RlNha1hEN0k5TG5QeDBmSkdJLWYwYkxtMllrNW9RVVVsclBldnQwaWY0dTJQNDU2bWtuSHpfRXZXMXdTWEpTSURXZ0Ywc2xJeDV6YjdjYzlsQjltb1d1WHlWZHZoZTZPanc?oc=5",
+      "topic": "Results & finances"
     },
     {
       "title": "Star Health CFO Nilesh Kambli says insurance distribution rule changes not to cause much disruption",
@@ -66,45 +94,17 @@
       "topic": "Leadership & people"
     },
     {
-      "title": "Star Health Brings ‘Bishram Grih’ and Face Scan Health Assessments to Durga Puja Pandals in Kolkata and Durgapur",
-      "source": "ThePrint",
-      "publishedAt": "2026-10-17T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPdGNQTnQyRHhfUlBLVnFiUGhBNjhxSk53SU5MQWtjSF9pNUlJWVZNZjdJNk1DUmx4S3FuT2VIa0RDeXdtYjFOQU1oQ0JHWXJnVmdRM3V5YTZkQkNhdHpzeGMwVkN0YlBsblFXTDVFeGtFWl9NOWRBOHdTQ2tnanVCel9zQlMzTDdWRnlGVTRuQzhPSXMzSGU0b1pFb1VsNGdSVkNSOW5SMmI4cmlBNzVnMzJ0Y0hrRlR2TmQ1REpyemx1T2NwVHN6al85TUZKX1A1SFpjWDNwUnBWLXBxeGdGb280VVllU3lHRzhpMXR1d9IB9AFBVV95cUxQZlkyVUxYNEFSbXoxNEg4N1JrSlZmaVhVYjRPTjVyV0FBTGE1eXRxa25vWVBMYkN0d0JMMjl2WUxiRmxtbndfLTZkejZUWVU1VTZSM2xaWDBXNmtvSm1XZHh4TjB0MmstSTl4OGprU1Y3ZklqdV9UcVRUbUtSVm85WXVGSXJkdGM4Q0tkbndVdVRXY2RGMFlZcWhBWUhZcENiY01vU1ExajdIQnd4NXRnbmxob2kxdENQdGw2YlZ2X09nT0p5QV9NLWxuUUFha19WQUhFV19jdzhBRjhTWklYZk5RTVBMZVl3dGo2X2U1QWpCc2xI?oc=5",
-      "topic": "Other"
-    },
-    {
-      "title": "Star Health and Allied Insurance data breach case reaches Supreme Court",
-      "source": "Beinsure",
-      "publishedAt": "2026-10-05T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc0RGelJBOVlPUlU1cUVpSm9JSFRHMzA2RkxydTJNUDR3X3ZPZTBmbHhEVUp0aDg2ZUUxemY5N1BXNGdQNVdJQUoyWVVpSTltMFZ0blR4NUdubEtackxaYzFNb2Q2T0dmZjBVaTVQTTZKYnItZ29xX0ZaSzRVVlZzZEJPQ3ZsUWNuSGdrZG84OFhmT2JMVjZZRmE0QXU5NTQ?oc=5",
-      "topic": "Legal & regulatory"
-    },
-    {
-      "title": "Star Health FY26 Data Highlights How Young India is Driving the Digital Health Insurance Revolution",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-09-15T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNWdJTVpzdjdVcUstVmM2UGtsZ1NKV2tFeFdBZkFmTFNQOVppN1prNnBTNmdvajhiSUVVNFhLWmZPalQxS1ZxNnllOWQ5X2hXV2FsaGF0RG5fOTJTSUZzSkNWc25Id0U0YTd0Sy1rQ2l1MGZwZHA3WFgtd01UYUFaTHdsUVYxRVNFVGM2X3YwX0ItbHJVUkdwNw?oc=5",
+      "title": "Star Health Reports Q2 Revenue Growth Year-on-Year",
+      "source": "Sahi",
+      "publishedAt": "2026-10-27T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSzJTTGtTbmVfaFBrS3J2OXAyTG5pVzhib0otczdobkRCWE1zX01PaUk0YjIyMm4yRndsYXFxc2F3WHo1ZWUyanZEMzFwWEVoX0Yza3NxakZsZlkzemxqX2IyaURrRmRFM3VRRGFqSE9zWFc0M2tsX1QyTWRfa2ltYVZn?oc=5",
       "topic": "Results & finances"
     },
     {
-      "title": "Star Health expects Home Health Care initiative to grow over 50% in next one year, backed by significant traction",
-      "source": "BusinessLine",
-      "publishedAt": "2026-08-17T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOWW5OSlgxVG1UYTd6U2hseFZ5elYzVEs3aGMxTW9Xa3VYMWpmNUx6QUlIVWNnR2pjRXMyOU1LclU2V1pCakxkcHZxNWtteHhDQ0ItOW1rTXNEM0lOZWU0M3FMYzFkLU9vZUtkWXZMTTdZWk1GZzNBeUxXVWpOYmZSaVlvdm0xUWpucGRCY1RNZTZ1bUZ5ZEhHQVMwbkJKVUZSU01JaW5LRzJ2bkE1VlJhX2xaemp0OEN2czdUR1JuWFl0b2VGdDdRb0ZfdThMUmhseGxaUEdkTTZpSjlKV1QtaWpPTnB5OE91aFQ4WHVHVF9UR3Y4c1JkVldqdV9EMHFQZnBRMGI0VnBuNXpTWEJQVkttLXTSAZsCQVVfeXFMTkZnelN1dFVoZnZFX0JtQVpuRHhELW93Q2xoS0tQRVZwdGFRSU9FY3BWRmVrQjJ0cExQZDcyV3RCY3UwUFlJWnc0QVFMWkVnMjNGSnl2VDI5eUhDSHNzdHUzY05iUXlXREx1OFZIcUJUR0EtZTFwY0N5TlpXT2N4bjY2Vk5qMFdtWDBqZ0ZGT0tmRm4tRHhhRm5xSGdhY2txNHdsRWZVd09LVTBQeHVBNmx0RURaYVNDMDZTd3p4c25RVHFvVW5RMHg4cjNqdVlVdlE0X3puTFRzMUZNbFljYnh0ajNTN29ZZWtfaVVjbnNuWFM3XzRybWJPRGU5dVZsenNZVTNQc2hxY2lqS3M4NVdXa1NHck5xSHNzUQ?oc=5",
-      "topic": "Other"
-    },
-    {
-      "title": "DCDRC: Insurer Cannot Ignore Doctor’s Decision to Reject Claims; Orders Star Health To Pay Father ₹94,000 ...",
-      "source": "LawBeat",
-      "publishedAt": "2026-08-12T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOcnNhdGI5Zi1TV0RFZWZOTllZeHA4QUNhMkpqMFBSSzFZMVdSMWdBQkl2VFpfak91LW55ODEzZzdMY1V6eW5hTmFNNzlNc284TnRqUzBRS1NOWUF5NWt3Uk40WExuTlkxWkZWWmJGVmFwdzBKZ1AzdGhTRlJQdDZNdmRnLVlKMENoRjVTallPcXVONkNtd09TenlMVWFEZ0xCLVJ5UXQxWVVWR3ZHM3dfZHJqX0Q2WUVyQ2p3dGNwLUYxeEphM2pJYVBIZTI2V3VqcG5PQk9mXzF6T1V4T21MSF9SSHBrZVlncGVVdndrM1Y4el9OdEl3UDJ4Um9iNV9qcXhfWnc3YkdmTk9tQ2pkb1BCRUlFQXZzUHfSAZ8CQVVfeXFMTzBCc3c2cDNPdUhXZ2Y1aG1PWWgtaGlUMkF1WkJHanlZZjR4YTZwMVpTT0ozVUJTMHVoR0ZkTmxkMlp0aDZ5QVRwdVBNdlJacGdKeHRlZWxZaEFCTjVSUC1tenp2c2xvc3Z4SEdOTDRNU0xzMnYxVGJqYnFWZ0NtUHc4dXdhWldDYTVidkZpQUltd0hSVWZVcjl5bldLODdobVhvMmV6LVVtM0EzN0VRcHBUMzU3Q0dmaHJBcmQxQ2JYc29TZkNDeWlZemhSOU95YkhXdzZaT05vTGlFMXRpUl9ZT01QaVRnN3pxWU94X1RKZlBmRk5YWVV5dWRNUzN2RTdzeTh1VG5sY0R2WDF6Q3VXS19uVS1rZW96NkVEUG8?oc=5",
-      "topic": "Claims & complaints"
-    },
-    {
-      "title": "Star Health Q1 PAT up 25% at ₹550 crore under Ind AS accounting",
-      "source": "BusinessLine",
-      "publishedAt": "2026-08-07T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWjJOaVRjY1liRGJUUW9oRHJ3ZlZDYUNCRzJIUkxOUFllUy1DS3BWUFRwSks2d1pwN25sUVhSOEtEa1VNbGRsMVktR3puVTdySk1XdjBVWmRHLUEwOXhhb240RWwtSzUyZ3lGZ19hanBkWXdmSllqNk9DY193R0FlLThKYzRmWnA3WVNLaUtrWVlkbUk1Ql9sYjJhR1MzaE9XVEpOeVJfcnRES1RrOVFnRGRkMTMxUTFYRXFHQTdKYmVFMExPQVljYUFzZnlvd3NZLXfSAdgBQVVfeXFMTTRQT1BkTDA1UC03anFqZGF2cFFFUlVBMTRrakVxYnZDOGV6QnRELTVlS3plYXVxdTNDQXJQMXNUQnNoZVdaWEhLQms5TEEyRlpzYzJZNlo3MEVoZkd5bENVamQ0RTlqYUI2TjB1TVViN2Rzd0tMOW1wdlpDMDZrenpkRVlibWpvRV9TN1hSRGFoTjZaWms4MnhHRnhEWER6SnQxb2pDWEtJSzh3Zk5XdHRvT2gxdk91NmU2TFNZQkU2cW9tYWd4WVl3SkxxWG9yQ0NSTzRvdVBy?oc=5",
+      "title": "Star Health FY26 Data Highlights How Young India is Driving the Digital Health Insurance Revolution",
+      "source": "PR Newswire",
+      "publishedAt": "2026-09-16T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxObXdoTlZZQmR2SHFKdV9LeDRzSTZzajl1RmNZaFgtallfeXk0Q2gtbUh5bnFSb0tSdGNsQjBZQXBkR2VVTkpPdUpqdnNGZ0llckN0c2VuZFgyTzdlQmpTcE41TkVFMzdnMVpReVk1VXpQTTdHRG1tRG5rZmNVU0xoOGNoQ3d3QV9JZDBoOXFscjVsdGhNLV9QR0FrWWZZQU5xTUJ3aXhIdWc4N2l1elNKLVJEVERiUjlZVEhTOUJ0d0xHejV6bWlzb0FMX3R4QS1wemhjdTBhZzNrc1ZUMV9tVV9ZTEQtNkZuUXhhZW9wWQ?oc=5",
       "topic": "Results & finances"
     }
   ]
